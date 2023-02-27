@@ -1,0 +1,16 @@
+work:
+  title : Berufserfahrung
+  items :
+    - name : Freiberufler 
+      date : 12/2022 - heute
+      topics : Softwareentwicklung, Beratung, Gutachten
+
+    - name : Wissenschaftlicher Mitarbeiter
+      date : 08/2022 - heute
+      topics : Angewandte Kryptographie
+      employer : Friedrich-Alexander Universität Erlangen-Nürnberg
+
+    - name : Werksstudent
+      date : 10/2017 - 07/2022
+      topics : Softwareentwicklung
+      employer : Richard Wenzel GmbH & Co.KG

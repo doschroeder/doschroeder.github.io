@@ -1,0 +1,9 @@
+<!-- ABOUT ME IN THE CV ! -->
+{{ $data := index site.Data site.Language.Lang }}
+{{ with $data.about.about }}
+
+<h2 id="About">{{ .title }}</h2>
+{{ .description }}
+</div>
+{{end}}
+<!-- END OF ABOUT ME IN THE CV ! -->

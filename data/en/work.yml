@@ -1,0 +1,24 @@
+work:
+  title : Work Experience
+  items :
+    - name : Full Professor 
+      date : 08/2015 -- 08/2016
+      topics : Friedrich-Alexander University, Germany
+
+    - name : (Tenured) Associate Professor (W2) 
+      date : 08/2015 -- 08/2016
+      topics : Saarland University, Germany
+
+    - name : Assistant Professor (W1) 
+      date : 08/2012 -- 07/2015
+      topics : Saarland University, Germany
+
+    - name : Postdoctoral Researcher with Prof. Jonathan Katz
+      date : 02/2011 -- 07/2012
+      topics : Cryptography
+      employer : University of Maryland, USA
+
+    - name : Researcher Assistant with Prof. Marc Fischlin
+      date : 10/2006 -- 01/2011
+      topics : Cryptography
+      employer : TU Darmstadt, Germany

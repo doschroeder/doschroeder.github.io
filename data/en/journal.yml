@@ -1,0 +1,10 @@
+journal:
+  title : Reviewer for Journals
+  items :
+    - name : Journal of Cryptology
+    - name: Journal of Computer Security
+    - name: IET Journal for Information Security
+    - name: Journal of Mathematical Cryptology
+    - name: ACM Transactions on Privacy and Security (formerly TISSEC)
+    - name: IEEE Transactions on Security and Dependable Computing
+     

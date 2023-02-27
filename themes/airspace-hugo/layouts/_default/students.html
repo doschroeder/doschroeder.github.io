@@ -1,0 +1,132 @@
+{{define "main"}}
+{{ partial "page-title.html" . }}
+{{ $data := index site.Data site.Language.Lang }}
+{{ with $data.PhDStudents.PhDStudents }}
+<!--
+<div class="container">
+  <div class="row">
+    <div class="col-md-12">
+      <div class="section-title">
+        {{ with .title }}<h2>{{ . | markdownify }}</h2>{{ end }}
+      </div>
+    </div>
+  </div>
+</div>
+-->
+<div class="container">
+  <h1>Ongoing</h1>
+</div>
+<div class="container">
+  <div class="row hidden-xs hidden-sm">
+    <br>
+    <div class="col-md-1 ">
+    </div>
+    <div class="col-xs-12 col-md-1" .d-none .d-sm-block>
+      <h3><img class="images d-none" src="../images/start.png" width="24px">Start </h3>
+    </div>
+    <div class="col-md-1">
+    </div>
+    <div class="col-md-2">
+      <h3><img class="images" src="../images/author.png" width="24px"> Name</h3>
+    </div>
+    <div class="col-md-3">
+      <h3><img class="images" src="../images/research.png" width="24px"> Reserach Interests</h3>
+    </div>
+    <div class="col-md-2 d-none">
+    </div>
+    <div class="col-md-2 d-none">
+    </div>
+  </div>
+  <hr>
+  {{range $i, $e := .list}}
+  {{ if not .finished}}
+  <br>
+  <div class="row ">
+    <br>
+    <div class="col-md-1 ">
+      <img class="images" src="../images/people/{{ .pic }}" width="100px">
+    </div>
+    <div class="col-xs-12 col-md-1 " .d-none .d-sm-block>
+      <p>{{ .start }} </p>
+    </div>
+    <div class="col-md-1">
+      <p>{{ .graudated }} </p>
+    </div>
+    <div class="col-md-2">
+      <p><b><a href="{{ .url }}">{{ .name }}</a></b> </p>
+    </div>
+    <div class="col-md-6">
+      <p><a href="{{ .url }}">{{ .topic }}</a> </p>
+    </div>
+  </div>
+  <br>
+  <hr>
+  {{end}}
+  {{end}}
+</div>
+<br><br><br>
+<div class="container">
+  <h1>Graduated</h1>
+</div>
+<div class="container">
+  <div class="row hidden-xs hidden-sm">
+    <br>
+    <div class="col-md-1 ">
+    </div>
+    <div class="col-xs-12 col-md-1" .d-none .d-sm-block>
+      <h3><img class="images d-none" src="../images/start.png" width="24px">Start </h3>
+    </div>
+    <div class="col-md-1">
+      <h3><img class="images d-none" src="../images/finish.png" width="23px"> END </h3>
+    </div>
+    <div class="col-md-2">
+      <h3><img class="images" src="../images/author.png" width="24px"> Name</h3>
+    </div>
+    <div class="col-md-3">
+      <h3><img class="images" src="../images/thesis.png" width="24px"> Thesis</h3>
+    </div>
+    <div class="col-md-2 d-none">
+      <h3 class="hidden-xs "><img class="images hidden-xs hidden-md" src="../images/job.png" width="30px"> Next Position
+      </h3>
+    </div>
+    <div class="col-md-2 d-none">
+      <h3 class="hidden-xs "><img class="images hidden-xs hidden-md" src="../images/job.png" width="30px"> Current Job
+      </h3>
+    </div>
+  </div>
+  <hr>
+  {{range $i, $e := .list}}
+  {{ if .finished}}
+  <br>
+  <div class="row ">
+    <br>
+    <div class="col-md-1 ">
+      <img class="images" src="../images/people/{{ .pic }}" width="100px">
+    </div>
+    <div class="col-xs-12 col-md-1 hidden-xs hidden-sm" .d-none .d-sm-block>
+      <p>{{ .start }} </p>
+    </div>
+    <div class="col-md-1 ">
+      <p>{{ .graudated }} </p>
+    </div>
+    <div class="col-md-2">
+      <p><b><a href="{{ .url }}">{{ .name }}</a></b> </p>
+    </div>
+    <div class="col-md-3">
+      <p><a href="{{ .url }}">{{ .thesis }}</a> </p>
+    </div>
+    <div class="col-md-2 hidden-xs ">
+      <p>{{ .nextPos }} </p>
+    </div>
+    <div class="col-md-2 hidden-xs hidden-sm">
+      <p>{{ .currentPos }} </p>
+    </div>
+  </div>
+  <br>
+  <hr>
+  {{end}}
+  {{end}}
+</div>
+<br><br><br>
+{{ end }}
+{{ end }}
