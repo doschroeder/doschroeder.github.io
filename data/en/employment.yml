@@ -1,0 +1,27 @@
+employment:
+  title: Employment History
+  items:  
+    - date:  2016 - present	  
+      institution: 	Friedrich-Alexander-Universität Erlangen-Nürnberg, Germany
+      description: Full Professor (W3, with tenure)
+
+    - date:  08/2015 - 06/2016	   		  
+      institution: 	Saarland University, Germany
+      description: 	Professor (W2, with tenure)
+
+    - date:  08/2012 - 07/2015  		  
+      institution: 	Saarland University, Germany
+      description: 	Assistant Professor (W1, tenure-track)
+    
+    - date:  02/2011 - 06/2012			  
+      institution: 	University of Maryland, United States of America
+      description: 	Postdoctoral Researcher under Jonathan Katz
+
+    - date:  10/2006 - 01/2011			  
+      institution: 	Technical University of Darmstadt, Germany
+      description: 	Doctoral Student under Marc Fischlin
+
+
+  
+
+      

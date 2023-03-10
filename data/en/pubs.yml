@@ -1,0 +1,535 @@
+publications : 
+  title: Refereed Conference Proceedings
+  items : 
+      - title : "ROAST: Robust Asynchronous Schnorr Threshold Signatures"
+        date : 2022
+        authors : "Tim Ruffing, Viktoria Ronge, Elliott Jin, Jonas Schneider-Bensch, and Dominique Schröder"
+        published : ACM CCS 
+        pages:
+        url : 
+        abstract: 
+
+      - title: "Verifiable Timed Linkable Ring Signatures For Scalable Payments for Monero"
+        date : 2022
+        authors : "Sri A. K. Thyagarajan, Giulio Malavolta, Fritz Schmidt, Dominique Schröder"
+        published : ESORICS 
+        pages:
+        url : 
+        abstract:   
+
+      - title : "Inner Product Functional Commitments with Constant-Size Public Parameters and Openings"
+        date : 2022
+        authors : "Hien Chu, Dario Fiore, Dimitris Kolonelos, and Dominique Schröder"
+        published : SCN 
+        pages:
+        url : 
+        abstract:   
+
+      - title : "A Security Framework for Distributed Ledgers"
+        date :  2021
+        authors : "Mike Graf, Daniel Rausch, Viktoria Ronge, Christoph Egger, Ralf Küsters, and Dominique Schröder"
+        published : ACM CCS
+        pages:
+        url : 
+        abstract:   
+
+      - title : "OpenSquare: Decentralized Repeated Modular Squaring Service"
+        date :  2021
+        authors : "Sri A. K. Thyagarajan, Adithya Bhat, Tiantian Gong, Aniket Kate, and Dominique Schröder."
+        published : ACM CCS
+        pages:
+        url  : 
+        abstract:   
+
+      - title : "CoinJoin in the Wild - An Empirical Analysis in Dash"
+        date :  2021
+        authors : "Dominic Deuber and Dominique Schröder"
+        published : ESORICS 
+        pages:
+        url : 
+        abstract:   
+
+      - title : "Foundations of Ring Sampling"
+        date :  2021
+        authors : "Viktoria Ronge, Christoph Egger, Russell W. F. Lai, Dominique Schröder, Hoover H. F. Yin"
+        published : PETS 
+        pages:
+        url : 
+        abstract:   
+
+      - title : "Threshold Password-Hardened Encryption Services"
+        date :  2020
+        authors : "Julian Brost, Christoph Egger, Russell W. F. Lai, Fritz Schmid, Dominique Schröder, and Markus Zoppelt"
+        published : ACM CCS
+        pages: 409-424
+        url : 
+        abstract:   
+
+      - title : "Verifiable Timed Signatures Made Practical"
+        date :  2021
+        authors : "Sri A. K. Thyagarajan, Adithya Bhat, Giulio Malavolta, Nico Döttling,  Aniket Kate, and Dominique Schröder"
+        published : ACM CCS
+        pages: 1733-1750
+        url : 
+        abstract:   
+
+      - title : "Omniring: Scaling Up Private Payments Without Trusted Setup - Formal Foundations and Constructions of Ring Confidential Transactions with Log-size Proofs"
+        date :  2019
+        authors : "Russell W. F. Lai, Viktoria Ronge, Tim Ruffing,  Dominique Schröder, Sri A. K.Thyagarajan, and J.Wang"
+        published : ACM CCS
+        pages: 31-48
+        url : 
+        abstract:   
+
+      - title : "Efficient Invisible and Unlinkable Sanitizable Signatures"
+        date :  2019
+        authors : "Xavier Bultel, Pascal Lafourcade, RusellW.F.Lai, Giulio Malavolta, DominiqueSchröder, and SriA.K.Thyagarajan"
+        published : PKC 
+        pages:  159-189
+        url : 
+        abstract:   
+
+      - title : "My Genome Belongs to Me: Controlling Third Party Computation on Genomic Data"
+        date :  2019
+        authors : "Dominic Deuber, Christoph Egger, Katharina Fech, Giulio Malavolta, Sri A. K. Thyagarajan, Florian Battke, Claudia Durand, and Dominique Schröder"
+        published : PETS
+        pages: 108-132
+        url : 
+        abstract:   
+
+      - title : "Homomorphic Secret Sharing for Low Degree Polynomials"
+        date :  2018
+        authors : "Russell W. F. Lai, Giulio Malavolta, and Dominique Schröder"
+        published : ASIACRYPT
+        pages: 279-309
+        url : 
+        abstract:   
+
+      - title : "Simple Password-Hardened Encryption Services"
+        date :  2018
+        authors : "Russell W. F. Lai, Christoph Egger, Manuel Reinert, Sherman S. M. Chow, Matteo Maffei, and Dominique Schröder"
+        published : USENIX 
+        pages: 1405-1421
+        url : 
+        abstract:   
+
+      - title : "Functional Credentials"
+        date :  2018
+        authors : "Dominic Deuber, Matteo Maffei, Giulio Malavolta, Max Rabkin, Dominique Schröder, Mark Simkin."
+        published : PETS
+        pages: 64-84
+        url : 
+        abstract:   
+
+      - title : "Burning Zerocoins for Fun and for Profit: A Cryptographic Denial-of-Spending Attack on the Zerocoin Protocol"
+        date :  2018
+        authors : "Tim Ruffing, Sri A. K. Thyagarajan, Viktoria Ronge, Dominique Schröder"
+        published : Crypto Valley Conference on Blockchain Technology
+        pages: 116-119
+        url : 
+        abstract:   
+
+      - title : "Subset Predicate Encryption and Its Applications"
+        date :  2017
+        authors : "Jonathan Katz, Matteo Maffei, Giulio Malavolta, and Dominique Schröder"
+        published : CANS 
+        pages: 
+        url : 
+        abstract:   
+
+      - title : "On the Security of Frequency-Hiding Order-Preserving Encryption"
+        date :  2017
+        authors : "Matteo Maffei, Manuel Reinert, and Dominique Schröder"
+        published : CANS
+        pages: 115-134
+        url : 
+        abstract:   
+
+      - title : "Efficient Ring Signatures in the Standard Model"
+        date :  2017
+        authors : "Giulio Malavolta and Dominique Schröder"
+        published : ASIACRYPT 
+        pages: 128-157
+        url : 
+        abstract:   
+
+      - title : "Phoenix: Rebirth of a Cryptographic Password-Hardening Service"
+        date :  2017
+        authors : "Russell W.F.Lai, Christoph Egger, Dominique Schröder, and Sherman S.M.Chow"
+        published : USENIX
+        pages: 899-916
+        url : 
+        abstract:   
+
+      - title : "Maliciously Secure Multi-Client ORAM"
+        date :  2017
+        authors : "Matteo Maffei, Giulio Malavolta, Manuel Reinert, and Dominique Schröder"
+        published : ACNS
+        pages: 645-664
+        url : 
+        abstract:   
+
+      - title : "Efficient Cryptographic Password Hardening Services From 
+Partially Oblivious Commitments"
+        date :  2016
+        authors : "Jonas Schneider, Nils Fleischhacker, Dominique Schröder, and Michael Backes"
+        published : ACM CCS
+        pages: 1192-1203
+        url : 
+        abstract:   
+
+      - title : "Efficient Sanitizable Signatures without Random Oracles"
+        date :  2016
+        authors : "RussellLai, Tao Zhang, ShermanChow and Dominique Schröder"
+        published : ESORICS
+        pages: 363-380
+        url : 
+        abstract:   
+
+      - title : "Two Message Oblivious Evaluation of Cryptographic Functionalities"
+        date :  2016
+        authors : "Nico Doettling,  Nils Fleischhacker, Johannes Krupp, and Dominique Schröder"
+        published : CRYPTO
+        pages: 619-648
+        url : 
+        abstract:   
+
+      - title : "Delegtable Functional Signatures"
+        date :  2016
+        authors : "Michael Backes, Sebastian Meiser, and Dominique Schröder"
+        published : PKC 
+        pages: 357-386
+        remark: Invited to a special issue of IET Information Security
+        url : 
+        abstract:   
+
+      - title : "Efficient Unlinkable Sanitizable Signatures from Signatures with Re-Randomizable Keys"
+        date :  2016
+        authors : "Nils Fleischhacker, Johannes Krupp, Giulio Malavolta, Jonas Schneider, Dominique Schröder, and Mark Simkin"
+        published : PKC
+        pages: 301-330
+        remark: Invited to a special issue of IET Information Security
+        url : 
+        abstract:   
+
+      - title : "Nearly Optimal Verifiable Data Streaming"
+        date :  2016
+        authors : "Johannes Krupp, Dominique Schröder, Mark Simkin, Dario Fiore, Giuseppe Ateniese, and Stefan Nuernberger"
+        published : PKC
+        pages: 417-445
+        url : 
+        abstract:   
+
+      - title : "Efficient Pseudorandom Functions via On-the-Fly Adaptation"
+        date :  2015
+        authors : "Nico Döttling and Dominique Schröder"
+        published : CRYPTO
+        pages: 329-350
+        url : 
+        abstract:  
+
+      - title : "Privacy and Access Control for Outsourced Personal Records"
+        date :  2015
+        authors : "Matteo Maffei, Giulio Malavolta, Manuel Reinert, and Dominique Schröder"
+        published : IEEE Symposium on Security and Privacy
+        pages: 341-358
+        url : 
+        abstract:   
+
+      - title : "Liar, Liar, Coins on Fire! Penalizing Equivocation By Loss of Bitcoins"
+        date :  2015
+        authors : "Tim Ruffing, Aniket Kate, and Dominique Schröder"
+        published : ACM CCS
+        pages: 219-230
+        url : 
+        abstract:   
+      
+      
+      - title : "Verifiably Encrypted Signatures: Security Revisited and a New Construction"
+        date :  2015
+        authors : "Christian Hanser, Max Rabkin, and Dominique Schröder"
+        published : ESORICS 
+        pages: 
+        url : 
+        abstract:   
+
+      - title : "VeriStream -- A Framework for Verifiable Data Streaming"
+        date :  2015
+        authors : "Dominique Schröder and Mark Simkin"
+        published : FC
+        pages: 146-164
+        url : 
+        abstract:   
+
+      - title : "Foundations of Reconfigurable PUFs"
+        date :  2015
+        authors : "Jonas Schneider and Dominique Schröder"
+        published : ACNS
+        pages: 579-594
+        url : 
+        abstract:   
+
+      - title : "Feasibility and Infeasibility of Secure Computation with Malicious PUFs"
+        date :  2014
+        authors : "Dana Dachman-Soled, Nils Fleischhacker, Jonathan Katz, Anna Lysyanskaya, and Dominique Schröder"
+        published : CRYPTO
+        pages: 405-420
+        url : 
+        abstract:   
+
+      - title : "Tight Security Proofs for Schnorr Signatures"
+        date :  2014
+        authors : "Nils Fleischhacker, Tibor Jager, and Dominique Schröder"
+        published : ASIACRYPT
+        pages: 512-531
+        url : https://eprint.iacr.org/2013/418.pdf
+        abstract:   "The Schnorr signature scheme is the most efficient signature scheme based on the discrete logarithm problem and a long line of research investigates the existence of a tight security reduction for this scheme in the random oracle model. Almost all re- cent works present lower tightness bounds and most recently Seurin (Eurocrypt 2012) showed that under certain assumptions the non-tight security proof for Schnorr sig- natures in the random oracle by Pointcheval and Stern (Eurocrypt 1996) is essentially optimal. All previous works in this direction rule out tight reductions from the (one- more) discrete logarithm problem. In this paper we introduce a new meta-reduction technique, which shows lower bounds for the large and very natural class of generic reductions. A generic reduction is independent of a particular representation of group elements. Most reductions in state-of-the-art security proofs have this property. It is desirable, because then the reduction applies generically to any concrete instantiation of the group. Our approach shows unconditionally that there is no tight generic reduc- tion from any natural non-interactive computational problem Π defined over algebraic groups to breaking Schnorr signatures, unless solving Π is easy.
+In an additional application of the new meta-reduction technique, we also uncon- ditionally rule out any (even non-tight) generic reduction from natural non-interactive computational problems defined over algebraic groups to breaking Schnorr signatures in the non-programmable random oracle model."
+
+      - title : "(Efficient) Universally Composable Oblivious Transfer Using a Minimal Number of Stateless Tokens"
+        date :  2014
+        authors : "Seung Geol Choi, Jonathan Katz, Dominique Schröder, Arkady Yerukhimovich, Hong-Sheng Zhou"
+        published : TCC
+        pages: 638-662
+        url : https://eprint.iacr.org/2013/840.pdf
+        abstract:   "We continue the line of work initiated by Katz (Eurocrypt 2007) on using tamper-proof hardware tokens for universally composable secure computation. As our main result, we show an oblivious-transfer (OT) protocol in which two parties each create and exchange a single, stateless token and can then run an unbounded number of OTs. We also show a more efficient protocol, based only on standard symmetric-key primitives (block ciphers and collision-resistant hash functions), that can be used if a bounded number of OTs suffice.
+
+Motivated by this result, we investigate the number of stateless tokens needed for universally composable OT. We prove that our protocol is optimal in this regard for constructions making black-box use of the tokens (in a sense we define). We also show that nonblack-box techniques can be used to obtain a construction using only a single stateless token."
+        comment: Invited to J. Cryptology (one of 3 papers selected from TCC 2014)
+
+      - title : "Brief Announcement: Towards Security and Privacy for Outsourced Data in the Multi-Party Setting"
+        date :  2014
+        authors : "Matteo Maffei, Giulio Malavolta, Manuel Reinert, and Dominique Schröder"
+        published : PODC 
+        pages: 144-146
+        url : https://dl.acm.org/doi/pdf/10.1145/2611462.2611508
+        abstract: "Cloud storage has rapidly acquired popularity among users, constituting a seamless solution for the backup, synchronization, and sharing of large amounts of data. This technology, however, puts user data in the direct control of cloud service providers, which raises increasing security and privacy concerns related to the integrity of outsourced data, the accidental or intentional leakage of sensitive information, the profiling of user activities and so on. We present GORAM, a cryptographic system that protects the secrecy and integrity of the data outsourced to an untrusted server and guarantees the anonymity and unlinkability of consecutive accesses to such data. GORAM allows the database owner to share outsourced data with other clients, selectively granting them read and write permissions. GORAM is the first system to achieve such a wide range of security and privacy properties for outsourced storage. Technically, GORAM builds on a combination of ORAM to conceal data accesses, attribute-based encryption to rule the access to outsourced data, and zero-knowledge proofs to prove read and write permissions in a privacy-preserving manner. We implemented GORAM and conducted an experimental evaluation to demonstrate its feasibility."
+
+      - title : "Demo: Security and Privacy with Google Glass"
+        date :  2014
+        authors : "Johannes Krupp, Dominique Schröder, and Mark Simkin"
+        published : CCS
+        pages: 1445-1447
+        url : 
+        abstract:   
+
+      - title : "Ubic: Bridging the gap Between Digital Cryptography and the Physical World"
+        date :  2014
+        authors : "Mark Simkin, Dominique Schröder, Andreas Bulling, and Mario Fritz"
+        published : ESORICS
+        pages: 56-75
+        url : https://arxiv.org/pdf/1403.1343.pdf
+        abstract: "Advances in computing technology increasingly blur the boundary between the digital domain and the physical world. Although the research community has developed a large number of cryptographic primitives and has demonstrated their usability in all-digital communication, many of them have not yet made their way into the real world due to usability aspects. We aim to make another step towards a tighter integration of digital cryptography into real world interactions. We describe Ubic, a framework that allows users to bridge the gap between digital cryptography and the physical world. Ubic relies on head-mounted displays, like Google Glass, resource-friendly computer vision techniques as well as mathematically sound cryptographic primitives to provide users with better security and privacy guarantees. The framework covers key cryptographic primitives, such as secure identification, document verification using a novel secure physical document format, as well as content hiding. To make a contribution of practical value, we focused on making Ubic as simple, easily deployable, and user friendly as possible."
+
+      - title : "WebTrust --- A Comprehensive Authenticity and Integrity Framework for HTTP"
+        date :  2014
+        authors : "Michael Backes, Reiner W. Gerling, Sebastian Gerling, Stefan Nürnberger, Dominique Schröder, and Mark Simkin"
+        published : ACNS
+        pages: 401-418
+        url : 
+        abstract: "HTTPS is the standard for confidential and integrity-protected communication on the Web. However, it authenticates the server, not its content. We present WebTrust, the first comprehensive authenticity and integrity framework that allows on-the-fly verification of static, dynamic, and real-time streamed Web content from untrusted servers. Our framework seamlessly integrates into HTTP and allows to validate streamed content progressively at arrival. Our performance results demonstrate both the practicality and efficiency of our approach."
+
+      - title : "Verifiable Data Streaming"
+        date :   2012
+        authors : "Dominique Schröder and Heike Schröder"
+        published : CCS
+        pages: 953-964
+        url : https://eprint.iacr.org/2013/038.pdf
+        abstract:   "In a verifiable data streaming protocol, the client streams a long string to the server who stores it in its database. The stream is verifiable in the sense that the server can neither change the order of the elements nor manipulate them. The client may also retrieve data from the database and update them. The content of the database is publicly verifiable such that any party in possession of some value s and a proof π can check that s is indeed in the database.
+We introduce the notion of verifiable data streaming and present an efficient instantiation that supports an exponential number of values based on general assumptions. Our main technique is an authentication tree in which the leaves are not fixed in advanced such that the user, knowing some trapdoor, can authenticate a new element on demand without pre- or re-computing all other leaves. We call this data structure chameleon authentication tree (CAT). We instantiate our scheme with primitives that are secure under the discrete logarithm assumption. The algebraic properties of this assumption allow us to obtain a very efficient verification algorithm. As a second application of CATs, we present a new transformation from any one-time to many-time signature scheme that is more efficient than previously known solutions."
+        comment: Recognized with the Intel Early Career Award 2013
+
+      - title : "Uniqueness is a Different Story: Impossibility of Verifiable Random Functions from Trapdoor Permutations"
+        date :  2012
+        authors : "Dario Fiore and Dominique Schröder"
+        published : TCC 
+        pages: 636-653
+        url : https://eprint.iacr.org/2010/648
+        abstract: ""
+        bibtex: ""
+
+      - title : "Security of Blind Signatures Revisited"
+        date :  2012
+        authors : "Dominique Schröder and Dominique Unruh"
+        published : PKC
+        pages: 662-679
+        url : https://eprint.iacr.org/2011/316.pdf
+        abstract: "We revisit the definition of unforgeability of blind signatures as proposed by Pointcheval and Stern (Journal of Cryptology 2000). Surprisingly, we show that this established definition falls short in two ways of what one would intuitively expect from a secure blind signature scheme: It is not excluded that an adversary submits the same message m twice for signing, and then produces a signature for m′ ̸= m. The reason is that the forger only succeeds if all messages are distinct. Moreover, it is not excluded that an adversary performs k signing queries and produces signatures on k + 1 messages as long as each of these signatures does not pass verification with probability 1.
+Finally, we proposed a new definition, honest-user unforgeability, that covers these attacks. We give a simple and efficient transformation that transforms any unforgeable blind signature scheme (with deterministic verification) into an honest-user unforgeable one."  
+
+      - title : "History-Free Sequential Aggregate Signatures"
+        date :  2012
+        authors : "Marc Fischlin, Anja Lehmann, and Dominique Schröder"
+        published : SCN
+        pages: 113-130
+        url : 
+        abstract: "Aggregation schemes allow to combine several cryptographic values like message authentication codes or signatures into a shorter value such that, despite compression, some no- tion of unforgeability is preserved. Recently, Eikemeier et al. (SCN 2010) considered the notion of history-free sequential aggregation for message authentication codes, where the sequentially- executed aggregation algorithm does not need to receive the previous messages in the sequence as input. Here we discuss the idea for signatures where the new aggregate does not rely on the pre- vious messages and public keys either, thus inhibiting the costly verifications in each aggregation step as in previous schemes by Lysyanskaya et al. (Eurocrypt 2004) and Neven (Eurocrypt 2008). Analogously to MACs we argue about new security definitions for such schemes and compare them to previous notions for history-dependent schemes. We finally give a construction based on the BLS signature scheme which satisfies our notion."
+
+      - title : "Round Optimal Blind Signatures"
+        date :  2011
+        authors : "Dominique Schröder and Dominique Unruh"
+        published : CRYPTO
+        pages: 630-648
+        url : 
+        abstract:   
+        comment: "Merged with Sanjam Garg, Vanishree Rao, and Amit Sahai"
+
+      - title : "Impossibility of Blind Signatures from One-Way Permutations"
+        date :  2011
+        authors : "Jonathan Katz, Dominique Schröder, Arkady Yerukhimovich"
+        published : TCC
+        pages: 615-629
+        url : 
+        abstract:   "A seminal result in cryptography is that signature schemes can be constructed (in a black-box fashion) from any one-way function. The minimal assumptions needed to construct blind signature schemes, however, have remained unclear. Here, we rule out black-box construc- tions of blind signature schemes from one-way functions. In fact, we rule out constructions even from a random permutation oracle, and our re- sults hold even for blind signature schemes for 1-bit messages that achieve security only against honest-but-curious behavior."
+
+      - title : "How to Aggregate the CL Signature"
+        date :  2011
+        authors : "Dominique Schröder"
+        published : ESORICS 
+        pages: 298-314
+        url : https://link.springer.com/content/pdf/10.1007/978-3-642-23822-2_17.pdf
+        abstract:  "We present an aggregate signature scheme whose public key consists of only two group elements. It is therefore the first sequential ag- gregate signature scheme with short keys in the standard model. Our con- struction relies on the Camenisch-Lysyanskaya signature scheme (Crypto 2004) and is provably secure under the LRSW assumption. Moreover, we develop a novel aggregation technique that we call aggregate-extension technique. The basic idea is to extend the aggregate by a single element and to use this additional space to “store” some information that would be lost due to the compression of the signatures. We believe that this technique might be of independent interest"
+
+      - title : "Expedient Non-Malleability Notions for Hash Functions"
+        date :  2011
+        authors : "Paul Baecher, Marc Fischlin, and Dominique Schröder"
+        published : CT-RSA
+        pages: 268-283
+        url : 
+        abstract:  "Non-malleability of a cryptographic primitive is a fundamental security property which ensures some sort of independence of cryptographic values. The notion has been extensively studied for commitments, encryption and zero-knowledge proofs, but it was not until recently that the notion—and its peculiarities— have been considered for hash functions by Boldyreva et al. (Asiacrypt 2009). They give a simulation-based definition, basically saying that for any adversary mauling hash values into related ones there is a simulator which is as successful in producing such hash values, even when not seeing the original hash values. Their notion, although following previous approaches to non-malleability, is nonetheless quite unwieldy; it is hard to achieve and, due to the existential quantification over the simulator, hard to falsify. We also note that finding an equivalent indistinguishability-based notion is still open.
+Here we take a different, more handy approach to non-malleability of hash functions. Our definition avoids simulators completely and rather asks the adversary to maul the hash value and to also specify a transfor- mation φ of the pre-image, taken from a fixed class Φ of admissible transformations. These transformations are usually determined by group operations and include such cases such as exclusive-ors (i.e., bit flips) and modular additions. We then simply demand that the probability of succeeding is negligible, as long as the original pre-image carries enough entropy. We continue to show that our notion is useful by proving that, for example, the strengthened Merkle-Damg ̊ard transformation meets our notion for the case of bit flips, as- suming an ideal compression function. We also improve over the security result by Boldyreva et al., showing that our notion of non-malleability suffices for the security of the Bellare-Rogaway encryption scheme."
+
+      - title : "On the Impossibility of Three-Move Blind Signature Schemes"
+        date :  2010
+        authors : "Marc Fischlin and Dominique Schröder"
+        published : EUROCRYPT
+        pages: 197-215
+        url : 
+        abstract: "We investigate the possibility to prove security of the well- known blind signature schemes by Chaum, and by Pointcheval and Stern in the standard model, i.e., without random oracles. We subsume these schemes under a more general class of blind signature schemes and show that finding security proofs for these schemes via black-box reductions in the standard model is hard. Technically, our result deploys meta- reduction techniques showing that black-box reductions for such schemes could be turned into efficient solvers for hard non-interactive crypto- graphic problems like RSA or discrete-log. Our approach yields signif- icantly stronger impossibility results than previous meta-reductions in other settings by playing off the two security requirements of the blind signatures (unforgeability and blindness).
+"
+
+      - title : "Unlinkability of Sanitizable Signatures"
+        date :  2010
+        authors : "Christina Brzuska, Marc Fischlin, Anja Lehmann, and Dominique Schröder"
+        published : PKC
+        pages: 444-461
+        url : https://www.iacr.org/archive/pkc2010/60560448/60560448.pdf
+        abstract: "Sanitizable signatures allow a designated party, called the sanitizer, to modify parts of signed data such that the immutable parts can still be verified with respect to the original signer. Ateniese et al. (ES- ORICS 2005) discuss five security properties for such signature schemes: unforgeability, immutability, privacy, transparency and accountability. These notions have been formalized in a recent work by Brzuska et al. (PKC 2009), discussing also the relationships among the security no- tions. In addition, they prove a modification of the scheme of Ateniese et al. to be secure according to these notions.
+Here we discuss that a sixth property of sanitizable signature schemes may be desirable: unlinkability. Basically, this property prevents that one can link sanitized message-signature pairs of the same document, thus allowing to deduce combined information about the original document. We show that this notion implies privacy, the inability to recover the original data of sanitized parts, but is not implied by any of the other five notions. We also discuss a scheme based on group signatures meeting all six security properties."  
+
+      - title : "Confidential Signatures and Deterministic Signcryption"
+        date : 2010 
+        authors : "Alex W.~Dent, Marc Fischlin, Mark Manulis, Dominique Schröder, and Martijn Stam"
+        published : PKC
+        pages: 462-479
+        url : https://eprint.iacr.org/2009/588.pdf
+        abstract:  "Encrypt-and-sign, where one encrypts and signs a message in parallel, is usually not recommended for confidential message transmission. The reason is that the signature typically leaks information about the message. This motivates our investigation of confiden- tial signature schemes, which hide all information about (high-entropy) input messages. In this work we provide a formal treatment of confidentiality for such schemes and a compre- hensive discussion of the relationship of different notions we propose. We give constructions meeting our notions, both in the random oracle model and the standard model. As part of this we show that full domain hash signatures achieve a weaker level of confidentiality than Fiat-Shamir signatures. We then revisit the connection of confidential signatures to sign- cryption schemes. We give formal security models for deterministic signcryption schemes for high-entropy and low-entropy messages, and prove encrypt-and-sign to be secure for confidential signature schemes and high-entropy messages. Finally, we show that one can derandomize any signcryption scheme in our model and obtain a secure deterministic scheme."
+         
+      - title : "Redactable Signatures for Tree-Structured Data: Definitions and Construction"
+        date :  2010
+        authors : "Christina Brzuska, Heike Busch, Özgür Dagdelen, Marc Fischlin, Martin Franz, Stefan Katzenbeisser, Mark Manulis, Cristina Onete, Andreas Peters, 
+Bertam Poettering, and Dominique Schröder"
+        published : ACNS
+        pages: 87-104
+        url : 
+        abstract:   "Kundu and Bertino (VLDB 2008) recently introduced the idea of structural signatures for trees which support public redaction of subtrees (by third-party distributors) while pertaining the integrity of the remaining parts. An example is given by signed XML documents of which parts should be sanitized before being published by a distributor not holding the signing key. Kundu and Bertino also provide a construc- tion, but fall short of providing formal security definitions and proofs. Here we revisit their work and give rigorous security models for the redactable signatures for tree-structured data, relate the notions, and give a construction that can be proven secure under standard cryptographic assumptions."
+
+      - title : "Generic Constructions for Verifiably Encrypted Signatures without Random Oracles or NIZKs"
+        date :  2010
+        authors : "Markus Rückert, Michael Schneider, and Dominique Schröder"
+        published : ACNS
+        pages: 69-86
+        url : 
+        abstract:   
+
+      - title : "History-Free Aggregate Message Authentication Codes"
+        date :  2010
+        authors : "Oliver Eikemeier, Marc Fischlin, Jens-Fabian Götzmann, 
+Anja Lehmann, Dominique Schröder, Peter Schröder, and Daniel Wagner"
+        published : SCN
+        pages: 309-328
+        url : https://eprint.iacr.org/2011/231.pdf
+        abstract:  "Aggregate message authentication codes, as introduced by Katz and Lindell (CT-RSA 2008), combine several MACs into a single value, which has roughly the same size as an ordinary MAC. These schemes reduce the communication overhead significantly and are therefore a promising approach to achieve authenticated communication in mobile ad-hoc networks, where communication is prohibitively expensive. Here we revisit the unforgeability notion for aggregate MACs and discuss that the definition does not prevent “mix-and-match” attacks in which the adversary turns several aggregates into a “fresh” combination, i.e., into a valid aggregate on a sequence of messages which the attacker has not requested before. In particular, we show concrete attacks on the previous scheme.
+
+To capture the broader class of combination attacks, we provide a stronger security notion of aggregation unforgeability. While we can provide stateful transformations lifting (non-ordered) schemes to meet our stronger security notion, for the statefree case we switch to the new notion of history-free sequential aggregation. This notion is somewhat between non-ordered and sequential schemes and basically says that the aggregation algorithm is carried out in a sequential order but must not depend on the preceding messages in the sequence, but only on the shorter input aggregate and the local message. We finally show that we can build an aggregation-unforgeable, history-free sequential MAC scheme based on general assumptions.
+
+" 
+
+      - title : "Fair Partially Blind Signatures"
+        date :  2010
+        authors : "Markus Rückert and Dominique Schröder"
+        published : Africacrypt
+        pages: 34-51
+        url : 
+        abstract:  "It is well-known that blind signature schemes provide full anonymity for the receiving user. For many real-world applications, however, this leaves too much room for fraud. There are two generalizations of blind signature schemes that compensate this weakness: fair blind signatures and partially blind signatures. Fair blind signature schemes allow a trusted third party to revoke blindness in case of a dispute. In partially blind signature schemes, the signer retains a certain control over the signed message because signer and user have to agree on a specific part of the signed message.
+
+In this work, we unify the previous well-studied models into a generalization, called fair partially blind signatures. We propose an instantiation that is secure in the standard model without any setup assumptions. With this construction, we also give a positive answer to the open question of whether fair blind signature schemes in the standard model exist." 
+
+      - title : "Public-Key Encryption with Non-interactive Opening: New Constructions and Stronger Definitions"
+        date : 2010  
+        authors : "David Galindo, Benoit Libert, Marc Fischlin, Georg Fuchsbauer, Anja Lehmann, Mark Manulis, and Dominique Schröder"
+        published : Africacrypt
+        pages: 333-350
+        url : 
+        abstract:   "Public-key encryption schemes with non-interactive opening (PKENO) allow a receiver to non-interactively convince third parties that a ciphertext decrypts to a given plaintext or, alternatively, that such a ciphertext is invalid. Two practical generic constructions for PKENO have been proposed so far, starting from either identity-based encryption or public-key encryption with witness-recovering decryption (PKEWR). We show that the known transformation from PKEWR to PKENO fails to provide chosen-ciphertext security; only the transformation from identity-based encryption remains thus valid. Next, we prove that PKENO can alternatively be built out of robust non-interactive threshold public-key cryptosystems, a primitive that differs from identity-based encryption. Using the new transformation, we construct two efficient PKENO schemes: one based on the Decisional Diffie-Hellman assumption (in the Random-Oracle Model) and one based on the Decisional Linear assumption (in the standard model). Last but not least, we propose new applications of PKENO in protocol design. Motivated by these applications, we reconsider proof soundness for PKENO and put forward new definitions that are stronger than those considered so far. We give a taxonomy of all definitions and demonstrate them to be satisfiable."
+
+      - title : "CAPTCHAs: The Good, the Bad, and the Ugly."
+        date :  2010
+        authors : "Paul Baecher, Lior Gordon, Marc Fischlin, Michael Luetzow, Dominique Schröder"
+        published : Sicherheit
+        pages: 353-365
+        url : 
+        abstract:   
+
+      - title : "Security of Blind Signatures Under Aborts"
+        date :  2009
+        authors : "Marc Fischlin and Dominique Schröder"
+        published : PKC
+        pages: 117-128
+        url : 
+        abstract: "We explore the security of blind signatures under aborts where the user or the signer may stop the interactive signature issue protocol prematurely. Several works on blind signatures discuss security only in regard of completed executions and usually do not impose strong security requirements in case of aborts. One of the exceptions is the paper of Camenisch, Neven and shelat (Eurocrypt 2007) where the no- tion of selective-failure blindness has been introduced. Roughly speaking, selective-failure blindness says that blindness should also hold in case the signer is able to learn that some executions have aborted.
+Here we augment the work of Camenisch et al. by showing how to turn every secure blind signature scheme into a selective-failure blind signa- ture scheme. Our transformation only requires an additional computa- tion of a commitment and therefore adds only a negligible overhead. We also study the case of multiple executions and notions of selective-failure blindness in this setting. We then discuss the case of user aborts and unforgeability under such aborts. We show that every three-move blind signature scheme remains unforgeable under such user aborts. Together with our transformation for selective-failure blindness we thus obtain an easy solution to ensure security under aborts of either party and which is applicable for example to the schemes of Pointcheval and Stern (Journal of Cryptology, 2000).
+We finally revisit the construction of Camenisch et al. for simulatable adaptive oblivious transfer protocols, starting from selective-failure blind signatures where each message only has one valid signature (uniqueness). While our transformation to achieve selective-failure blindness does not preserve uniqueness, it can still be combined with a modified version of their protocol. Hence, we can derive such oblivious transfer proto- cols based on unique blind signature schemes only (in the random ora- cle model), without necessarily requiring selective-failure blindness from scratch"
+
+      - title : "Security of Sanitizable Signatures Revisited"
+        date :  2009
+        authors : "Christina Brzuska, Marc Fischlin, Tobias Freudenreich, Anja Lehmann, Marcus Page, Jakob Schelbert, Dominique Schröder, and Florian Volk"
+        published : PKC
+        pages: 297-316
+        url : 
+        abstract:  "Sanitizable signature schemes, as defined by Ateniese et al. (ESORICS 2005), allow a signer to partly delegate signing rights to an- other party, called the sanitizer. That is, the sanitizer is able to modify a predetermined part of the original message such that the integrity and authenticity of the unchanged part is still verifiable. Ateniese et al. identify five security requirements for such schemes (unforgeability, immutability, privacy, transparency and accountability) but do not pro- vide formal specifications for these properties. They also present a scheme that is supposed to satisfy these requirements.
+Here we revisit the security requirements for sanitizable signatures and, for the first time, present a comprehensive formal treatment. Besides a full characterization of the requirements we also investigate the relation- ship of the properties, showing for example that unforgeability follows from accountability. We then provide a full security proof for a modifi- cation of the original scheme according to our model." 
+
+      - title : "Security of Verifiably Encrypted Signatures and a Construction Without Random Oracles"
+        date :  2009
+        authors : "Markus Rückert and Dominique Schröder"
+        published : Pairings
+        pages: 17-34
+        url : 
+        abstract: "In a verifiably encrypted signature scheme, signers encrypt their signature under the public key of a trusted third party and prove that they did so correctly. The security properties, due to Boneh et al. (Eurocrypt 2003), are unforgeability and opacity.
+
+This paper proposes two novel fundamental requirements for verifiably encrypted signatures, called extractability and abuse-freeness, and analyzes its effects on the established security model. Extractability ensures that the trusted third party is always able to extract a valid signature from a valid verifiably encrypted signature and abuse-freeness guarantees that a malicious signer, who cooperates with the trusted party, is not able to forge a verifiably encrypted signature. We further show that both properties are not covered by the model of Boneh et al. The second main contribution of this paper is a verifiably encrypted signature scheme, provably secure without random oracles, that is more efficient and greatly improves the public key size of the only other construction in the standard model by Lu et al. (Eurocrypt 2006). Moreover, we present strengthened definitions for unforgeability and opacity in the spirit of strong unforgeability of digital signature schemes."
+
+      - title : "Aggregate and Verifiably Encrypted Signatures from Multilinear Maps without Random Oracles"
+        date :  2009
+        authors : "Markus Rückert and Dominique Schröder"
+        published : ISA
+        pages: 750-759
+        url : 
+        abstract:  
+
+      - title : "Sanitizable Signatures: How to Partially Delegate Control for Authenticated Data"
+        date :  2009
+        authors : "Christina Brzuska, Marc Fischlin, Anja Lehmann, and Dominique Schröder"
+        published : BioSig
+        pages: 117-128
+        url : 
+        abstract:  
+
+      - title : "Mobi: Eine Infrastruktur fuer das Internet der Dinge"
+        date :  2006
+        authors : "Michael Döring and Dominique Schröder"
+        published : Informatiktage
+        pages: 
+        url : 
+        abstract:  

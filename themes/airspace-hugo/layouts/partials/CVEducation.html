@@ -1,0 +1,20 @@
+<!-- Education IN THE CV ! -->
+{{ $data := index site.Data site.Language.Lang }}
+<div class="col-md-12">
+  {{ with $data.education.education }}
+  <h2 id="Education">{{ .title }}</h2>
+  {{range .items}}
+  <div class="col-md-3">
+    {{.date }}
+  </div>  
+  <div class="col-md-9">
+    <p><b>{{.institution}}</b><br>
+       {{.degree}}
+
+    </p>
+  </div>  
+  {{end}}
+  {{ .description }}
+</div>
+{{end}}
+<!-- END OF Education ME IN THE CV ! -->

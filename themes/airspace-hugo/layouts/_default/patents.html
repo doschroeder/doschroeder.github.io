@@ -1,0 +1,79 @@
+{{define "main"}}
+{{ partial "page-title.html" . }}
+{{ $data := index site.Data site.Language.Lang }}
+{{ with $data.patents.patents }}
+{{ $counter := 1}}
+{{ $jcounter := 1}}
+<!--
+<div class="container">
+  <div class="row">
+    <div class="col-md-12">
+      <div class="section-title">
+        {{ with .title }}<h2>{{ . | markdownify }}</h2>{{ end }}
+      </div>
+    </div>
+  </div>
+</div>
+-->
+<div class="container">
+{{range .years}}
+<h1>{{ .year}}</h1>
+
+
+<div class="container">
+  <div class="row hidden-xs hidden-sm hidden-md">
+    <br>
+    <div class="col-md-1 ">
+      <h3> Office</h3>
+    </div>
+    <div class="col-xs-12 col-md-1" .d-none .d-sm-block>
+      <h3>Number </h3>
+    </div>
+    <div class="col-md-4">
+      <h3><img class="images" src="../images/title.png" width="30px"> Title</h3>
+    </div>
+    <div class="col-md-4">
+      <h3><img class="images" src="../images/author.png" width="30px"> Authors</h3>
+    </div>
+    <div class="col-md-2 d-none">
+      <h3 class="hidden-xs hidden-md"><img class="images hidden-xs hidden-md" src="../images/book.png" width="30px"> Bibliography</h3>
+    </div>
+  </div>
+  <hr>
+ 
+  {{range .papers}}
+  <div class="row">
+<br>
+
+    <div class="col-md-1 hidden-xs hidden-sm hidden-md">
+    <P>{{.office}} </p>
+    </div>
+    <div class="col-md-1 hidden-xs hidden-sm hidden-md">
+      <P>{{.number}} </P>
+    </div>
+    <div class="col-md-4">
+      <p>{{.title}}</p>
+    </div>
+    <div class="col-md-4">
+      <p>{{ .authors }}</p>
+    </div>
+    <div class="col-md-2">
+      <p>{{ .published }} </p>
+    </div>
+        
+  </div>
+  <br>
+  <hr>
+  {{if eq (.type) 0}}
+  {{ $counter = add $counter 1}}
+  {{else if eq (.type) 1}}
+  {{ $jcounter = add $jcounter 1}}
+  {{end}}
+  {{end}}
+</div>
+<br>
+{{end}}
+</div>
+<br><br><br>
+{{ end }}
+{{ end }}

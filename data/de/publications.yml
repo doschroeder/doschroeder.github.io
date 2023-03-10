@@ -1,0 +1,16 @@
+publications : 
+  title: Publications
+  items : 
+      - title : Visual Anon
+        date : 2022 
+        authors : Pascal Berrang, Paul Gerhart, and Dominique Schröder
+        published : Anonymity Project, gestartet 2022
+        url : "https://www.visualanon.de"
+      - title: A General Approach to Adaptor Signatures
+        date : July 2022
+        authors : betreut von Dominique Schröder, Sri AravindaKrishnan Thyagarajan, und Pratik Soni
+        published : Masterarbeit
+      - title : Surgery and a Theorem of Lickorish
+        date : July 2020
+        authors : betreut von Wolfgang Lück und Christoph Winges
+        published : Bachelorarbeit
