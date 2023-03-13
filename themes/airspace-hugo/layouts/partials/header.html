@@ -22,13 +22,13 @@
           <!-- menu active -->
           {{ $currentPage := . }}
           {{ range site.Menus.main }}
-          {{ $menuURL := .URL | absLangURL }}
-          {{ $pageURL:= $currentPage.Permalink | absLangURL }}
+          {{ $menuURL := .URL | relLangURL }}
+          {{ $pageURL:= $currentPage.Permalink | relLangURL }}
           {{ $active := eq $menuURL $pageURL }}
           {{ if .HasChildren }}
           <li class="nav-item dropdown 
           {{ range .Children }}
-          {{ $childURL := .URL | absLangURL }}
+          {{ $childURL := .URL | relLangURL }}
           {{ $active := eq $childURL $pageURL }}
           {{ if $active }}current{{ end }}
           {{ end }}">
@@ -38,7 +38,7 @@
             </a>
             <ul class="dropdown-menu">
               {{ range .Children }}
-              {{ $childURL := .URL | absLangURL }}
+              {{ $childURL := .URL | relLangURL }}
               {{ $active := eq $childURL $pageURL }}
               <li><a class="dropdown-item {{ if $active }}current{{ end }}" {{if findRE `^http` .URL}}target="_blank" rel="noopener" {{end}}
                 href="{{if findRE `^#` .URL}}{{if not $.IsHome}}{{site.BaseURL | relLangURL}}{{end}}{{.URL}}{{else}}{{.URL | relLangURL}}{{end}}">{{ .Name }}</a></li>
