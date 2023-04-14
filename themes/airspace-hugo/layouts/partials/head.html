@@ -28,25 +28,16 @@
 <link rel=“stylesheet” href=“/css/custom.css”>
 
 
-  
-<!-- favicon -->
-{{ $favicon:= site.Params.favicon }}
-{{ if $favicon }}
-{{ if fileExists (add `assets/` $favicon) }}
-{{ $favicon:= resources.Get $favicon }}
-{{ $favicon_16:= $favicon.Resize "16x png"}}
-{{ $favicon_32:= $favicon.Resize "32x png"}}
-{{ $favicon_180:= $favicon.Resize "180x png"}}
-<link rel="shortcut icon" href="{{$favicon_32.RelPermalink}}" type="image/x-icon">
-<link rel="icon" href="{{$favicon_32.RelPermalink}}" type="image/x-icon">
-<link rel="icon" type="image/png" sizes="16x16" href="{{$favicon_16.RelPermalink}}">
-<link rel="icon" type="image/png" sizes="32x32" href="{{$favicon_32.RelPermalink}}">
-<link rel="apple-touch-icon" sizes="180x180" href="{{$favicon_180.RelPermalink}}">
-{{ end }}
-{{ end }}
-<link rel="manifest" href="{{`manifest.webmanifest` | relLangURL }}">
-<meta name="msapplication-TileColor" content="{{site.Params.variables.color_primary | default `#da532c`}}">
-<meta name="theme-color" content="{{site.Params.variables.body_color | default `#ffffff` }}">
+<!--Favicon--> 
+
+<link rel="apple-touch-icon" sizes="180x180" href="/favicons/apple-touch-icon.png">
+<link rel="shortcut icon" href="/favicon.ico">
+
+<link rel="manifest" href="/favicons/site.webmanifest">
+<link rel="mask-icon" href="/favicons/safari-pinned-tab.svg" color="#7d7d7d">
+<meta name="msapplication-TileColor" content="#7d7d7d">
+<meta name="msapplication-config" content="/favicons/browserconfig.xml">
+<meta name="theme-color" content="#ffffff">
 
 
 <!-- Open Graph image and Twitter Card meta-data -->

@@ -1,6 +1,4 @@
 #################### default parameters ################################
-# favicon
-favicon = "images/favicon.png"
 # logo
 logo = "images/Logo.svg"
 logo_width = "50px"
