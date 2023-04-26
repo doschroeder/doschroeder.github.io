@@ -2,15 +2,15 @@
 contact:
   title : Contact
   # Contact details
-  last_name : Gerhart
-  first_name : Paul 
-  address_1 : "Artilleriestr. 14"
-  address_2 : "91052 Erlangen"
-  phone : "+49 1515 1706976"
+  last_name : Schröder
+  first_name : Dominique 
+  address_1 : "Husumer Str. 28"
+  address_2 : "90425 Nürnberg"
+  phone : "+49 151 700 444 72"
   phone_description : "Mobile"
-  email : "paul.gerhart@mailbox.org"
-  email_anon : "paul.gerhart [at] mailbox.org"
-  homepage : "https://pgerhart.github.io"
+  email : "schroeder@me"
+  email_anon : "schroeder [at] me.org"
+  homepage : "https://www.dominique-schroeder.de"
   ust_id : "xxx"
   ust_id_description : "Tax ID"
 
