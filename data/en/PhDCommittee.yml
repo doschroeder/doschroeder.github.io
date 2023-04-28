@@ -2,103 +2,101 @@ phdcomm:
   title : Phd Committees
   description: 
   items :
+    - year: 2022
+      candidate:
+      - name : Franz-Josef Streit
+        role : chair of the commission
+        institution: Friedrich-Alexander Universität Erlangen-Nürnberg 
+        shortinstitution: FAU
 
-    - name : Franz-Josef Streit
-      date : 2022
-      role : chair of the commission
-      institution: Friedrich-Alexander Universität Erlangen-Nürnberg 
-      institution-short: FAU
+      - name : Christoph Egger
+        role : advisor 
+        institution: Friedrich-Alexander Universität Erlangen-Nürnberg 
+        shortinstitution: FAU
 
-    - name : Christoph Egger
-      date : 2022
-      role : advisor 
-      institution: Friedrich-Alexander Universität Erlangen-Nürnberg 
-      institution-short: FAU
+      - name : Russell W. F. Lai
+        role : advisor 
+        institution: Friedrich-Alexander Universität Erlangen-Nürnberg 
+        shortinstitution: FAU
+    - year: 2021
+      candidate:
+      - name : Sri Aravinda Krishnan Thyagarajan
+        role : advisor 
+        institution: Friedrich-Alexander Universität Erlangen-Nürnberg 
+        shortinstitution: FAU
 
-    - name : Russell W. F. Lai
-      date : 2022
-      role : advisor 
-      institution: Friedrich-Alexander Universität Erlangen-Nürnberg 
-      institution-short: FAU
+      - name : Markus Zoppelt
+        role : 1st reviewer 
+        institution: Friedrich-Alexander Universität Erlangen-Nürnberg 
+        shortinstitution: FAU
 
-    - name : Sri Aravinda Krishnan Thyagarajan
-      date : 2021
-      role : advisor 
-      institution: Friedrich-Alexander Universität Erlangen-Nürnberg 
-      institution-short: FAU
+      - name : Katja Auernhammer
+        role : 3rd reviewer
+        institution: Friedrich-Alexander Universität Erlangen-Nürnberg 
+        shortinstitution: FAU
 
-    - name : Markus Zoppelt
-      date : 2021
-      role : 1st reviewer 
-      institution: Friedrich-Alexander Universität Erlangen-Nürnberg 
-      institution-short: FAU
+      - name : Kristof Teichel 
+        role : 2nd reviewer 
+        institution: Friedrich-Alexander Universität Erlangen-Nürnberg 
+        shortinstitution: FAU
+    - year: 2020
+      candidate:
+      - name : Daniel Rausch
+        role : 2nd Reviewer
+        institution: Universität Stuttgart 
+        shortinstitution: FAU
 
-    - name : Katja Auernhammer
-      date : 2021
-      role : 3rd reviewer
-      institution: Friedrich-Alexander Universität Erlangen-Nürnberg 
-      institution-short: FAU
+    - year: 2019
+      candidate:
+      - name : Guilio Malavolta
+        role : advisor
+        institution: Friedrich-Alexander Universität Erlangen-Nürnberg 
+        shortinstitution: FAU
 
-    - name : Kristof Teichel 
-      date : 2021
-      role : 2nd reviewer 
-      institution: Friedrich-Alexander Universität Erlangen-Nürnberg 
-      institution-short: FAU
+      - name : Oliver Willers
+        role : 1st reviewer, co-advisor 
+        institution: Saarland University 
+        shortinstitution: UdS
 
-    - name : Daniel Rausch
-      date : 2020
-      role : 2nd Reviewer
-      institution: Universität Stuttgart 
-      institution-short: FAU
+      - name : Tim Ruffing
+        role : co-advisor 
+        institution: Saarland University 
+        shortinstitution: UdS
 
-    - name : Guilio Malavolta
-      date : 2019
-      role : advisor
-      institution: Friedrich-Alexander Universität Erlangen-Nürnberg 
-      institution-short: FAU
+    - year: 2018
+      candidate:
+        - name : Andrea Zimmermann 
+          role : external examiner
+          institution: Friedrich-Alexander Universität Erlangen-Nürnberg 
+          shortinstitution: FAU
 
-    - name : Oliver Willers
-      date : 2019
-      role : 1st reviewer, co-advisor 
-      institution: Saarland University 
+    - year: 2017
+      candidate:
+      - name : Nils Fleischhacker 
+        role : advisor
+        institution: Saarland University 
+        shortinstitution: UdS
 
-    - name : Tim Ruffing
-      date : 2019
-      role : co-advisor 
-      institution: Saarland University 
+      - name : Yan Zhuang
+        role :  chair of the commission
+        institution: Friedrich-Alexander Universität Erlangen-Nürnberg 
+        shortinstitution: FAU
 
-    - name : Nils Fleischhacker 
-      date : 2017
-      role : advisor
-      institution: Saarland University 
+      - name : Mykolai Protsenko
+        role : chair of the commission
+        institution: Friedrich-Alexander Universität Erlangen-Nürnberg 
+        shortinstitution: FAU
+  
+    - year: 2015
+      candidate:
+      - name : Thomas P. Jakobsen
+        role : 2nd reviewer
+        institution: Aarhus University, Denmark
+        shortinstitution: Aarhus Univ.
 
-    - name : Yan Zhuang
-      date : 2017
-      role :  chair of the commission
-      institution: Friedrich-Alexander Universität Erlangen-Nürnberg 
-      institution-short: FAU
-
-    - name : Andrea Zimmermann 
-      date : 2018
-      role : external examiner
-      institution: Friedrich-Alexander Universität Erlangen-Nürnberg 
-      institution-short: FAU
-
-    - name : Mykolai Protsenko
-      date : 2017
-      role : chair of the commission
-      institution: Friedrich-Alexander Universität Erlangen-Nürnberg 
-      institution-short: FAU
-
-    - name : Thomas P. Jakobsen
-      date : 2015
-      role : 2nd reviewer
-      institution: Aarhus University, Denmark
-      institution-short: 
-
-
-    - name : Esfandiar Mohammadi
-      date : 2014
-      role : 2nd reviewer 
-      institution: Saarland University
-      institution-short: UDS
+    - year: 2014
+      candidate:
+      - name : Esfandiar Mohammadi
+        role : 2nd reviewer 
+        institution: Saarland University
+        shortinstitution: UdS

@@ -1,0 +1,44 @@
+talks:
+  items :
+    - title : Privacy of Medical Data
+      location : Humboldt Foundation, Network Meeting, Mainz
+      year : 2023
+    - title : Data Privacy for Medical Records 
+      location : TU Graz, Austria.
+      year : 2019
+    - title : Welchen Beitrag leistet die Digitalisierung für eine gerechte Gesundheitsversorgung in Deutschland?
+      location : Leopoldina, Berlin, DE. 
+      year : 2021
+    - title : Privacy and Access Control for Outsourced Personal Records.
+      location : Leopoldina, Saarbrücken, DE. 
+      year : 2016
+    - title : Chinese University of Hong Kong (CHUK), Hong Kong. 
+      location : Efficient Pseudorandom Functions via On-the-Fly Adaptation. 
+      year : 2015
+    - title : Bridging the Gap Between Digital Cryptography and the Physical World.
+      location : ATM Security, London, UK. 
+      year : 2014
+    - title :   Ubicrypt --- Die Unterschrift der Zukunft.
+      location : Future Talk, CeBiT, Hannover, Germany. 
+      year : 2014
+    - title : Security and Privacy in the Internet.
+      location : SR Television. Interview with Joachim Weyand
+      year : 2013
+    - title : Verifiable Data Streaming
+      location : Intel Collaborative Research Institute for Secure Computing, Darmstadt, Germany. 
+      year : 2013
+    - title : Verifiable Data Streaming
+      location : University of Maryland, USA. 
+      year : 2013 
+    - title : Verifiable Data Streaming
+      location : Brown University, USA. 
+      year : 2013 
+    - title : Verifiable Data Streaming
+      location : IMDEA, Madrid Institute of Advanced Studies, Madrid, Spain.
+      year : 2013 
+    - title : Provable Security and Beyond.
+      location :  Florida State University, Tallahassee, USA.
+      year: 2012
+    - title : History-Free Aggregate Message Authentication Codes.
+      location : Universite de Rennes, Rennes, France.
+      year : 2010
