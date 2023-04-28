@@ -1,6 +1,34 @@
-teaching:
-  title: Teaching
-  items :
-    - subject : Introduction to Modern Cryptography
-      semester : Winter term 22/23
-      position : Teaching assistant
+postdocs:
+  enable : true
+  title: Postdocs
+  list :
+    - name : Dominic Deuber
+      finished: false
+      start: 03/2023
+      pic: dominic.jpg
+      url : https://www.chaac.tf.fau.eu/person/dominic-deuber/
+      nextpos : 
+
+    - name : Mojtaba Kahlili
+      finished: false
+      pic: 
+      url: https://scholar.google.de/citations?user=mhUQAx0AAAAJ&hl=en
+      start: 09/2022
+      end: 
+      nextpos : 
+
+    - name : Albrecht Petzoldt
+      finished: true
+      pic: 
+      url: https://scholar.google.de/citations?user=mhUQAx0AAAAJ&hl=en
+      start: 09/2019
+      end: 08/2022
+      nextpos : Dagstuhl
+    
+    - name : Bernardo Magri
+      finished: true
+      pic: 
+      url: https://bernardomagri.eu
+      start: 11/2016 
+      end: 11/2018
+      nextpos : Associate Professor at the University of Manchester, UK.
