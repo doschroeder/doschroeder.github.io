@@ -61,7 +61,7 @@ PhDStudents:
       pic: dominic.jpg
       url : https://www.chaac.tf.fau.eu/person/dominic-deuber/
       thesis: "Cryptocurrencies Within The Conflicting Tension Between Law and IT ecurity"
-      nextPos : "Postdoc @ FAU"
+      nextPos : Postdoc @ FAU
       currentPos:
 
     - name : Christoph Egger
@@ -71,8 +71,8 @@ PhDStudents:
       start: 2016
       graduated : 2022
       thesis: On Abstraction and Modularization in Protocol Analysis
-      nextPos :  "Researcher @ Institut de Recherche en Inf. Fondamentale (IRIF)"
-      currentPos: "Researcher @ Institut de Recherche en Inf. Fondamentale (IRIF)"
+      nextPos :  Researcher @ Institut de Recherche en Inf. Fondamentale (IRIF)
+      currentPos: Researcher @ Institut de Recherche en Inf. Fondamentale (IRIF)
       comments: 
 
     - name : Sri Aravinda Krishnan Thyagarajan
@@ -82,8 +82,8 @@ PhDStudents:
       start: 2016
       graduated : 2021
       thesis: Cryptographic Locks for Scriptless Cryptocurrency Payments
-      nextPos : "Postdoc @ Carnegie Mellon University"
-      currentPos: "Post-doctoral fellow @ NTT Research" 
+      nextPos : Postdoc @ Carnegie Mellon University
+      currentPos: Post-doctoral fellow @ NTT Research
       comments: 
     - name : Russel W. F. Lai
       finished: true 
@@ -92,8 +92,8 @@ PhDStudents:
       pic: russell.jpg
       url: http://russell-lai.hk
       thesis: "Succinct Arguments: Constructions and Applications"
-      nextPos : "Assistant Professor @ Aalto University"
-      currentPos: "Assistant Professor @ Aalto University"
+      nextPos : Assistant Professor @ Aalto University
+      currentPos: Assistant Professor @ Aalto University
       comments: 
 
     - name : Guilio Malavolta
@@ -103,16 +103,16 @@ PhDStudents:
       start: 2013
       graduated : 2019
       thesis: Cryptographic Clocks and Applications
-      nextPos : "UC Berkeley & Carnegie Mellon University"
-      currentPos: "Tenure Track @ MPI Security & Privacy"
+      nextPos : UC Berkeley & Carnegie Mellon University
+      currentPos: Tenure Track @ MPI Security & Privacy
       comments: 
     - name : Oliver Willers
       finished: true 
       start: 2015
       graduated : 2019
       thesis: MEMS Sensors As Physical Unclonable Functions
-      nextPos : "Bosch"
-      currentPos: "Bosch"
+      nextPos : Bosch
+      currentPos: Bosch
       pic: oliver.jpg
       comments: 
     - name : Tim Ruffing 
@@ -120,8 +120,8 @@ PhDStudents:
       start: 2014
       graduated : 2019
       thesis: Cryptography for Bitcoin and Friends
-      nextPos : "Blockstream"
-      currentPos: "Blockstream" 
+      nextPos : Blockstream
+      currentPos: Blockstream"
       url: https://twitter.com/real_or_random
       pic: tim.jpg
       comments: 
@@ -133,6 +133,6 @@ PhDStudents:
       thesis: Minimal Assumptions in Cryptography
       url : http://nilsfleischhacker.de
       pic : nils.jpg
-      nextPos :  "Postdoc @ Carnegie Mellon University and  Johns Hopkins University"
-      currentPos: "Assistant Professor @ Ruhr University Bochum"
+      nextPos :  Postdoc @ Carnegie Mellon University and  Johns Hopkins University
+      currentPos: Assistant Professor @ Ruhr University Bochum
    
