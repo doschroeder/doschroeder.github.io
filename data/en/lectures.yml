@@ -2,32 +2,151 @@ lectures:
   items :
     - year: 2022
       lecture:
-      - title : Introduction to Algorithms and Data Structures 
-        term : WS
-        turnus : BSC
+      - title : Foundations of Cryptocurrencies
+        university: FAU
+        term : summer
+        turnus : BSC/MSC
         workload: 1 L + 1 EX
-        content: "This lecture provides an overview of algorithms and data structures in computer science. Topics covered include various types of algorithms, such as quantum algorithms, big O notation for runtime analysis, sorting algorithms, graph algorithms, and the Page rank algorithm. The lecture also covers data structures, such as trees, AVL trees, and red-black trees. Advanced topics such as cryptography and Fourier transforms are also introduced. This lecture provides a comprehensive foundation for understanding algorithms and data structures, essential for further study in computer science."
-        image:  "images/algo.png"
+        content: "This lecture discusses the foundational questions in the area of cryptocurrencies. The list of topics comprises: Byzantine Agreement, lower bounds, and the Bitcoin backbone protocol."
+        image:  ""
+        pdf: 
+    - year: 2017
+      lecture:
+      - title : Foundations of Cryptocurrencies
+        university: FAU
+        term : summer
+        turnus : BSC/MSC
+        workload: 1 L + 1 EX
+        content: "This lecture discusses the foundational questions in the area of cryptocurrencies. The list of topics comprises: Byzantine Agreement, lower bounds, and the Bitcoin backbone protocol."
+        image:  ""
+        pdf: 
+      - title : Secure Multi-Party Computation
+        university: FAU
+        term : summer
+        turnus : BSC/MSC
+        workload: 1 L + 1 EX
+        content: "This lecture gives an introduction to secure multi-party computation, it covers topics such as simulation-based security, Yao's garbled circuit, and maliciously secure two-party computation."
+        image:  ""
+        pdf: 
+    - year: 2016
+      lecture:
+      - title : Introduction to Modern Cryptography
+        university: FAU
+        term : winter
+        turnus : BSC/MSC
+        workload: 2 L + 2 EX
+        content: "This lecture gives a comphrensive introduction to modern cryptogaphy. This class covers: game-based security notions, private-key encryption, message authentication codes, PRGs, PRFs, public-key encryption and key agreement. "
+        image:  ""
+        pdf: 
+      - title : Cryptocurrencies
+        term : winter
+        university: FAU
+        turnus : BSC/MSC
+        workload: 1 L + 1 EX
+        content: "This lecture gives an introduction to modern cryptocurrencies, such as Bitcoin. The list of topics comprises: consensus mechanism, mining, eco-system, alt coins, privacy."
+        image:  ""
+        pdf: 
+ 
+    - year: 2016
+      lecture:
+      - title : Secure Multi-Party Computation
+        university: UdS
+        term : summer
+        turnus : BSC/MSC
+        workload: 1 L + 1 EX
+        content: "This lecture gives an introduction to secure multi-party computation, it covers topics such as simulation-based security, Yao's garbled circuit, and maliciously secure two-party computation."
+        image:  ""
+        pdf: 
+      - title : Cryptocurrencies
+        university: UdS
+        term : summer
+        turnus : BSC/MSC
+        workload: 1 L + 1 EX
+        content: "This lecture gives an introduction to modern cryptocurrencies, such as Bitcoin. The list of topics comprises: consensus mechanism, mining, eco-system, alt coins, privacy."
+        image:  ""
+        pdf: 
+ 
+    
+    - year: 2015
+      lecture:
+      - title : Introduction to Modern Cryptography
+        university: UdS
+        term : winter
+        turnus : BSC/MSC
+        workload: 2 L + 1 EX
+        content: "This lecture gives a comphrensive introduction to modern cryptogaphy. This class covers: game-based security notions, private-key encryption, message authentication codes, PRGs, PRFs, public-key encryption and key agreement. "
+        image:  ""
+        pdf: 
+      - title : Recent Advances in Secure Multi-Party Computations
+        university: UdS
+        term : summer
+        turnus : BSC/MSC
+        workload: seminar
+        content: "Students present recent results in the area of SMPC."
+        image:  ""
+        pdf: 
+      - title : Public-Key Encryption
+        university: UdS
+        term : summer
+        turnus : BSC/MSC
+        workload: 1 L + 1 EX
+        content: "This lecture gives an introduction to secure multi-party computation, it covers topics such as simulation-based security, Yao's garbled circuit, and maliciously secure two-party computation."
+        image:  ""
         pdf: 
 
-      - title : Cryptography for Computer Scientist
-        term : WS
-        turnus : BSC/MSC 
-        content: "Cryptography is the science of protecting information in computing systems. The application of cryptographic techniques ranges from classical areas, such as protecting data in rest and transit, to authentication, verifiable computation, and secure multi-party computation. This course gives an in-depth introduction to cryptography for computer scientists. The lecture establishes the mathematical basics and formalization of security notions as cryptographic games. Afterward, it introduces private-key encryption with the corresponding security definitions and constructions based on generic building blocks. Further, symmetric-key primitives such as hash functions and message authentication codes are covered. The second part of the lecture covers public-key primitives, such as key-exchange, public-key encryption, and digital signatures. "
-        image:  "images/introCrypt.jpg"
+    - year: 2014
+      lecture:
+      - title : Research Oriented Cryptography
+        university: UdS
+        term : winter
+        turnus : BSC/MSC
+        workload: seminar
+        content: "The goal of this seminar is to write a scientific paper with the students and publish the result together."
+        image:  ""
+        pdf: 
+      - title : Introduction to Modern Cryptography
+        university: UdS
+        term : winter
+        turnus : BSC/MSC
+        workload: 2 L + 1 EX
+        content: "This lecture gives a comphrensive introduction to modern cryptogaphy. This class covers: game-based security notions, private-key encryption, message authentication codes, PRGs, PRFs, public-key encryption and key agreement. "
+        image:  ""
+        pdf: 
+      - title : Public-Key Encryption
+        university: UdS
+        term : summer
+        turnus : BSC/MSC
+        workload: 1 L + 1 EX
+        content: "This lecture gives an introduction to secure multi-party computation, it covers topics such as simulation-based security, Yao's garbled circuit, and maliciously secure two-party computation."
+        image:  ""
+        pdf: 
+    - year: 2013
+      lecture:
+      - title : Public-Key Encryption
+        university: UdS
+        term : winter
+        turnus : BSC/MSC
+        workload: 1 L + 1 EX
+        content: "This lecture gives an introduction to secure multi-party computation, it covers topics such as simulation-based security, Yao's garbled circuit, and maliciously secure two-party computation."
+        image:  ""
         pdf: 
 
-      - title : Data Privacy I / II
-        term : WS
-        turnus : BSC/MSC 
-        content: "Data privacy is a crucial aspect of the digital world, protecting personal and sensitive information from unauthorized access or misuse. The lecture covers several topics related to data privacy, including reconstruction attacks, k-anonymity, l-diversity, t-closeness, differential privacy, oblivious RAM, and private-information retrieval. Reconstruction attacks are methods used to compromise data privacy by reassembling information from different sources. k-Anonymity is a method that protects data privacy by ensuring that no single record can be linked to a specific individual. l-Diversity and t-Closeness are extensions of k-Anonymity that offer greater protection by taking into account the diversity of information in a dataset. Differential privacy is a technique used to protect data privacy by adding noise to the data before it is shared. Oblivious RAM protects data privacy by ensuring that data is not accessible to unauthorized parties, even if the storage media is stolen or compromised. Private-Information Retrieval is a method that protects data privacy by allowing users to retrieve information from a database without revealing which information was retrieved."
-        image: "images/DataPriv1.jpg"
+      - title : Secure Multi-Party Computation
+        university: UdS
+        term : summer
+        turnus : BSC/MSC
+        workload: 1 L + 1 EX
+        content: "This lecture gives an introduction to secure multi-party computation, it covers topics such as simulation-based security, Yao's garbled circuit, and maliciously secure two-party computation."
+        image:  ""
         pdf: 
 
-      - title : Cryptocurrencies I / II
-        semester : Winter term 22/23
-        turnus : BSC/MSC (WS)
-        content: "The lecture on modern cryptocurrencies covers the fundamentals of mathematics, cryptography and cryptocurrencies. It starts with a basic understanding of groups and probability theory, which form the basis of cryptography. It then explains the concepts of encryption, digital signatures and hash functions. The lecture focuses on cryptocurrencies and introduces the topic, covering their workings and different types. It explores Bitcoin, the first and most well-known cryptocurrency, and its underlying architecture, the Bitcoin Backbone, as well as its use as a store of value, means of payment and speculative asset. The lecture compares and contrasts the two main consensus mechanisms, Proof of Work and Proof of Stake, and covers payment channels and the anonymity aspect of Bitcoin. Overall, the lecture provides a comprehensive introduction to modern cryptocurrencies and serves as a strong foundation for further study."
-        image: "images/currency1.jpg"
+    - year: 2012
+      lecture:
+      - title : Public-Key Encryption
+        university: UdS
+        term : winter
+        turnus : BSC/MSC
+        workload: 1 L + 1 EX
+        content: "This lecture gives an introduction to public-key encryption. It covers topics like ElGamal Encryption, Cramer-Shoup, and DDN encryption."
+        image:  ""
         pdf: 
-
