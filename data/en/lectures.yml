@@ -1,17 +1,258 @@
 lectures:
   items :
+    - year: 2023
+      lecture:
+      - title : Introduction to Algorithms
+        university: FAU
+        term : summer
+        turnus : BSC
+        workload: 2 L + 1 EX
+        content: "This lecture gives an introduction to algorithms. The list of topics comprises analysis (running time and correctness) of algorithms, sorting, graph algorithms, page rank, AVL, and RB trees." 
+        image:  ""
+        pdf: 
+      - title : Data Privacy
+        university: FAU
+        term : summer
+        turnus : BSC/MSC
+        workload: seminar
+        content: "This seminar discusses recent results in the area of data privacy." 
+        image:  ""
+        pdf: 
+      - title : Introduction to Data Privacy
+        university: FAU
+        term : summer
+        turnus : BSC/MSC
+        workload: seminar
+        content: "This lecture discusses de-anonymization attacks, $k$-anonymity, $l$-diversity, oblivious RAM, and private information retrieval." 
+        image:  ""
+        pdf: 
+      - title : Data Privacy
+        university: FAU
+        term : winter
+        turnus : BSC/MSC
+        workload: seminar
+        content: "This seminar discusses recent results in the area of data privacy." 
+        image:  ""
+        pdf: 
+      - title : Introduction to Modern Cryptography
+        university: FAU
+        term : winter
+        turnus : BSC/MSC
+        workload: 2 L + 1 EX
+        content: "This lecture gives a comprehensive introduction to modern cryptography. This class covers game-based security notions, private-key encryption, message authentication codes, PRGs, PRFs, public-key encryption, and key agreement. "
+        image:  ""
+        pdf: 
     - year: 2022
       lecture:
-      - title : Foundations of Cryptocurrencies
+      - title : Data Privacy
+        university: FAU
+        term : winter
+        turnus : BSC/MSC
+        workload: seminar
+        content: "This seminar discusses recent results in the area of data privacy." 
+        image:  ""
+        pdf: 
+      - title : Introduction to Modern Cryptography
+        university: FAU
+        term : winter
+        turnus : BSC/MSC
+        workload: 2 L + 1 EX
+        content: "This lecture gives a comprehensive introduction to modern cryptography. This class covers game-based security notions, private-key encryption, message authentication codes, PRGs, PRFs, public-key encryption, and key agreement. "
+        image:  ""
+        pdf: 
+      - title : Privacy and Legal Aspects and Their Realizations 
+        university: FAU
+        term : summer
+        turnus : BSC/MSC
+        workload: Seminar
+        content: "This seminar focuses on the intersection of law and cryptography, intending to understand legal aspects and cryptographic realizations." 
+        image:  ""
+        pdf: 
+      - title : Privacy-Preserving Cryptocurrencies
         university: FAU
         term : summer
         turnus : BSC/MSC
         workload: 1 L + 1 EX
-        content: "This lecture discusses the foundational questions in the area of cryptocurrencies. The list of topics comprises: Byzantine Agreement, lower bounds, and the Bitcoin backbone protocol."
+        content: "This lecture discusses different approaches towards privacy-preserving cryptocurrencies, such as mixing services, ring confidential transactions, and ZCash."
+        image:  ""
+        pdf: 
+    - year: 2021
+      lecture:
+      - title : Privacy-Preserving Cryptocurrencies
+        university: FAU
+        term : summer
+        turnus : BSC/MSC
+        workload: 1 L + 1 EX
+        content: "This lecture discusses different approaches towards privacy-preserving cryptocurrencies, such as mixing services, ring confidential transactions, and ZCash."
+        image:  ""
+        pdf: 
+      - title : Introduction to Data Privacy
+        university: FAU
+        term : winter
+        turnus : BSC/MSC
+        workload: 1 L + 1 U
+        content: "This lecture gives an introduction to private data access and computation. The topics include de-identification attacks, private information retrieval, oblivious RAM, $k$-anonymity, and differential privacy." 
+        image:  ""
+        pdf: 
+      - title : Privacy and Legal Aspects and Their Realizations 
+        university: FAU
+        term : winter
+        turnus : BSC/MSC
+        workload: Seminar
+        content: "This seminar focuses on the intersection of law and cryptography, intending to understand legal aspects and cryptographic realizations." 
+        image:  ""
+        pdf: 
+      - title : Introduction to Modern Cryptography
+        university: FAU
+        term : winter
+        turnus : BSC/MSC
+        workload: 2 L + 1 EX
+        content: "This lecture gives a comprehensive introduction to modern cryptography. This class covers game-based security notions, private-key encryption, message authentication codes, PRGs, PRFs, public-key encryption, and key agreement. "
+        image:  ""
+        pdf: 
+      - title : Secure Multi-Party Computation
+        university: FAU
+        term : summer
+        turnus : BSC/MSC
+        workload: 1 L + 1 EX
+        content: "This lecture introduces secure multi-party computation; it covers topics such as simulation-based security, Yao's garbled circuit, and maliciously secure two-party computation."
+        image:  ""
+        pdf: 
+      - title : Privacy-Preserving Cryptocurrencies
+        university: FAU
+        term : summer
+        turnus : BSC/MSC
+        workload: 1 L + 1 EX
+        content: "This lecture discusses different approaches towards privacy-preserving cryptocurrencies, such as mixing services, ring confidential transactions, and ZCash."
+        image:  ""
+        pdf: 
+    - year: 2020
+      lecture:
+      - title : Foundations of Privacy
+        term : winter
+        university: FAU
+        turnus : BSC/MSC
+        workload: Seminar
+        content: "This seminar discusses different privacy guarantees for (stored) data. The list of topics comprises information-theoretic and game-based approaches."
+        image:  ""
+        pdf: 
+      - title : Password-based Cryptography
+        term : winter
+        university: FAU
+        turnus : BSC/MSC
+        workload: 1 L + 1 EX
+        content: "This lecture presents state-of-the-art results in password-based cryptography, including password-hardening, password-hardened encryption, and password-based authentication."
+        image:  ""
+        pdf: 
+      - title : Introduction to Modern Cryptography
+        university: FAU
+        term : winter
+        turnus : BSC/MSC
+        workload: 2 L + 1 EX
+        content: "This lecture gives a comprehensive introduction to modern cryptography. This class covers game-based security notions, private-key encryption, message authentication codes, PRGs, PRFs, public-key encryption, and key agreement. "
+        image:  ""
+        pdf: 
+      - title : Privacy-Preserving Cryptocurrencies
+        university: FAU
+        term : summer
+        turnus : BSC/MSC
+        workload: 2 L + 1 EX
+        content: "This lecture discusses different approaches towards privacy-preserving cryptocurrencies, such as mixing services, ring confidential transactions, and ZCash."
+        image:  ""
+        pdf: 
+      - title : Research Oriented Cryptography
+        university: UdS
+        term : summer
+        turnus : BSC/MSC
+        workload: seminar
+        content: "This seminar aims to write a scientific paper with the students and publish the result together."
+        image:  ""
+        pdf:  
+      - title : Introduction to Modern Cryptography
+        university: FAU
+        term : summer
+        turnus : BSC/MSC
+        workload: 2 L + 1 EX
+        content: "This lecture gives a comprehensive introduction to modern cryptography. This class covers game-based security notions, private-key encryption, message authentication codes, PRGs, PRFs, public-key encryption, and key agreement. "
+        image:  ""
+        pdf: 
+    - year: 2019
+      lecture:
+      - title : Cryptocurrencies
+        term : summer
+        university: FAU
+        turnus : BSC/MSC
+        workload: 1 L + 1 EX
+        content: "This lecture gives an introduction to modern cryptocurrencies, such as Bitcoin. The list of topics comprises consensus mechanisms, mining, eco-system, altcoins, and privacy."
+        image:  ""
+        pdf: 
+      - title : Password-based Cryptography
+        term : summer
+        university: FAU
+        turnus : BSC/MSC
+        workload: 1 L + 1 EX
+        content: "This lecture presents state-of-the-art results in password-based cryptography, including password-hardening, password-hardened encryption, and password-based authentication."
+        image:  ""
+        pdf: 
+      - title: Sabbatical 
+        term : winter
+        university: FAU
+        turnus : "-"
+        workload: "-"
+        content: " "
+        pdf: " "
+    - year: 2018
+      lecture:
+      - title : Cryptocurrencies
+        term : summer
+        university: FAU
+        turnus : BSC/MSC
+        workload: 1 L + 1 EX
+        content: "This lecture gives an introduction to modern cryptocurrencies, such as Bitcoin. The list of topics comprises consensus mechanisms, mining, eco-system, altcoins, and privacy."
+        image:  ""
+        pdf: 
+      - title : Password-based Cryptography
+        term : summer
+        university: FAU
+        turnus : BSC/MSC
+        workload: 1 L + 1 EX
+        content: "This lecture presents state-of-the-art results in password-based cryptography, including password-hardening, password-hardened encryption, and password-based authentication."
+        image:  ""
+        pdf: 
+      - title : Algorithms and Data Structures 
+        university: FAU
+        term : winter
+        turnus : BSC
+        workload: 2 L + 2 EX
+        content: "This first-semester lecture introduces the basics of algorithms and data structure, including an introduction to programming in Java, object-oriented programming, (search) trees, sorting, and complexity analysis."
+        image:  ""
+        pdf: 
+      - title : Introduction to Modern Cryptography
+        university: FAU
+        term : winter
+        turnus : BSC/MSC
+        workload: 2 L + 1 EX
+        content: "This lecture gives a comprehensive introduction to modern cryptography. This class covers game-based security notions, private-key encryption, message authentication codes, PRGs, PRFs, public-key encryption, and key agreement. "
         image:  ""
         pdf: 
     - year: 2017
       lecture:
+      - title : Introduction to Modern Cryptography
+        university: FAU
+        term : winter
+        turnus : BSC/MSC
+        workload: 2 L + 1 EX
+        content: "This lecture gives a comprehensive introduction to modern cryptography. This class covers game-based security notions, private-key encryption, message authentication codes, PRGs, PRFs, public-key encryption, and key agreement. "
+        image:  ""
+        pdf: 
+      - title : Public-Key Encryption
+        university: UdS
+        term : winter
+        turnus : BSC/MSC
+        workload: 1 L + 1 EX
+        content: "This lecture introduces secure multi-party computation; it covers topics such as simulation-based security, Yao's garbled circuit, and maliciously secure two-party computation."
+        image:  ""
+        pdf: 
       - title : Foundations of Cryptocurrencies
         university: FAU
         term : summer
@@ -25,7 +266,7 @@ lectures:
         term : summer
         turnus : BSC/MSC
         workload: 1 L + 1 EX
-        content: "This lecture gives an introduction to secure multi-party computation, it covers topics such as simulation-based security, Yao's garbled circuit, and maliciously secure two-party computation."
+        content: "This lecture introduces secure multi-party computation; it covers topics such as simulation-based security, Yao's garbled circuit, and maliciously secure two-party computation."
         image:  ""
         pdf: 
     - year: 2016
@@ -35,7 +276,7 @@ lectures:
         term : winter
         turnus : BSC/MSC
         workload: 2 L + 2 EX
-        content: "This lecture gives a comphrensive introduction to modern cryptogaphy. This class covers: game-based security notions, private-key encryption, message authentication codes, PRGs, PRFs, public-key encryption and key agreement. "
+        content: "This lecture gives a comprehensive introduction to modern cryptography. This class covers game-based security notions, private-key encryption, message authentication codes, PRGs, PRFs, public-key encryption, and key agreement. "
         image:  ""
         pdf: 
       - title : Cryptocurrencies
@@ -43,12 +284,9 @@ lectures:
         university: FAU
         turnus : BSC/MSC
         workload: 1 L + 1 EX
-        content: "This lecture gives an introduction to modern cryptocurrencies, such as Bitcoin. The list of topics comprises: consensus mechanism, mining, eco-system, alt coins, privacy."
+        content: "This lecture gives an introduction to modern cryptocurrencies, such as Bitcoin. The list of topics comprises consensus mechanisms, mining, eco-system, altcoins, and privacy."
         image:  ""
         pdf: 
- 
-    - year: 2016
-      lecture:
       - title : Secure Multi-Party Computation
         university: UdS
         term : summer
@@ -62,7 +300,7 @@ lectures:
         term : summer
         turnus : BSC/MSC
         workload: 1 L + 1 EX
-        content: "This lecture gives an introduction to modern cryptocurrencies, such as Bitcoin. The list of topics comprises: consensus mechanism, mining, eco-system, alt coins, privacy."
+        content: "This lecture gives an introduction to modern cryptocurrencies, such as Bitcoin. The list of topics comprises consensus mechanisms, mining, eco-system, altcoins, and privacy."
         image:  ""
         pdf: 
  
@@ -74,7 +312,7 @@ lectures:
         term : winter
         turnus : BSC/MSC
         workload: 2 L + 1 EX
-        content: "This lecture gives a comphrensive introduction to modern cryptogaphy. This class covers: game-based security notions, private-key encryption, message authentication codes, PRGs, PRFs, public-key encryption and key agreement. "
+        content: "This lecture gives a comprehensive introduction to modern cryptography. This class covers game-based security notions, private-key encryption, message authentication codes, PRGs, PRFs, public-key encryption, and key agreement. "
         image:  ""
         pdf: 
       - title : Recent Advances in Secure Multi-Party Computations
@@ -101,7 +339,7 @@ lectures:
         term : winter
         turnus : BSC/MSC
         workload: seminar
-        content: "The goal of this seminar is to write a scientific paper with the students and publish the result together."
+        content: "This seminar aims to write a scientific paper with the students and publish the result together."
         image:  ""
         pdf: 
       - title : Introduction to Modern Cryptography
@@ -109,7 +347,7 @@ lectures:
         term : winter
         turnus : BSC/MSC
         workload: 2 L + 1 EX
-        content: "This lecture gives a comphrensive introduction to modern cryptogaphy. This class covers: game-based security notions, private-key encryption, message authentication codes, PRGs, PRFs, public-key encryption and key agreement. "
+        content: "This lecture gives a comprehensive introduction to modern cryptography. This class covers game-based security notions, private-key encryption, message authentication codes, PRGs, PRFs, public-key encryption, and key agreement. "
         image:  ""
         pdf: 
       - title : Public-Key Encryption
