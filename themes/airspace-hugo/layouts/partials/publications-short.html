@@ -29,8 +29,8 @@
               </div>
             </div>
             <hr>
-            {{range $i, $e := .years}}{{if lt $i 1}}
-            {{range .papers}}
+            {{range $i, $e := .years}}{{if lt $i 2}}
+            {{range $a, $z := .papers}}{{if lt $a 4}}
             <br>
             <div class="row">
               <div class="col-md-1 hidden-xs hidden-sm hidden-md">
@@ -61,6 +61,7 @@
             <br>
             <hr>
             {{ $counter = add $counter 1}}
+            {{end}}
             {{end}}
             {{end}}
             {{end}}
