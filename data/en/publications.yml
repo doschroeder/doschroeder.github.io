@@ -1,6 +1,15 @@
 publications : 
   title: Refereed Conference Proceedings
   years :
+    - year: 2023
+      papers:
+      - title : "Practical Schnorr Threshold Signatures without the Algebraic Group Model"
+        authors : "Hien Chu, Paul Gerhart, Tim Ruffing, Dominique Schröder"
+        published : CRYPTO 
+        pages:
+        type: 0
+        myurl : 2022_ROAST_SCHNORR_THRESHOLD_SIGNATURES.pdf
+        abstract: "Threshold signatures are digital signature schemes in which a set of n signers specify a threshold t such that any subset of size t is authorized to produce signatures on behalf of the group. There has recently been a renewed interest in this primitive, largely driven by the need to secure highly valuable signing keys, e.g., DNSSEC keys or keys protecting digital wallets in the cryptocurrency ecosystem. Of special interest are Schnorr threshold signatures currently being standardized by NIST and IETF. One of the best candidates in this standardization process is FROST, widely used in practice and whose security was recently analyzed at CRYPTO'22. We follow this research line focusing on FROST’s unforgeability combined with a practical distributed key generation algorithm. Existing proofs of this setup either use non-standard heuristics or idealized group models like the AGM or idealized key generation. Moreover, most existing works do not consider all relevant optimizations that have been proposed FROST3, which are crucial for practice. We close this gap between theory and practice by presenting the Schnorr threshold signature scheme OLAF, which is an extension of FROST3, and prove its unforgeability when used with a variant of Pedersen’s Distributed Key Generation (DKG) protocol (as commonly used for FROST). Our proof is relative to the OMDL assumption and relies, like regular Schnorr signatures, on the random oracle model. This proof based on standard heuristics can now be used to standardize the optimized FROST with a practical relevant DKG. As a technical result of independent interest, we introduce the proof technique of ``serial forking’’ that allows doing this proof in the random oracle model by different variants of forking sequentially."
     - year: 2022
       papers:
       - title : "ROAST: Robust Asynchronous Schnorr Threshold Signatures"
