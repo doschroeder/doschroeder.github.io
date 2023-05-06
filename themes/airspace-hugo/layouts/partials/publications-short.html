@@ -30,6 +30,7 @@
             </div>
             <hr>
             {{range $i, $e := .years}}{{if lt $i 1}}
+            {{range .years}}
             {{range .papers}}
             <br>
             <div class="row">
@@ -61,6 +62,7 @@
             <br>
             <hr>
             {{ $counter = add $counter 1}}
+            {{end}}
             {{end}}
             {{end}}
             {{end}}
