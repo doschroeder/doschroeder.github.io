@@ -35,17 +35,21 @@ pc:
     - name : "IEEE European Symposium on Security and Privacy (EuroSP)"
       date : 2018
   
-    - name : "sia Conference on Computer and Comm. Security (ASIACCS)"
+    - name : "Asia Conference on Computer and Comm. Security (ASIACCS)"
       date : 2017, 2018
 
     - name : "Conference on Security and Cryptography for Networks (SCN)"
       date : 2018, 2022
-  
+    
+    - name : " Conference on Applied Cryptography and Network Security"
+      date : 2024
+      
     - name : "International Conference on Provable Security (PROVSEC)"
       date : 2016
   
     - name : "ACM Conference on Pervasive and Ubiquitous Computing (UbiComp)"
       date : 2016
+
     
     
     
