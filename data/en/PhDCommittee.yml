@@ -43,8 +43,8 @@ phdcomm:
       candidate:
       - name : Daniel Rausch
         role : 2nd Reviewer
-        institution: Universität Stuttgart 
-        shortinstitution: FAU
+        institution: Universität Stuttgart
+        shortinstitution:  Stuttgart University
 
     - year: 2019
       candidate:
@@ -56,12 +56,12 @@ phdcomm:
       - name : Oliver Willers
         role : 1st reviewer, co-advisor 
         institution: Saarland University 
-        shortinstitution: UdS
+        shortinstitution: Saarland University 
 
       - name : Tim Ruffing
         role : co-advisor 
         institution: Saarland University 
-        shortinstitution: UdS
+        shortinstitution: Saarland University 
 
     - year: 2018
       candidate:
@@ -75,7 +75,7 @@ phdcomm:
       - name : Nils Fleischhacker 
         role : advisor
         institution: Saarland University 
-        shortinstitution: UdS
+        shortinstitution: Saarland University 
 
       - name : Yan Zhuang
         role :  chair of the commission
@@ -99,4 +99,4 @@ phdcomm:
       - name : Esfandiar Mohammadi
         role : 2nd reviewer 
         institution: Saarland University
-        shortinstitution: UdS
+        shortinstitution: Saarland University 
