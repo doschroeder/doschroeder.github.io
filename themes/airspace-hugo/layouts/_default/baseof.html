@@ -12,13 +12,7 @@ AUTHOR WEBSITE: https://gethugothemes.com
 
 <head>
 	{{ partial "head.html" . }}
-
-	<!-- cache partial only in production -->
-	{{ if hugo.IsProduction }}
-	{{ partialCached "style.html" . }}
-	{{ else }}
 	{{ partial "style.html" . }}
-	{{ end }}
 </head>
 
 <body>
