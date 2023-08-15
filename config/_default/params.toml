@@ -29,21 +29,8 @@ Konrad-Zuse Str. 3-5 </br>
 Germany
 """
 # copyright
-copyright = "© 2022 Dominique Schroeder. All Rights Reserved." 
+copyright = "© 2023 Dominique Schroeder. All Rights Reserved." 
 custom_script= ""
-
-[contact.form]
-enable = false
-# Whether to use [Netlify Forms](https://docs.netlify.com/forms/setup/)
-use_netlify = false
-# Whether to use recaptch v3 in form
-use_recaptcha = false
-# Form action
-## Fill in your Form ID URL for Formspree.io, e.g. `https://formspree.io/f/{form_id}`
-## Ignored if `use_netlify = true` (custom [success page](https://docs.netlify.com/forms/setup/#success-messages) is already included) 
-action = "#"
-# Image on custom success page `/message_sent.html`
-success_image = "images/paper-plane.svg"
 
 
 # Preloader
