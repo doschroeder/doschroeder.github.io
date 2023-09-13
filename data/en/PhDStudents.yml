@@ -75,16 +75,6 @@ PhDStudents:
       currentPos: "Researcher at Institut de Recherche en Inf. Fondamentale"
       comments: 
 
-    - name : Sri Aravinda Krishnan Thyagarajan
-      finished: true 
-      pic: aravinda.jpg
-      url: https://sites.google.com/view/sak-thyagarajan
-      start: 2016
-      graduated : 2021
-      thesis: Cryptographic Locks for Scriptless Cryptocurrency Payments
-      nextPos : "Postdoc at Carnegie Mellon University"
-      currentPos: Assistant Professor at the University of Sydney 
-      comments: 
     - name : Russel W. F. Lai
       finished: true 
       start: 2017
@@ -94,6 +84,17 @@ PhDStudents:
       thesis: "Succinct Arguments: Constructions and Applications"
       nextPos : "Assistant Professor at Aalto University"
       currentPos: Assistant Professor at Aalto University
+      comments: 
+
+    - name : Sri Aravinda Krishnan Thyagarajan
+      finished: true 
+      pic: aravinda.jpg
+      url: https://sites.google.com/view/sak-thyagarajan
+      start: 2016
+      graduated : 2021
+      thesis: Cryptographic Locks for Scriptless Cryptocurrency Payments
+      nextPos : "Postdoc at Carnegie Mellon University"
+      currentPos: Assistant Professor at the University of Sydney 
       comments: 
 
     - name : Guilio Malavolta
