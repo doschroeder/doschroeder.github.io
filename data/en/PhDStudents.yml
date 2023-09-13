@@ -129,7 +129,7 @@ PhDStudents:
     - name : Nils Fleischhacker 
       finished: true 
       start: 2012
-      graduated : 2017
+      graduated : 2016
       thesis: Minimal Assumptions in Cryptography
       url : http://nilsfleischhacker.de
       pic : nils.jpg
