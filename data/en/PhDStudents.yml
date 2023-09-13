@@ -64,17 +64,6 @@ PhDStudents:
       nextPos : "Postdoc at FAU"
       currentPos:
 
-    - name : Christoph Egger
-      finished: true 
-      pic: christoph.jpg
-      url: https://christoph-egger.org
-      start: 2016
-      graduated : 2022
-      thesis: On Abstraction and Modularization in Protocol Analysis
-      nextPos :  "Researcher at Institut de Recherche en Inf. Fondamentale"
-      currentPos: "Researcher at Institut de Recherche en Inf. Fondamentale"
-      comments: 
-
     - name : Russel W. F. Lai
       finished: true 
       start: 2017
@@ -84,6 +73,17 @@ PhDStudents:
       thesis: "Succinct Arguments: Constructions and Applications"
       nextPos : "Assistant Professor at Aalto University"
       currentPos: Assistant Professor at Aalto University
+      comments: 
+      
+    - name : Christoph Egger
+      finished: true 
+      pic: christoph.jpg
+      url: https://christoph-egger.org
+      start: 2016
+      graduated : 2022
+      thesis: On Abstraction and Modularization in Protocol Analysis
+      nextPos :  "Researcher at Institut de Recherche en Inf. Fondamentale"
+      currentPos: "Researcher at Institut de Recherche en Inf. Fondamentale"
       comments: 
 
     - name : Sri Aravinda Krishnan Thyagarajan
