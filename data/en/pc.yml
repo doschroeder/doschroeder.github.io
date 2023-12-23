@@ -3,7 +3,7 @@ pc:
   description: "I served on over 40 program committees, the following overview is only a selection. I also serve as an external reviewer for almost all leading venues every year, but I do not list these conferences explicitly. "
   items :
     - name : "ACM Conference on Computer and Communications Security"
-      date : 2019, 2023
+      date : 2019, 2023, 2024
 
     - name : "Advances in Cryptology (CRYPTO)"
       date : 2016, 2019, 2020, 2023
