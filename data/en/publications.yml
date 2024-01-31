@@ -2,6 +2,7 @@ publications:
   title: Refereed Conference Proceedings
   years:
     - year: 2024
+      papers:
       - title: "Foundations of Adaptor Signatures"
         authors: "Paul Gerhart, Dominique Schröder, Pratik Soni, and Sri A. K. Thyagarajan"
         published: EUROCRYPT
