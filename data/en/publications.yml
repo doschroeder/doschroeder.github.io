@@ -3,6 +3,13 @@ publications:
   years:
     - year: 2023
       papers:
+      - title: "Foundations of Adaptor Signatures"
+        authors: "Paul Gerhart, Dominique Schröder, Pratik Soni, Sri A. K. Thyagarajan"
+        published: EUROCRYPT
+        pages:
+        type: 0
+        myurl: 
+        abstract: ""
       - title: "Practical Schnorr Threshold Signatures without the Algebraic Group Model"
         authors: "Hien Chu, Paul Gerhart, Tim Ruffing, Dominique Schröder"
         published: CRYPTO 
