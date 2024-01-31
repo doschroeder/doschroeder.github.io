@@ -8,7 +8,7 @@ publications:
         pages:
         type: 0
         myurl: 
-        abstract: ""
+        abstract: " "
     - year: 2023
       papers:
       - title: "Practical Schnorr Threshold Signatures without the Algebraic Group Model"
