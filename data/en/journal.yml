@@ -1,4 +1,9 @@
 journal:
+  title : Editorial Board
+  items :
+    - name: IACR Communications in Cryptography
+    - name: ACM Transactions on Security and Privacy
+
   title : Reviewer for Journals
   items :
     - name : Journal of Cryptology
