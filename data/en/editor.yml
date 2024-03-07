@@ -3,6 +3,6 @@ editor:
   description: ""
   items :
     - name : "IACR Communications in Cryptography"
-      date : 
+      date : 2024
     - name : "ACM Transactions on Security and Privacy "
-      date : 
+      date : 2024
