@@ -1,8 +1,8 @@
-<!-- Grant review IN THE CV ! -->
+<!-- Editor IN THE CV ! -->
 {{ $data := index site.Data site.Language.Lang }}
 <div class="col-md-12">
-    {{ with $data.grants.grants }}
-    <h2 id="grants">{{ .title }}</h2>
+    {{ with $data.editor.editor }}
+    <h2 id="editor">{{ .title }}</h2>
     {{.description}}
     <br> <br>
     {{range .items}}
@@ -16,4 +16,4 @@
     {{end}}
   </div>
   {{end}}
-<!-- END OF Grant review IN THE CV ! -->
+<!-- END OF Editor board IN THE CV ! -->
