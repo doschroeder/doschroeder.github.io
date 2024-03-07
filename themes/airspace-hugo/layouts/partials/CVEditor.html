@@ -1,0 +1,19 @@
+<!-- Grant review IN THE CV ! -->
+{{ $data := index site.Data site.Language.Lang }}
+<div class="col-md-12">
+    {{ with $data.grants.grants }}
+    <h2 id="grants">{{ .title }}</h2>
+    {{.description}}
+    <br> <br>
+    {{range .items}}
+    <div class="col-md-4">
+      {{.date }}
+    </div>  
+    <div class="col-md-8">
+      <p><b>{{.name}}</b><br>
+      </p>
+    </div>  
+    {{end}}
+  </div>
+  {{end}}
+<!-- END OF Grant review IN THE CV ! -->

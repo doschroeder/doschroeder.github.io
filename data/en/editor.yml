@@ -1,0 +1,8 @@
+editor:
+  title : Editorial Board
+  description: ""
+  items :
+    - name : "IACR Communications in Cryptography"
+      date : 
+    - name : "ACM Transactions on Security and Privacy "
+      date : 
