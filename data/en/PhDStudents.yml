@@ -43,14 +43,14 @@ PhDStudents:
       nextPos : 
       currentPos:
     - name : Victoria Ronge
-      finished: false
+      finished: true
       start: 2018
-      graduated : 
-      topic: Anonymity and privacy for Cryptocurrencies 
+      graduated : 2023
+      topic: Security and Privacy of Cryptocurrency Signatures
       pic: vicky.jpg
       url : https://www.chaac.tf.fau.de/person/paul-gerhart/
-      thesis: 
-      nextPos : 
+      thesis: Security and Privacy of Cryptocurrency Signatures
+      nextPos : Industry 
       currentPos:
 # Finished 
     - name : Dominic Deuber
