@@ -42,6 +42,7 @@ PhDStudents:
       thesis: 
       nextPos : 
       currentPos:
+# Finished 
     - name : Victoria Ronge
       finished: true
       start: 2018
@@ -51,8 +52,7 @@ PhDStudents:
       url : https://www.chaac.tf.fau.de/person/paul-gerhart/
       thesis: Security and Privacy of Cryptocurrency Signatures
       nextPos : Industry 
-      currentPos:
-# Finished 
+      currentPos: Industry
     - name : Dominic Deuber
       finished: true
       start: 2017
@@ -62,7 +62,7 @@ PhDStudents:
       url : https://www.chaac.tf.fau.eu/person/dominic-deuber/
       thesis: "Cryptocurrencies Within The Conflicting Tension Between Law and IT Security"
       nextPos : "Postdoc at FAU"
-      currentPos:
+      currentPos: "Postdoc at FAU"
 
     - name : Russel W. F. Lai
       finished: true 
