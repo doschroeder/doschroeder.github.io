@@ -7,7 +7,7 @@ PhDStudents:
       start: 2023
       graduated : 
       topic:  Privacy-Preserving Access Control
-      pic: 
+      pic: Ruben.jpg
       url : https://www.chaac.tf.fau.de/
       thesis: 
       nextPos : 
@@ -105,7 +105,7 @@ PhDStudents:
       graduated : 2019
       thesis: Cryptographic Clocks and Applications
       nextPos : "UC Berkeley and Carnegie Mellon University"
-      currentPos: "Tenure Track at MPI Security and Privacy"
+      currentPos: "Assistant Professor Bocconi University"
       comments: 
     - name : Oliver Willers
       finished: true 
