@@ -2,6 +2,9 @@ pchairs:
   title : Program/Poster/General chair
   description: ""
   items :
+    - name : ACM CCS Area Chair Applied Cryptography
+      date : 2025
+      
     - name : Chair of IEEE International Conference on Blockchain
       date : 2023
 
