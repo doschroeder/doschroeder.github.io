@@ -2,6 +2,29 @@ phdcomm:
   title : Phd Committees
   description: 
   items :
+    - year: 2024
+      candidate:
+      - name : Jenny Ottmann
+        role : 3rd reviewer 
+        institution: Friedrich-Alexander Universität Erlangen-Nürnberg 
+        shortinstitution: FAU
+
+      - name : Swaroop Ready 
+        role : 2nd reviewer 
+        institution: Indian Institute of Technology, Hyderabad
+        shortinstitution: IIT Hyderabad
+        
+    - year: 2023
+      candidate:
+      - name : Victoria Ronge
+        role : advisor
+        institution: Friedrich-Alexander Universität Erlangen-Nürnberg 
+        shortinstitution: FAU
+
+      - name : Dominic Deuber
+        role : advisor
+        institution: Friedrich-Alexander Universität Erlangen-Nürnberg 
+        shortinstitution: FAU
     - year: 2022
       candidate:
       - name : Franz-Josef Streit

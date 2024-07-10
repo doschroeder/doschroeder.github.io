@@ -7,7 +7,7 @@ PhDStudents:
       start: 2023
       graduated : 
       topic:  Privacy-Preserving Access Control
-      pic: 
+      pic: Ruben.jpg
       url : https://www.chaac.tf.fau.de/
       thesis: 
       nextPos : 
@@ -42,17 +42,17 @@ PhDStudents:
       thesis: 
       nextPos : 
       currentPos:
+# Finished 
     - name : Victoria Ronge
-      finished: false
+      finished: true
       start: 2018
-      graduated : 
-      topic: Anonymity and privacy for Cryptocurrencies 
+      graduated : 2023
+      topic: Security and Privacy of Cryptocurrency Signatures
       pic: vicky.jpg
       url : https://www.chaac.tf.fau.de/person/paul-gerhart/
-      thesis: 
-      nextPos : 
-      currentPos:
-# Finished 
+      thesis: Security and Privacy of Cryptocurrency Signatures
+      nextPos : Industry 
+      currentPos: Industry
     - name : Dominic Deuber
       finished: true
       start: 2017
@@ -62,7 +62,7 @@ PhDStudents:
       url : https://www.chaac.tf.fau.eu/person/dominic-deuber/
       thesis: "Cryptocurrencies Within The Conflicting Tension Between Law and IT Security"
       nextPos : "Postdoc at FAU"
-      currentPos:
+      currentPos: "Postdoc at FAU"
 
     - name : Russel W. F. Lai
       finished: true 
@@ -105,7 +105,7 @@ PhDStudents:
       graduated : 2019
       thesis: Cryptographic Clocks and Applications
       nextPos : "UC Berkeley and Carnegie Mellon University"
-      currentPos: "Tenure Track at MPI Security and Privacy"
+      currentPos: "Assistant Professor Bocconi University"
       comments: 
     - name : Oliver Willers
       finished: true 
