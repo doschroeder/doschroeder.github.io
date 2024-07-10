@@ -21,8 +21,11 @@ pc:
       date : 2021, 2022
   
     - name : "Public-Key Cryptography (PKC)"
-      date : 2023 - 2024
+      date : 2023 - 2025
 
+    - name : "The Cryptographers' Track at RSA Conference (CT-RSA)"
+      date : 2025
+  
     - name : "European Symp. on Research in Computer Security (ESORICS)"
       date : 2021 - 2024
   
