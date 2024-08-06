@@ -13,8 +13,7 @@ about:
   title: "About Me"
   description: ""
   content: "
-  
-  I am a Full Professor of Applied Cryptography at Friedrich-Alexander-University in Erlangen-N&uuml;rnberg. Previously, I was a tenured professor at Saarland University. I completed a postdoc at the University of Maryland, USA under Jonathan Katz, my Ph.D. at the Technical University of Darmstadt under Marc Fischlin, and my Diploma (Master's equivalent) at the Technical University of Braunschweig. </br></br>
+  I am a full professor of Privacy Enhancing Technologies at the Technical University Wien in Vienna. Previously, I was a full professor at the Friedrich-Alexander University of Erlangen-Nuremberg and a tenured professor at the University of Saarland. I did a postdoc at the University of Maryland, USA with Jonathan Katz, my Ph.D. at the Technical University Darmstadt with Marc Fischlin, and my diploma at the Technical University Braunschweig. </br></br>
 
   **E-Mail: schroeder AA@TT me.com (replace AA@TT by @)**
  "
