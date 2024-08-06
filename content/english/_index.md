@@ -5,7 +5,7 @@ banner:
   bg_image: "images/slider-bg.jpg"
   bg_overlay: true
   title: "Dominique Schr&ouml;der <br/> "
-  content: "Professor of Applied Cryptography, Privacy, and IT Security "
+  content: "Professor of Privacy Enhancing Technologies"
 
 ############################# About #################################
 about:
