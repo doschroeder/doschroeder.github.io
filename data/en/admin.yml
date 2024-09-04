@@ -2,21 +2,25 @@ admin:
   title : Administrative Service
   description: 
   items :
-    - name : Department Informatik | Deputy speaker
-      date : Since 2021
 
-    - name : Faculty council of the faculty of engineering (re-elected in 2021)
-      date : Since 2019
-    
     - name : Head of 6 and member of 11 hiring committees
       date : Since 2017
     
-    - name : Department of computer science board of management
-      date : since 2016
-
-    - name : Study commission B. Sc. computer/IT-security
+    - name : FAU Study commission B. Sc. computer/IT-security
       date : since 2017
-
+    
+    - name : Department of computer science board of management FAU
+      date : 2016 - 2024
+    
+    - name : FAU Faculty council of the faculty of engineering (re-elected in 2021)
+      date : 2019 - 2024
+    
+    - name : FAU Department Informatik | speaker
+      date : 2023 - 2024
+ 
+    - name : FAU Department Informatik | Deputy speaker
+      date : 2021 - 2023
+ 
     - name : Study commission computer science
       date : 2018 -- 2021
 
