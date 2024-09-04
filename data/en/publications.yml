@@ -1,6 +1,17 @@
 publications: 
   title: Refereed Conference Proceedings
   years:
+    - year: 2025
+      papers:
+      - title : "SoK: Descriptive Statistics Under Local Differential Privacy"
+        authors : "René Raab, Pascal Berrang, Paul Gerhart, Dominique Schröder"
+        published : PETS 
+        pages:
+        type: 0
+        myurl: 
+        has_info : true 
+        abstract : "Local Differential Privacy (LDP) provides a formal guarantee of privacy that enables the collection and analysis of sensitive data without revealing any individual's data. While LDP methods have been extensively studied, there is a lack of a systematic and empirical comparison of LDP methods for descriptive statistics. In this paper, we first provide a systematization of LDP methods for descriptive statistics, comparing their properties and requirements. We demonstrate that several mean estimation methods based on sampling from a Bernoulli distribution are equivalent in the one-dimensional case and introduce methods for variance estimation. We then empirically compare methods for mean, variance, and frequency estimation. Finally, we provide recommendations for the use of LDP methods for descriptive statistics and discuss their limitations and open questions."  
+        #pdf: "https://eprint.iacr.org/2024/998.pdf"
     - year: 2024
       papers:
       - title: "Measuring Conditional Anonymity - A Global Study"
