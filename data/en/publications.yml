@@ -10,21 +10,7 @@ publications:
         type: 0
         myurl: 
         has_info : true 
-        abstract : "Message Authentication Codes (MACs) represent a fundamental symmetric key primitive, serving to ensure the authenticity and integrity of transmitted data.
-
-As a building block in authenticated encryption and in numerous deployed standards, including TLS, IPsec, and SSH, MACs play a central role in practice.
-
-Due to their importance for practice, MACs have been subject to extensive research, leading to prominent schemes such as HMAC, CBCMAC, or LightMAC.
-
-Despite the existence of various MACs, there is still considerable interest in creating schemes that are more efficient, potentially parallelizable, or have specific non-cryptographic attributes, such as being patent-free.
-
-In this context, we introduce an automated method for analyzing and synthesizing MAC schemes.
-
-In order to achieve this goal, we have constructed a framework that restricts the class of MACs in such a way that it is sufficiently expressive to cover known constructions, yet also admits automated reasoning about the security guarantees of both known and new schemes.
-
-Our automated analysis has identified a novel category of MACs, termed "hybrid" MACs. These MACs operate by processing multiple blocks concurrently, with each block managed by a different, specified MAC scheme. A key finding is that in certain scenarios, the hybrid MAC marginally outperforms the simultaneous operation of the individual MACs. This improvement is attributed to the hybrid approach exploiting the strengths and compensating for the weaknesses of each distinct MAC scheme involved.
-
-Our implementation confirms that we successfully identified new schemes that have comparable performance with state-of-the-art schemes and in some settings seem to be slightly more efficient."  
+        abstract : "Message Authentication Codes (MACs) represent a fundamental symmetric key primitive, serving to ensure the authenticity and integrity of transmitted data. As a building block in authenticated encryption and in numerous deployed standards, including TLS, IPsec, and SSH, MACs play a central role in practice. Due to their importance for practice, MACs have been subject to extensive research, leading to prominent schemes such as HMAC, CBCMAC, or LightMAC. Despite the existence of various MACs, there is still considerable interest in creating schemes that are more efficient, potentially parallelizable, or have specific non-cryptographic attributes, such as being patent-free. In this context, we introduce an automated method for analyzing and synthesizing MAC schemes. In order to achieve this goal, we have constructed a framework that restricts the class of MACs in such a way that it is sufficiently expressive to cover known constructions, yet also admits automated reasoning about the security guarantees of both known and new schemes. Our automated analysis has identified a novel category of MACs, termed hybrid MACs. These MACs operate by processing multiple blocks concurrently, with each block managed by a different, specified MAC scheme. A key finding is that in certain scenarios, the hybrid MAC marginally outperforms the simultaneous operation of the individual MACs. This improvement is attributed to the hybrid approach exploiting the strengths and compensating for the weaknesses of each distinct MAC scheme involved. Our implementation confirms that we successfully identified new schemes that have comparable performance with state-of-the-art schemes and in some settings seem to be slightly more efficient." 
         #pdf: "https://eprint.iacr.org/2024/998.pdf"
       - title : "SoK: Descriptive Statistics Under Local Differential Privacy"
         authors : "René Raab, Pascal Berrang, Paul Gerhart, and Dominique Schröder"
