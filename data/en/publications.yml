@@ -3,6 +3,15 @@ publications:
   years:
     - year: 2025
       papers:
+       - title : "Increasing the Resilience of Secure Multiparty Computation using Security Modules"
+        authors : "Lamaya Omar, Felix Freiling, Dominique Schröder"
+        published : "Transactions on Dependable and Secure Computing"
+        pages:
+        type: 1
+        myurl: 
+        has_info : true 
+        abstract : "" 
+        #pdf: "https://eprint.iacr.org/2024/998.pdf"
       - title : "Automated Analysis and Synthesis of Message Authentication Codes"
         authors : "Stefan Milius, Dominik Paulus, Julian Thomas, Dominique Schröder, and Lutz Schröder"
         published : CSF 
