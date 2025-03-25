@@ -26,7 +26,7 @@ publications:
         published : PETS 
         pages:
         type: 0
-        myurl: 
+        myurl: 2024-SOK-Descriptive-Statistics-Local-Differnetial-Privacy.pdf
         has_info : true 
         abstract : "Local Differential Privacy (LDP) provides a formal guarantee of privacy that enables the collection and analysis of sensitive data without revealing any individual's data. While LDP methods have been extensively studied, there is a lack of a systematic and empirical comparison of LDP methods for descriptive statistics. In this paper, we first provide a systematization of LDP methods for descriptive statistics, comparing their properties and requirements. We demonstrate that several mean estimation methods based on sampling from a Bernoulli distribution are equivalent in the one-dimensional case and introduce methods for variance estimation. We then empirically compare methods for mean, variance, and frequency estimation. Finally, we provide recommendations for the use of LDP methods for descriptive statistics and discuss their limitations and open questions."  
         #pdf: "https://eprint.iacr.org/2024/998.pdf"
@@ -37,7 +37,7 @@ publications:
         published: PETS
         pages:
         type: 0
-        myurl: 
+        myurl: 2024-Measuring-conditional-anonymity
         abstract: "The realm of digital health is experiencing a global surge, with mobile applications extending their reach into various facets of daily life. From tracking daily eating habits and vital functions to monitoring sleep patterns and even the menstrual cycle, these apps have become ubiquitous in their pursuit of comprehensive health insights. Many of these apps collect sensitive data and promise users to protect their privacy - often through pseudonymization. We analyze the real anonymity that users can expect by this approach and report on our findings. More concretely:
         - We introduce the notion of conditional anonymity sets derived from statistical properties of the population.
         - We measure anonymity sets for two real-world applications and present overarching findings from 39 countries.
@@ -48,7 +48,7 @@ publications:
         published: EUROCRYPT
         pages:
         type: 0
-        myurl: 
+        myurl: 2024-Foundations-Adaptor.pdf
         abstract: " "
     - year: 2023
       papers:
