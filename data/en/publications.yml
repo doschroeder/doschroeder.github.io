@@ -3,6 +3,15 @@ publications:
   years:
     - year: 2025
       papers:
+      - title : "A Fully-Adaptive Threshold Partially-Oblivious PRF"
+        authors : "Ruben Baecker, Paul Gerhart, Daniel Rausch, Dominique Schröder"
+        published : CRYPTO
+        pages:
+        type: 0
+        myurl: 
+        has_info : true 
+        abstract : "" 
+        #pdf: "https://eprint.iacr.org/2024/998.pdf"
       - title : "Increasing the Resilience of Secure Multiparty Computation using Security Modules"
         authors : "Lamaya Omar, Felix Freiling, Dominique Schröder"
         published : "Transactions on Dependable and Secure Computing"
