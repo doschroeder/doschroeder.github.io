@@ -3,6 +3,24 @@ publications:
   years:
     - year: 2025
       papers:
+      - title : "Password-Hardened Encryption Revisited"
+        authors : "Ruben Baecker, Paul Gerhart, and Dominique Schröder"
+        published : ASIACRYPT
+        pages:
+        type: 0
+        myurl: 
+        has_info : true 
+        abstract : "" 
+        #pdf: "https://eprint.iacr.org/2024/998.pdf"
+      - title : "Universally Composable and Round-Optimal Password-Hardened Encryption"
+        authors : "Behzad Abdolmaleki, Ruben Baecker, Paul Gerhart, Mike Graf, Mojtaba Khalili, Daniel Rausch, Fritz Schmidt, and Dominique Schröder"
+        published : ASIACRYPT
+        pages:
+        type: 0
+        myurl: 
+        has_info : true 
+        abstract : "" 
+        #pdf: "https://eprint.iacr.org/2024/998.pdf"
       - title : "A Fully-Adaptive Threshold Partially-Oblivious PRF"
         authors : "Ruben Baecker, Paul Gerhart, Daniel Rausch, Dominique Schröder"
         published : CRYPTO
