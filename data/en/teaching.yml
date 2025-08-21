@@ -1,12 +1,5 @@
 teaching:
   items :
-    - title : Introduction to Algorithms and Data Structures 
-      semester : Winter term 22/23
-      turnus : BSC
-      content: "This lecture provides an overview of algorithms and data structures in computer science. Topics covered include various types of algorithms, such as quantum algorithms, big O notation for runtime analysis, sorting algorithms, graph algorithms, and the Page rank algorithm. The lecture also covers data structures, such as trees, AVL trees, and red-black trees. Advanced topics such as cryptography and Fourier transforms are also introduced. This lecture provides a comprehensive foundation for understanding algorithms and data structures, essential for further study in computer science."
-      image:  "images/algo.png"
-      pdf: 
-
     - title : Cryptography for Computer Scientist
       semester : Winter term 22/23
       turnus : BSC/MSC (WS)
