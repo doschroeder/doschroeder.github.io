@@ -2,20 +2,27 @@ postdocs:
   enable : true
   title: Postdocs
   list :
-    - name : Dominic Deuber
+    - name : Luigi Russo
       finished: false
+      start: 07/2025
+      pic: 
+      url : https://pets.wien/people/luigirusso/
+      nextpos :  
+
+    - name : Dominic Deuber
+      finished: true
       start: 03/2023
       pic: dominic.jpg
       url : https://www.chaac.tf.fau.eu/person/dominic-deuber/
-      nextpos : 
+      nextpos :  
 
-    - name : Mojtaba Kahlili
-      finished: false
+    - name : Mojtaba Khalili
+      finished: true
       pic: 
       url: https://scholar.google.de/citations?user=mhUQAx0AAAAJ&hl=en
       start: 09/2022
-      end: 
-      nextpos : 
+      end: 09/2023
+      nextpos : Assistant Professor, Isfahan University of Technology
 
     - name : Albrecht Petzoldt
       finished: true

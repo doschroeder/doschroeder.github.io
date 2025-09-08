@@ -1,5 +1,41 @@
 lectures:
   items :
+    - year: 2025
+      lecture:
+      - title : Privacy Enhancing Technologies
+        university: TUW
+        term : summer
+        turnus : BSC
+        workload: 2 L + 1 EX
+        content: "This lecture gives an introduction to algorithms. The list of topics comprises analysis (running time and correctness) of algorithms, sorting, graph algorithms, page rank, AVL, and RB trees." 
+        image:  ""
+        pdf: 
+      - title : Advanced Privacy Enhancing Technologies
+        university: TUW
+        term : winter
+        turnus : BSC/MSC
+        workload: lecture
+        content: "This seminar discusses recent results in the area of data privacy." 
+        image:  ""
+        pdf: 
+    - year: 2024
+      lecture:
+      - title : Introduction to Algorithms
+        university: FAU
+        term : summer
+        turnus : BSC
+        workload: 2 L + 1 EX
+        content: "This lecture gives an introduction to algorithms. The list of topics comprises analysis (running time and correctness) of algorithms, sorting, graph algorithms, page rank, AVL, and RB trees." 
+        image:  ""
+        pdf: 
+      - title : Data Privacy
+        university: FAU
+        term : summer
+        turnus : BSC/MSC
+        workload: seminar
+        content: "This seminar discusses recent results in the area of data privacy." 
+        image:  ""
+        pdf: 
     - year: 2023
       lecture:
       - title : Introduction to Algorithms

@@ -2,6 +2,16 @@ PhDStudents:
   enable : true
   title: PhD Students
   list :
+    - name : Davide Li Calsi
+      finished: false
+      start: 2025
+      graduated : 
+      topic:  Distributed Systems
+      pic: 
+      url : https://pets.wien/people/davidelicalsi/
+      thesis: 
+      nextPos : 
+      currentPos:
     - name : Ruben Baecker
       finished: false
       start: 2023
