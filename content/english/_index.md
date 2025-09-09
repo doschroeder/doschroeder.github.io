@@ -38,10 +38,24 @@ about:
 research:
   bg_image: "images/bg-gray.jpg"
   title: "Research Interests"
-  content: "I am broadly interested in various topics across cryptography and its intersections with related areas such as privacy, theory, and formal methods. I'm passionate about the development of privacy-preserving techniques that have the potential to enhance security and privacy in practice. "
-  content2: "I love interacting with young and highly motivated people wishing to gain a deeper understanding. My goal as a teacher is the creating an environment where we jointly explore a topic, where everyone helps each other, and where mistakes are not a problem but a helpful element to understanding a subject better.  "
+  content: "My research focuses on making security a design property—specified, verified, and certifiable—rather than an afterthought tested by audits. I connect cryptography, privacy, and formal methods to real-world infrastructures, guided by four main pillars."
+  content2: "As a teacher, I aim to create an environment where we jointly explore complex topics, where curiosity drives learning, and where mistakes are not obstacles but opportunities for deeper understanding."
   enable : true
-  
+  tabs:
+  - name : "Human-Centered Privacy"
+    content : "From password-hardened encryption to secure cloud storage and encrypted genomics, I design mechanisms that give users control while integrating seamlessly into existing infrastructures. Usability and efficiency are as critical as theoretical guarantees."
+
+  - name : "Privacy-Preserving Analytics"
+    content : "My work measures and mitigates privacy risks in data-driven services. Tools like conditional anonymity sets (visualAnon) quantify re-identification risks, while locally differentially private methods enable meaningful analytics without exposing raw data."
+
+  - name : "Ledgers, Payments & Messengers"
+    content : "I study and improve the cryptographic foundations of distributed ledgers and secure communication. Contributions include Omniring for scalable confidential transactions, adaptor signatures for payment channels, and the first formal security analysis of the Threema messenger’s IBEX protocol."
+
+  - name : "Formal Models & Certification"
+    content : "To scale security, we need composable models and automation. My work includes verifiable data streaming, automated synthesis of cryptographic primitives, and threshold protocols. The long-term vision is auditable certification, where properties are treated like types in programming languages."
+
+  - name : "Teaching"
+    content : "I view teaching and mentoring as integral to my research. I enjoy working with motivated students and researchers, guiding them to connect rigorous foundations with applied systems, and fostering a culture of collaboration and discovery."
 
 
 #########################  Teaching ###############################
