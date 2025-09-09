@@ -32,22 +32,14 @@ research:
   content2: "I love interacting with young and highly motivated people wishing to gain a deeper understanding. My goal as a teacher is the creating an environment where we jointly explore a topic, where everyone helps each other, and where mistakes are not a problem but a helpful element to understanding a subject better.  "
   enable : true
   tabs:
-  # tab item loop
-  - name : "Privacy"
-    content : "New technology and the possibilities that arise from it excite me. 
-Some years ago, the Economist wrote, *''The world's most valuable resource is no longer oil, but data.''* The high value of data has enabled companies like Alphabet to become one of the world's largest and most influential companies. The digitalization and networking of all data are also making inroads in medicine; various countries recently passed laws on the (scientific) use of data. I am fascinated by the possibilities that can arise by linking data and (automated) machine analysis. My research supports this development by enabling modern applications in a privacy-preserving way. I am investigating the combination of modern cryptographic techniques, such as homomorphic cryptography and secure multiparty computation, with differential privacy techniques. The goal is to realize the same functionality of new applications without compromising the individual's privacy. "
-
-  - name : "Distributed Trust"
-    content : "I am excited by the development of practical decentralized cryptographic systems whose security does not rely on trusted parties. The practical development of these systems goes hand in hand with technological advances in modern communication systems and networks. Unlike centralized systems, the security of a system relies on honest majority assumptions in contrast to a single trusted party. One of the most prominent examples are modern cryptocurrencies, such as Bitcoin. In this area, I am particularly interested in privacy-preserving cryptocurrencies and techniques to (secure) enhance the efficiency of distributed systems. "
-
-  - name : "Privacy-Preserving Technologies"
-    content : "Cryptographers have developed a beautiful landscape of exciting primitives that enhance privacy. The primitive include advanced signature schemes, such as ring signatures, group signatures, sanitizable signatures, functional commitments, and oblivious (group) ORAM, to name a few. I like the richness of the schemes, the beauty of the constructions, and also the potential to be used in practice. With my research, I contributed to developing these primitives in terms of understanding the underlying security notions and the development of practical schemes. "
-
-  - name : "Low Entropy"
-    content : "The security of most cryptographic systems relies on perfect conditions, such as uniform random keys and ideal randomness. But the reality is often very different as cryptographic keys are derived from low entropy sources, such as passwords, fingerprints, face recognition, etc. The same holds for randomness, which is computed from (weak) pseudorandom generators. Most cryptographic schemes are insecure if one or both ingredients do not satisfy the underlying requirements. I enjoy exploring the boundaries of practical cryptographic systems where weak sources of secrets and randomness are used, with the hope of bridging the practice and theory of cryptography. "    
-
-  - name : "Idealized Models"
-    content : "The security of many practical cryptographic schemes relies on idealized models, such as the random oracle model or the common reference string model. The basic idea of these models is to heuristically treat one or more of the building blocks as an ''ideal'' object. While proofs without these idealized models are preferable, they help us learn a lot about the security of practical schemes. I enjoy working in this area as the results impact theory and practice. On the one hand, we learn about the difficulty of realizing cryptographic tasks. On the other hand, we can gain confidence in schemes used in practice."
+  - name : "Human-Centered Privacy"
+    content : "From password-hardened encryption to encrypted genomics and secure cloud storage, I design mechanisms that give users control while integrating seamlessly into existing infrastructures."
+  - name : "Privacy-Preserving Analytics"
+    content : "Tools like conditional anonymity sets and visualAnon quantify privacy risks, while differential privacy methods make analytics trustworthy at scale."
+  - name : "Ledgers, Payments & Messengers"
+    content : "From adaptor signatures and Omniring to the formal analysis of Threema, my work bridges cryptographic innovation with real-world protocols."
+  - name : "Formal Models & Certification"
+    content : "Automated synthesis of cryptographic primitives and threshold protocols lay the foundation for auditable certification and continuous security guarantees."
 
 
 #########################  Teaching ###############################
