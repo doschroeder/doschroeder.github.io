@@ -13,7 +13,7 @@ about:
   title: "About Me"
   description: ""
   content: "
-  I am a full professor of Privacy Enhancing Technologies at the Technical University Wien in Vienna. Previously, I was a full professor at the Friedrich-Alexander University of Erlangen-Nuremberg and a tenured professor at the University of Saarland. I did a postdoc at the University of Maryland, USA with Jonathan Katz, my Ph.D. at the Technical University Darmstadt with Marc Fischlin, and my diploma at the Technical University Braunschweig. </br></br>
+  content: "I am a full professor of Privacy-Enhancing Technologies at TU Wien. My research aims to make security a design property — specified, verified, and certifiable — rather than an afterthought tested by audits. <br/><br/> I work at the intersection of cryptography, formal methods, and systems, with the goal of building infrastructures that are both innovative and trustworthy. My contributions span from password-hardened encryption and privacy-preserving analytics, to secure ledgers and messaging protocols, to automated tools for formal certification.  <br/><br/> At stake is not only technical correctness but societal legitimacy: citizens must trust that their data is safe, that services will not collapse under attack, and that privacy is a guarantee, not a luxury.</br></br>"
 
   **E-Mail: schroeder AA@TT me.com (replace AA@TT by @)**
  "
