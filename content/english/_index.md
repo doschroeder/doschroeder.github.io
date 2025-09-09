@@ -1,11 +1,10 @@
----
 ############################### Banner ##############################
 banner:
   enable: true
   bg_image: "images/slider-bg.jpg"
   bg_overlay: true
-  title: "Dominique Schr&ouml;der <br/> "
-  content: "Professor of Privacy Enhancing Technologies"
+  title: "Dominique Schr&ouml;der"
+  content: "Professor of Privacy-Enhancing Technologies<br/>Security by Design – Specified, Verified, Certifiable"
 
 ############################# About #################################
 about:
@@ -13,23 +12,26 @@ about:
   title: "About Me"
   description: ""
   content: "
-  content: "I am a full professor of Privacy-Enhancing Technologies at TU Wien. My research aims to make security a design property — specified, verified, and certifiable — rather than an afterthought tested by audits. <br/><br/> I work at the intersection of cryptography, formal methods, and systems, with the goal of building infrastructures that are both innovative and trustworthy. My contributions span from password-hardened encryption and privacy-preserving analytics, to secure ledgers and messaging protocols, to automated tools for formal certification.  <br/><br/> At stake is not only technical correctness but societal legitimacy: citizens must trust that their data is safe, that services will not collapse under attack, and that privacy is a guarantee, not a luxury.</br></br>"
-
+  I am a full professor of Privacy-Enhancing Technologies at TU Wien in Vienna.  
+  My research aims to make security a design property — specified, verified, and certifiable — rather than an afterthought tested by audits.  
+  <br/><br/>
+  I work at the intersection of cryptography, formal methods, and systems, with the goal of building infrastructures that are both innovative and trustworthy. My contributions span password-hardened encryption and privacy-preserving analytics, secure ledgers and messaging protocols, and automated tools for formal certification.  
+  <br/><br/>
+  At stake is not only technical correctness but also societal legitimacy: citizens must trust that their data is safe, that services will not collapse under attack, and that privacy is a guarantee, not a luxury.  
+  <br/><br/>
   **E-Mail: schroeder AA@TT me.com (replace AA@TT by @)**
  "
   button:
     enable: true
-    label: "Discover Our Project"
+    label: "Discover Our Projects"
     link: "project/"
-
   image: "images/Dominique-Schroeder.jpg"
 
 ######################### Research and Teaching ###############################
 research:
   bg_image: "images/bg-gray.jpg"
   title: "Research Interests"
-  content: "I am broadly interested in various topics across cryptography and its intersections with related areas such as privacy, theory, and formal methods. I'm passionate about the development of privacy-preserving techniques that have the potential to enhance security and privacy in practice. "
-  content2: "I love interacting with young and highly motivated people wishing to gain a deeper understanding. My goal as a teacher is the creating an environment where we jointly explore a topic, where everyone helps each other, and where mistakes are not a problem but a helpful element to understanding a subject better.  "
+  content: "My research is guided by one principle: security must be engineered into systems from the start. I pursue this vision across four main pillars that connect cryptography with real-world infrastructures."
   enable : true
   tabs:
   - name : "Human-Centered Privacy"
@@ -37,70 +39,48 @@ research:
   - name : "Privacy-Preserving Analytics"
     content : "Tools like conditional anonymity sets and visualAnon quantify privacy risks, while differential privacy methods make analytics trustworthy at scale."
   - name : "Ledgers, Payments & Messengers"
-    content : "From adaptor signatures and Omniring to the formal analysis of Threema, my work bridges cryptographic innovation with real-world protocols."
+    content : "From adaptor signatures and Omniring to the formal analysis of Threema, my work bridges cryptographic innovation with the protocols people use every day."
   - name : "Formal Models & Certification"
     content : "Automated synthesis of cryptographic primitives and threshold protocols lay the foundation for auditable certification and continuous security guarantees."
-
 
 #########################  Teaching ###############################
 teaching:
   bg_image: "images/bg-light-gray.jpg"
   title: "Teaching Activities"
-  content: "I love interacting with young and highly motivated people wishing to gain a deeper understanding. My goal as a teacher is the creating an environment where we jointly explore a topic, where everyone helps each other, and where mistakes are not a problem but a helpful element to understanding a subject better.  "
+  content: "I aim to create an environment where students and researchers jointly explore a topic, where mistakes are part of learning, and where curiosity drives discovery. My teaching connects theory with practice — from cryptographic foundations to secure system design."
   enable : true
   tabs:
-  - name : "Crypto"   
-    content : "lsd;lfs;'dlfd brasdds rLorem ipsum dolor sit amet, consectetur adipisicing elit. Inventore nobis ducimus facere repellat
-    harum, eius cupiditate, aliquam aut deserunt. Nemo illo ex impedit autem quod nobis architecto, velit
-    quasi, aut voluptas porro natus. Fuga magnam perspiciatis fugit, placeat possimus officia non ducimus
-    voluptatum aspernatur ad quidem neque accusantium repudiandae cupiditate nobis corporis, cum facere
-    iusto, modi cumque consectetur saepe. Officia, molestiae tempore! Consequatur ipsa consequuntur saepe
-    suscipit vero laudantium, mollitia, quaerat soluta nihil non tempore, quos dignissimos quasi ab officiis
-    illum numquam quibusdam ducimus, veritatis ad. Quia, aliquid. Quaerat quos ducimus ipsam amet minus
-    temporibus eos sequi alias hic nemo."
-    
+  - name : "Cryptography"   
+    content : "Introduction to cryptographic primitives, security models, and their proofs, with emphasis on bridging theoretical underpinnings and real-world use."
   - name : "Data Privacy"   
-    content : "veritatis ad. Quia, aliquid. Quaerat quos ducimus ipsam amet minus
-    temporibus eos sequi alias hic nemo."
-
-  - name : "Cryptocurrencies"   
-    content : "lsd;lfs;'dlfd brasdds rLorem ipsum dolor sit amet, consectetur adipisicing elit. Inventore nobis ducimus facere repellat
-    harum, eius cupiditate, aliquam aut deserunt. Nemo illo ex impedit autem quod nobis architecto, velit
-    quasi, aut voluptas porro natus. Fuga magnam perspiciatis fugit, placeat possimus officia non ducimus
-    voluptatum aspernatur ad quidem neque accusantium repudiandae cupiditate nobis corporis, cum facere
-    iusto, modi cumque consectetur saepe. Officia, molestiae tempore! Consequatur ipsa consequuntur saepe
-    suscipit vero laudantium, mollitia, quaerat soluta nihil non tempore, quos dignissimos quasi ab officiis
-    illum numquam quibusdam ducimus, veritatis ad. Quia, aliquid. Quaerat quos ducimus ipsam amet minus
-    temporibus eos sequi alias hic nemo."
-
-  - name : "Algorithms"   
-    content : "rLorem ipsum dolor sit amet, consectetur adipisicing elit. Inventore nobis ducimus facere repellat
-    harum, eius cupiditate, aliquam aut deserunt. Nemo illo ex impedit autem quod nobis architecto, velit
-    quasi, aut voluptas porro natus. Fuga magnam perspiciatis fugit, placeat possimus officia non ducimus
-    voluptatum aspernatur ad qu"
+    content : "Differential privacy, privacy-preserving data analysis, and their applications in healthcare and machine learning."
+  - name : "Cryptocurrencies & Distributed Systems"   
+    content : "Design and analysis of distributed ledgers, cryptocurrencies, and payment protocols, with a focus on scalability and privacy."
+  - name : "Algorithms & Formal Methods"   
+    content : "Efficient algorithms, complexity, and formal verification techniques that underpin modern cryptographic security guarantees."
 
 ######################### Recent Publications ###############################
 publications:
-  title: "Recent publications"
-  description: "Summmary of my recent publications"
-  content: "none"
+  title: "Recent Publications"
+  description: "Representative work across my four research pillars."
   enable: true
+  content: "
+  - Phoenix: Password-Hardened Encryption (USENIX Security 2017)  
+  - Conditional Anonymity Sets for Re-Identification Risk (PETS 2024)  
+  - Omniring: Scalable Confidential Transactions (ACM CCS 2019)  
+  - Adaptor Signatures: Formal Foundations (EUROCRYPT 2024)  
+  - Formal Security Analysis of the Threema IBEX Protocol (2023, with Gerhart and Rösler)  
+  "
 
-  ############################# Activities ############################
+############################# Activities ############################
 activities:
   bg_image: "images/bg-gray.jpg"
-  title: Recent Activities and Community Services 
+  title: "Recent Activities and Community Service"
   enable: true
-  # students content comes from "students.md" file
   tabs:
-    - name : "PC Memberships"
-      content : "I regularly serve on the leading cryptography and IT security conferences PCs, such as CRYPTO'23, EUROCRYPT'23, ACM CCS'23."
-
-    - name : "Reviews for Funding Agencies"
-      content : "The review of research proposals is also part of my activities, such as the ERC, DFG, and FWF."
-
-    - name : "Department Service"
-      content : "I also contribute to academic self-governance as an elected member of the Faculty Council, Deputy Speaker of the Department of Computer Science in the NCT, and the study committee for the part-time Bachelor of IT Security. "
-    
-
----
+    - name : "Program Committees"
+      content : "I regularly serve on the leading cryptography and IT security conference PCs, including CRYPTO, EUROCRYPT, and ACM CCS."
+    - name : "Funding Reviews"
+      content : "I review proposals for agencies such as the ERC, DFG, and FWF."
+    - name : "Academic Service"
+      content : "I contribute to academic self-governance as a faculty council member, deputy speaker, and member of study program committees."
