@@ -12,16 +12,26 @@ about:
   enable: true
   title: "About Me"
   description: ""
-  content: "
-  content: "I am a full professor of Privacy-Enhancing Technologies at TU Wien. My research aims to make security a design property — specified, verified, and certifiable — rather than an afterthought tested by audits. <br/><br/> I work at the intersection of cryptography, formal methods, and systems, with the goal of building infrastructures that are both innovative and trustworthy. My contributions span from password-hardened encryption and privacy-preserving analytics, to secure ledgers and messaging protocols, to automated tools for formal certification.  <br/><br/> At stake is not only technical correctness but societal legitimacy: citizens must trust that their data is safe, that services will not collapse under attack, and that privacy is a guarantee, not a luxury.</br></br>
+  content: |
+    I am a full professor of Privacy-Enhancing Technologies at TU Wien. My research
+    aims to make security a design property—specified, verified, and certifiable—
+    rather than an afterthought tested by audits.
 
-  **E-Mail: schroeder AA@TT me.com (replace AA@TT by @)**
- "
+    I work at the intersection of cryptography, formal methods, and systems, with
+    the goal of building infrastructures that are both innovative and trustworthy.
+    My contributions span password-hardened encryption and privacy-preserving
+    analytics, secure ledgers and messaging protocols, and automated tools for
+    formal certification.
+
+    At stake is not only technical correctness but societal legitimacy: citizens
+    must trust that their data is safe, that services will not collapse under
+    attack, and that privacy is a guarantee, not a luxury.
+
+    **E-Mail:** schroeder AA@TT me.com (replace AA@TT by @)
   button:
     enable: true
-    label: "Discover Our Project"
+    label: "Discover Our Projects"
     link: "project/"
-
   image: "images/Dominique-Schroeder.jpg"
 
 ######################### Research and Teaching ###############################
