@@ -27,7 +27,7 @@ We introduce a refined security model that accurately captures the challenges of
         published : CRYPTO
         pages:
         type: 0
-        myurl: 
+        myurl: 2025_A Fully-Adaptive Threshold Partially-Oblivious_PRF.pdf
         has_info : true 
         abstract : "" 
         #pdf: "https://eprint.iacr.org/2024/998.pdf"
