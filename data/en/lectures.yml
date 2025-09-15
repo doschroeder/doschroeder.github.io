@@ -2,12 +2,28 @@ lectures:
   items :
     - year: 2025
       lecture:
+      - title : IT Security & Law 
+        university: FAU
+        term : summer
+        turnus : Master
+        workload: 2 L 
+        content: "This course introduces the fundamentals of IT security, cryptography, and law, highlighting both the opportunities and challenges that arise as digital services become increasingly interconnected. Through practical examples such as blockchain, password-hardened encryption, and digital currencies, students will explore modern technologies, assess their security, and discuss their legal implications." 
+        image:  ""
+        pdf: 
       - title : Privacy Enhancing Technologies
         university: TUW
         term : summer
         turnus : BSC
         workload: 2 L + 1 EX
-        content: "This lecture gives an introduction to algorithms. The list of topics comprises analysis (running time and correctness) of algorithms, sorting, graph algorithms, page rank, AVL, and RB trees." 
+        content: "" 
+        image:  ""
+        pdf: 
+      - title : Data Privacy
+        university: FAU
+        term : summer
+        turnus : BSC
+        workload: 2 L 
+        content: "This course introduces key concepts and techniques of data privacy, from encryption and anonymous communication to advanced methods like differential privacy and homomorphic encryption. Combining theory with practical applications such as Signal, TLS, and the Tor network, it explores how privacy can be protected in a world of constant digital surveillance." 
         image:  ""
         pdf: 
       - title : Advanced Privacy Enhancing Technologies
@@ -20,22 +36,38 @@ lectures:
         pdf: 
     - year: 2024
       lecture:
-      - title : Introduction to Algorithms
-        university: FAU
-        term : summer
-        turnus : BSC
-        workload: 2 L + 1 EX
-        content: "This lecture gives an introduction to algorithms. The list of topics comprises analysis (running time and correctness) of algorithms, sorting, graph algorithms, page rank, AVL, and RB trees." 
-        image:  ""
-        pdf: 
-      - title : Data Privacy
-        university: FAU
-        term : summer
-        turnus : BSC/MSC
-        workload: seminar
-        content: "This seminar discusses recent results in the area of data privacy." 
-        image:  ""
-        pdf: 
+       - title : IT Security & Law 
+         university: FAU 
+         term : summer
+         turnus : Master
+         workload: 2 L 
+         content: "This course introduces the fundamentals of IT security, cryptography, and law, highlighting both the opportunities and challenges that arise as digital services become increasingly interconnected. Through practical examples such as blockchain, password-hardened encryption, and digital currencies, students will explore modern technologies, assess their security, and discuss their legal implications." 
+         image:  ""
+         pdf: 
+       - title : Blockchain und Kryptowährungen
+         university: FAU
+         term : winter
+         turnus : BSC
+         workload: 2 L 
+         content: "This course offers a comprehensive introduction to blockchain technology and cryptocurrencies, covering cryptographic foundations, consensus mechanisms, and practical implementations such as Bitcoin and alternative currencies like Monero and ZCash. Through lectures and a project, students gain both theoretical insights and hands-on experience, bridging the gap between conceptual understanding and practical realization."
+         image:  ""
+         pdf: 
+       - title : Introduction to Algorithms
+         university: FAU
+         term : summer
+         turnus : BSC
+         workload: 2 L + 1 EX
+         content: "This lecture gives an introduction to algorithms. The list of topics comprises analysis (running time and correctness) of algorithms, sorting, graph algorithms, page rank, AVL, and RB trees." 
+         image:  ""
+         pdf: 
+       - title : Data Privacy
+         university: FAU
+         term : summer
+         turnus : BSC/MSC
+         workload: seminar
+         content: "This seminar discusses recent results in the area of data privacy." 
+         image:  ""
+         pdf: 
     - year: 2023
       lecture:
       - title : Introduction to Algorithms
@@ -44,6 +76,14 @@ lectures:
         turnus : BSC
         workload: 2 L + 1 EX
         content: "This lecture gives an introduction to algorithms. The list of topics comprises analysis (running time and correctness) of algorithms, sorting, graph algorithms, page rank, AVL, and RB trees." 
+        image:  ""
+        pdf: 
+      - title : IT Security & Law 
+        university: FAU 
+        term : summer
+        turnus : Master
+        workload: 2 L 
+        content: "This course introduces the fundamentals of IT security, cryptography, and law, highlighting both the opportunities and challenges that arise as digital services become increasingly interconnected. Through practical examples such as blockchain, password-hardened encryption, and digital currencies, students will explore modern technologies, assess their security, and discuss their legal implications." 
         image:  ""
         pdf: 
       - title : Data Privacy
@@ -94,6 +134,14 @@ lectures:
         turnus : BSC/MSC
         workload: 2 L + 1 EX
         content: "This lecture gives a comprehensive introduction to modern cryptography. This class covers game-based security notions, private-key encryption, message authentication codes, PRGs, PRFs, public-key encryption, and key agreement. "
+        image:  ""
+        pdf: 
+      - title : Blockchain und Kryptowährungen
+        university: FAU
+        term : Winter
+        turnus : BSC
+        workload: 2 L + 1 EX
+        content: "This course offers a comprehensive introduction to blockchain technology and cryptocurrencies, covering cryptographic foundations, consensus mechanisms, and practical implementations such as Bitcoin and alternative currencies like Monero and ZCash. Through lectures and a project, students gain both theoretical insights and hands-on experience, bridging the gap between conceptual understanding and practical realization."
         image:  ""
         pdf: 
       - title : Privacy and Legal Aspects and Their Realizations 
@@ -194,6 +242,14 @@ lectures:
         turnus : BSC/MSC
         workload: 2 L + 1 EX
         content: "This lecture discusses different approaches towards privacy-preserving cryptocurrencies, such as mixing services, ring confidential transactions, and ZCash."
+        image:  ""
+        pdf: 
+      - title : Blockchain und Kryptowährungen
+        university: FAU
+        term : winter
+        turnus : BSC
+        workload: 2 L 
+        content: "This course offers a comprehensive introduction to blockchain technology and cryptocurrencies, covering cryptographic foundations, consensus mechanisms, and practical implementations such as Bitcoin and alternative currencies like Monero and ZCash. Through lectures and a project, students gain both theoretical insights and hands-on experience, bridging the gap between conceptual understanding and practical realization."
         image:  ""
         pdf: 
       - title : Research Oriented Cryptography
