@@ -1,6 +1,16 @@
 projects : 
   title: Projects
   item :
+    - title : "Unrestricted Gift"
+      sponsor : "Google"
+      duration : 10/2026 - 12/2028
+      role: PI
+      amount: "120.000 EUR"
+    - title : "Foundations and Applications of Resource-Restricted Cryptography "
+      sponsor : "WWTF"
+      duration : 01/2026 - 12/2029
+      role: PI
+      amount: "299.708  EUR"
     - title : "Confidential 6G"
       sponsor : "EU Horizon"
       duration : 01/2023 - 12/2026
