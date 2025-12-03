@@ -12,9 +12,10 @@ postdocs:
     - name : Dominic Deuber
       finished: true
       start: 03/2023
+      end: 06/2024
       pic: dominic.jpg
       url : https://www.chaac.tf.fau.eu/person/dominic-deuber/
-      nextpos :  
+      nextpos : "IT security expert at the German Accreditation Body"
 
     - name : Mojtaba Khalili
       finished: true

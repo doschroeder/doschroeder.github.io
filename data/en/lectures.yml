@@ -2,7 +2,7 @@ lectures:
   items :
     - year: 2025
       lecture:
-      - title : IT Security & Law 
+      - title : IT Security \& Law 
         university: FAU
         term : summer
         turnus : Master
@@ -36,7 +36,7 @@ lectures:
         pdf: 
     - year: 2024
       lecture:
-       - title : IT Security & Law 
+       - title : IT Security \& Law 
          university: FAU 
          term : summer
          turnus : Master
@@ -78,7 +78,7 @@ lectures:
         content: "This lecture gives an introduction to algorithms. The list of topics comprises analysis (running time and correctness) of algorithms, sorting, graph algorithms, page rank, AVL, and RB trees." 
         image:  ""
         pdf: 
-      - title : IT Security & Law 
+      - title : IT Security \& Law 
         university: FAU 
         term : summer
         turnus : Master
