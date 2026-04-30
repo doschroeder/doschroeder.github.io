@@ -48,8 +48,6 @@ font_icon = "Font Awesome 5 Free" # https://fontawesome.com/v5.15/icons/
 [[params.plugins.css]]
 link = "plugins/bootstrap/bootstrap.min.css"
 [[params.plugins.css]]
-link = "plugins/slick/slick.css"
-[[params.plugins.css]]
 link = "plugins/font-awesome/fontawesome.min.css"
 [[params.plugins.css]]
 link = "plugins/font-awesome/brands.css"
@@ -61,11 +59,3 @@ link = "plugins/font-awesome/solid.css"
 link = "plugins/jquery/jquery.min.js"
 [[params.plugins.js]]
 link = "plugins/bootstrap/bootstrap.min.js"
-[[params.plugins.js]]
-link = "plugins/slick/slick.min.js"
-[[params.plugins.js]]
-link = "plugins/shuffle/shuffle.min.js"
-[[params.plugins.js]]
-link = "plugins/google-map/gmap.js"
-[[params.plugins.js]]
-link = "plugins/webfont-loader/webfont-loader-2.min.js"

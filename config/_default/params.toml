@@ -11,6 +11,7 @@ navbar_fixed = false
 # OpenGraph / Twitter Card metadata
 description = "This is meta description"
 author = "Dominique Schr&ouml;der"
+twitterHandle = "doschroeder" # used in twitter:site meta tag; replaces deprecated .Site.Social
 image = "images/logo.png" # this image will be used as fallback if a page has no image of its own
 # Whether to display text descriptors (like "E-mail: ", "Phone: ") before the address block elements
 address_descriptors = false
@@ -35,14 +36,12 @@ custom_script= ""
 
 # Preloader
 [preloader]
-enable = true
+enable = false
 preloader = "" # use jpg, png, svg or gif format.
 
 # Navigation button
 [navigation_button]
-enable = true
-label = "get a quote"
-link = "contact"
+enable = false
 
 ######################## sidebar widgets #########################
 [widgets]

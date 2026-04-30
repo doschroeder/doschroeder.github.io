@@ -29,9 +29,7 @@ about:
 
     **E-Mail:** schroeder AA@TT me.com (replace AA@TT by @)
   button:
-    enable: true
-    label: "Discover Our Projects"
-    link: "project/"
+    enable: false
   image: "images/Dominique-Schroeder.jpg"
 
 ######################### Research and Teaching ###############################
@@ -60,40 +58,7 @@ research:
 
 #########################  Teaching ###############################
 teaching:
-  bg_image: "images/bg-light-gray.jpg"
-  title: "Teaching Activities"
-  content: "I love interacting with young and highly motivated people wishing to gain a deeper understanding. My goal as a teacher is the creating an environment where we jointly explore a topic, where everyone helps each other, and where mistakes are not a problem but a helpful element to understanding a subject better.  "
-  enable : true
-  tabs:
-  - name : "Crypto"   
-    content : "lsd;lfs;'dlfd brasdds rLorem ipsum dolor sit amet, consectetur adipisicing elit. Inventore nobis ducimus facere repellat
-    harum, eius cupiditate, aliquam aut deserunt. Nemo illo ex impedit autem quod nobis architecto, velit
-    quasi, aut voluptas porro natus. Fuga magnam perspiciatis fugit, placeat possimus officia non ducimus
-    voluptatum aspernatur ad quidem neque accusantium repudiandae cupiditate nobis corporis, cum facere
-    iusto, modi cumque consectetur saepe. Officia, molestiae tempore! Consequatur ipsa consequuntur saepe
-    suscipit vero laudantium, mollitia, quaerat soluta nihil non tempore, quos dignissimos quasi ab officiis
-    illum numquam quibusdam ducimus, veritatis ad. Quia, aliquid. Quaerat quos ducimus ipsam amet minus
-    temporibus eos sequi alias hic nemo."
-    
-  - name : "Data Privacy"   
-    content : "veritatis ad. Quia, aliquid. Quaerat quos ducimus ipsam amet minus
-    temporibus eos sequi alias hic nemo."
-
-  - name : "Cryptocurrencies"   
-    content : "lsd;lfs;'dlfd brasdds rLorem ipsum dolor sit amet, consectetur adipisicing elit. Inventore nobis ducimus facere repellat
-    harum, eius cupiditate, aliquam aut deserunt. Nemo illo ex impedit autem quod nobis architecto, velit
-    quasi, aut voluptas porro natus. Fuga magnam perspiciatis fugit, placeat possimus officia non ducimus
-    voluptatum aspernatur ad quidem neque accusantium repudiandae cupiditate nobis corporis, cum facere
-    iusto, modi cumque consectetur saepe. Officia, molestiae tempore! Consequatur ipsa consequuntur saepe
-    suscipit vero laudantium, mollitia, quaerat soluta nihil non tempore, quos dignissimos quasi ab officiis
-    illum numquam quibusdam ducimus, veritatis ad. Quia, aliquid. Quaerat quos ducimus ipsam amet minus
-    temporibus eos sequi alias hic nemo."
-
-  - name : "Algorithms"   
-    content : "rLorem ipsum dolor sit amet, consectetur adipisicing elit. Inventore nobis ducimus facere repellat
-    harum, eius cupiditate, aliquam aut deserunt. Nemo illo ex impedit autem quod nobis architecto, velit
-    quasi, aut voluptas porro natus. Fuga magnam perspiciatis fugit, placeat possimus officia non ducimus
-    voluptatum aspernatur ad qu"
+  enable : false
 
 ######################### Recent Publications ###############################
 publications:

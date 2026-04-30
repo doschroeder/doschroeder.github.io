@@ -64,12 +64,9 @@
 <meta name="twitter:title" content="{{ with .Title }}{{ . }}{{ else }}{{ site.Title }}{{ end }}" />
 <meta name="twitter:description"
   content="{{ with .Description }}{{ . }}{{ else }}{{ if .IsPage }}{{ .Summary }}{{ else }}{{ with site.Params.description }}{{ . }}{{ end }}{{ end }}{{ end }}" />
-{{ with site.Social.twitter }}
-<meta name="twitter:site" content="@{{ . }}" />{{ end }}
-{{ range site.Authors }}
-{{ with .twitter }}
+{{ with site.Params.twitterHandle }}
+<meta name="twitter:site" content="@{{ . }}" />
 <meta name="twitter:creator" content="@{{ . }}" />{{ end }}
-{{ end }}
 
 {{ template "_internal/opengraph.html" . }}
 
