@@ -3,6 +3,23 @@ publications:
   years:
     - year: 2026
       papers:
+      - title : "Fully Adaptive FROST with Identifiable Aborts from AOMDL"
+        authors : "Ruben Baecker, Paul Gerhart, Davide Li Calsi, Luigi Russo, Dominique Schröder, and Arkady Yerukhimovich"
+        published : ASIACRYPT
+        pages:
+        type: 0
+        pdf: "https://eprint.iacr.org/2025/1950.pdf"
+        has_info : true
+        abstract : "We present the first round-optimal Schnorr threshold signature scheme that achieves full adaptive security against algebraic adversaries, relying solely on the Algebraic One-More Discrete Log (AOMDL) assumption. Our scheme, FaFROST, builds on the FROST framework preserving its two-round signing structure and communication efficiency. By avoiding binding commitments to partial public keys, FaFROST circumvents the recent impossibility results from CRYPTO'25 and requires no reliance on the newly introduced, tailor-made LDVR assumption. This establishes that round-optimal, adaptively secure Schnorr threshold signatures are achievable under well-established algebraic assumptions."
+        myurl: 
+      - title : "Fair Distributed Exchange via Threshold Adaptor Signatures"
+        authors : "Ruben Baecker, Paul Gerhart, Jonathan Katz, and Dominique Schröder"
+        published : ASIACRYPT
+        pages:
+        type: 0
+        pdf: "https://eprint.iacr.org/2025/388.pdf"
+        has_info : false
+        myurl: 
       - title : "Universally Composable Adaptor Signatures"
         authors : "Paul Gerhart, Daniel Rausch, and Dominique Schröder"
         published : ACM CCS

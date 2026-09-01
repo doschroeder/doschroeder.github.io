@@ -4,7 +4,7 @@ projects :
     - title : "Unrestricted Gift"
       sponsor : "Google"
       duration : 10/2026 - 12/2028
-      role: PI
+      role: sole PI
       amount: "120.000 EUR"
     - title : "Foundations and Applications of Resource-Restricted Cryptography "
       sponsor : "WWTF"
