@@ -1,6 +1,17 @@
 publications: 
   title: Refereed Conference Proceedings
   years:
+    - year: 2027
+      papers:
+      - title : "BitPriv: A Privacy-Preserving Protocol for DeFi Applications on Bitcoin"
+        authors : "Ioannis Alexopoulos, Zeta Avarikioti, Paul Gerhart, Matteo Maffei, and Dominique Schröder"
+        published : NDSS
+        pages:
+        type: 0
+        pdf: "https://eprint.iacr.org/2025/1575.pdf"
+        has_info : true
+        abstract : "Bitcoin secures over a trillion dollars in assets but remains largely absent from decentralized finance (DeFi) due to its restrictive scripting language. The emergence of BitVM, which enables verification of arbitrary off-chain computations via on-chain fraud proofs, opens the door to expressive Bitcoin-native applications without altering consensus rules. A key challenge for smart contracts executed on a public blockchain, however, is the privacy of data: bid privacy is crucial in auctions, and transaction privacy underlies MEV-mitigation techniques such as proposer-builder separation. While solutions exist for Ethereum, none apply to Bitcoin. <br> In this work, we present BitPriv, the first Bitcoin-compatible protocol to condition payments on the outcome of a secure two-party computation (2PC). At its core is the Garbled Hashed Timelock Contract (GHTLC), a generalization of HTLCs that conditions payment on garbled-circuit output labels rather than arbitrary hash preimages. Parties lock collateral on-chain and evaluate a garbled circuit off-chain; a cut-and-choose mechanism deters misbehavior, and any violation is proven and punished on-chain via BitVM. This design achieves security against rational adversaries: deviation is irrational under financial penalties. <br> We showcase BitPriv through two applications: BitMarket, the first Bitcoin-native sealed-bid auction protocol, and BitBridge, an intent-based cross-chain bridge built by composing BitMarket with a SNARK-verifying settlement layer. Optimistic settlement completes for under $3 in fees in both applications; disputes cost $47-$363 depending on the BitVM backend, with their mere feasibility acting as a deterrent under our compliance analysis. BitPriv provides a blueprint for enforceable, privacy-preserving DeFi primitives on Bitcoin without trusted hardware, sidechains, or consensus changes."
+        myurl: 
     - year: 2026
       papers:
       - title : "Fully Adaptive FROST with Identifiable Aborts from AOMDL"
