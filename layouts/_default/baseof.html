@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{{ if not .IsHome }}{{ .Title }} · {{ end }}{{ site.Title }}</title>
+  <meta name="description" content="{{ .Description | default site.Params.description }}">
+  {{ if site.Params.localPreview }}<meta name="robots" content="noindex, nofollow">{{ end }}
+  <meta name="theme-color" content="#faf8f4">
+  <meta property="og:title" content="{{ if .IsHome }}{{ site.Title }}{{ else }}{{ .Title }} · {{ site.Title }}{{ end }}">
+  <meta property="og:description" content="{{ .Description | default site.Params.description }}">
+  <meta property="og:type" content="website">
+  <link rel="icon" href="{{ "favicon.ico" | relURL }}">
+  <link rel="preload" href="{{ "fonts/lora-regular.ttf" | relURL }}" as="font" type="font/ttf" crossorigin>
+  <link rel="preload" href="{{ "fonts/source-sans-3-regular.ttf" | relURL }}" as="font" type="font/ttf" crossorigin>
+  {{ $css := resources.Get "css/site.css" | minify | fingerprint }}
+  <link rel="stylesheet" href="{{ $css.RelPermalink }}" integrity="{{ $css.Data.Integrity }}">
+  {{ $js := resources.Get "js/site.js" | minify | fingerprint }}
+  <script defer src="{{ $js.RelPermalink }}" integrity="{{ $js.Data.Integrity }}"></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  {{ partial "header.html" . }}
+  <main id="main" class="shell" tabindex="-1">{{ block "main" . }}{{ end }}</main>
+  {{ partial "footer.html" . }}
+</body>
+</html>

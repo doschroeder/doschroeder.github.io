@@ -1,0 +1,4 @@
+{{ $page := . }}
+{{ range slice (dict "name" "Research" "url" "/research/") (dict "name" "Publications" "url" "/publications/") (dict "name" "Teaching" "url" "/teaching/") (dict "name" "About" "url" "/about/") (dict "name" "Contact" "url" "/contact/") }}
+<a href="{{ .url | relURL }}"{{ if eq $page.RelPermalink (.url | relURL) }} aria-current="page"{{ end }}>{{ .name }}</a>
+{{ end }}

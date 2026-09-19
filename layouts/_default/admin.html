@@ -1,0 +1,1 @@
+{{ define "main" }}{{ partial "page-heading.html" . }}<section class="page-section"><ul class="timeline">{{ range site.Data.en.admin.admin.items }}<li><span class="timeline-date">{{ .date }}</span><div><strong>{{ .name }}</strong></div></li>{{ end }}</ul></section>{{ end }}

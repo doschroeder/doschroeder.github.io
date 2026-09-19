@@ -1,7 +1,7 @@
----
-title: "Students"
-description: "Overview of current and graduated students"
-bg_image: "images/slider-bg.jpg"
-layout: "students"
-draft: false
----
+{
+  "title": "Students & researchers",
+  "description": "Doctoral supervision and postdoctoral research.",
+  "layout": "students"
+}
+
+

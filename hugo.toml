@@ -1,0 +1,25 @@
+baseURL = 'https://www.dominique-schroeder.de/'
+languageCode = 'en-US'
+title = 'Dominique Schröder'
+contentDir = 'content/english'
+enableRobotsTXT = true
+disableKinds = ['taxonomy', 'term', 'RSS']
+
+[params]
+description = 'Dominique Schröder, Professor of Privacy-Enhancing Technologies at TU Wien. Research in cryptography, privacy, and secure systems.'
+email = 'schroeder@me.com'
+localPreview = false
+
+[markup.goldmark.renderer]
+unsafe = true
+
+[imaging]
+quality = 85
+resampleFilter = 'Lanczos'
+
+[server]
+[[server.headers]]
+for = '/**'
+[server.headers.values]
+X-Robots-Tag = 'noindex, nofollow'
+Referrer-Policy = 'strict-origin-when-cross-origin'

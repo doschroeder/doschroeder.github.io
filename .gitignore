@@ -1,5 +1,12 @@
-
-images/.DS_Store
+/public/
+/resources/
+/.hugo_build.lock
 .DS_Store
-public/**
-/resources
+/.venv-cv/
+/output/cv/
+__pycache__/
+
+/output/data-backups/
+/output/data-cleanup-report.json
+
+.claude/settings.local.json

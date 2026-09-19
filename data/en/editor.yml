@@ -1,8 +1,7 @@
 editor:
-  title : Editorial Board
-  description: ""
-  items :
-    - name : "IACR Communications in Cryptology"
-      date : 2024 - 2026
-    - name : "ACM Transactions on Privacy and Security"
-      date : 2024
+  title: Editorial Board
+  items:
+  - name: IACR Communications in Cryptology
+    date: 2024 - 2026
+  - name: ACM Transactions on Privacy and Security
+    date: 2024

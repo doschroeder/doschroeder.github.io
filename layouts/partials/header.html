@@ -1,0 +1,8 @@
+<header class="site-header shell">
+  <a class="wordmark" href="{{ "/" | relURL }}" aria-label="Dominique Schröder — home">Dominique Schröder</a>
+  <nav class="desktop-nav" aria-label="Main navigation">{{ partial "nav-links.html" . }}</nav>
+  <details class="mobile-nav">
+    <summary>Menu <span class="menu-icon" aria-hidden="true"></span></summary>
+    <nav aria-label="Mobile navigation">{{ partial "nav-links.html" . }}<a href="{{ "/cv/" | relURL }}">CV</a><a href="{{ "/students/" | relURL }}">Students</a></nav>
+  </details>
+</header>

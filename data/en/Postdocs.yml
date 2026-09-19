@@ -1,42 +1,33 @@
 postdocs:
-  enable : true
+  enable: true
   title: Postdocs
-  list :
-    - name : Luigi Russo
-      finished: false
-      start: 07/2025
-      pic: 
-      url : https://pets.wien/people/luigirusso/
-      nextpos :  
-
-    - name : Dominic Deuber
-      finished: true
-      start: 03/2023
-      end: 06/2024
-      pic: dominic.jpg
-      url : https://www.chaac.tf.fau.eu/person/dominic-deuber/
-      nextpos : "IT security expert at the German Accreditation Body"
-
-    - name : Mojtaba Khalili
-      finished: true
-      pic: 
-      url: https://scholar.google.de/citations?user=mhUQAx0AAAAJ&hl=en
-      start: 09/2022
-      end: 09/2023
-      nextpos : Assistant Professor, Isfahan University of Technology
-
-    - name : Albrecht Petzoldt
-      finished: true
-      pic: 
-      url: https://scholar.google.de/citations?user=mhUQAx0AAAAJ&hl=en
-      start: 09/2019
-      end: 08/2022
-      nextpos : Dagstuhl
-    
-    - name : Bernardo Magri
-      finished: true
-      pic: 
-      url: https://bernardomagri.eu
-      start: 11/2016 
-      end: 11/2018
-      nextpos : Associate Professor at the University of Manchester, UK.
+  list:
+  - name: Luigi Russo
+    finished: false
+    start: 07/2025
+    url: https://pets.wien/people/luigirusso/
+  - name: Dominic Deuber
+    finished: true
+    start: 03/2023
+    end: 06/2024
+    pic: dominic.jpg
+    url: https://www.chaac.tf.fau.eu/person/dominic-deuber/
+    nextpos: IT security expert at the German Accreditation Body
+  - name: Mojtaba Khalili
+    finished: true
+    url: https://scholar.google.de/citations?user=mhUQAx0AAAAJ&hl=en
+    start: 09/2022
+    end: 09/2023
+    nextpos: Assistant Professor, Isfahan University of Technology
+  - name: Albrecht Petzoldt
+    finished: true
+    url: https://scholar.google.de/citations?user=mhUQAx0AAAAJ&hl=en
+    start: 09/2019
+    end: 08/2022
+    nextpos: Dagstuhl
+  - name: Bernardo Magri
+    finished: true
+    url: https://bernardomagri.eu
+    start: 11/2016
+    end: 11/2018
+    nextpos: Associate Professor at the University of Manchester, UK.

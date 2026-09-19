@@ -1,0 +1,10 @@
+{{ $url := "" }}
+{{ with .myurl }}
+  {{ if hasPrefix (string .) "https://" }}
+    {{ $url = . }}
+  {{ else if fileExists (printf "static/publications/%s" .) }}
+    {{ $url = (printf "/publications/%s" .) | relURL }}
+  {{ end }}
+{{ end }}
+{{ if not $url }}{{ with .pdf }}{{ if hasPrefix (string .) "https://" }}{{ $url = . }}{{ end }}{{ end }}{{ end }}
+{{ return $url }}

@@ -1,0 +1,67 @@
+{
+  "intro": "How can we compute on private data and share control of digital systems without trusting a single party?",
+  "description": "I design cryptographic protocols that distribute trust and protect sensitive information. My research asks how their security guarantees hold up when participants are compromised or protocols become part of larger systems.",
+  "research": [
+    {
+      "id": "human-centered-privacy",
+      "title": "Human-centered privacy",
+      "summary": "Helping people retain control over their data.",
+      "detail": "From password-hardened encryption to secure cloud storage and encrypted genomics, I design mechanisms that give users control while integrating with existing infrastructures. Usability and efficiency are as critical as theoretical guarantees."
+    },
+    {
+      "id": "privacy-preserving-analytics",
+      "title": "Privacy-preserving analytics",
+      "summary": "Learning from data while protecting individuals.",
+      "detail": "My work measures and mitigates privacy risks in data-driven services. Tools such as conditional anonymity sets quantify re-identification risks, while locally differentially private methods enable meaningful analytics without exposing raw data."
+    },
+    {
+      "id": "ledgers-payments-messengers",
+      "title": "Secure communication & payments",
+      "summary": "Cryptographic foundations for connected systems.",
+      "detail": "I study the cryptographic foundations of distributed ledgers and secure communication. Contributions include Omniring for scalable confidential transactions, adaptor signatures for payment channels, and the formal security analysis of the Threema messenger’s IBEX protocol."
+    },
+    {
+      "id": "formal-models-certification",
+      "title": "Formal models & certification",
+      "summary": "Making security guarantees precise and verifiable.",
+      "detail": "Composable models and automation help us reason about the security of complex systems. My work includes verifiable data streaming, automated synthesis of cryptographic primitives, and threshold protocols, with the long-term aim of auditable certification."
+    }
+  ],
+  "engagements": [
+    {
+      "institution": "German Bundestag",
+      "topic": "Health Committee expert hearings",
+      "years": "2019 · 2020 · 2023"
+    },
+    {
+      "institution": "Humboldt Foundation",
+      "topic": "Privacy of Medical Data",
+      "years": "2023"
+    },
+    {
+      "institution": "Leopoldina",
+      "topic": "Digitalisation and equitable healthcare",
+      "years": "2021"
+    }
+  ],
+  "hearings": [
+    {
+      "year": 2023,
+      "title": "Privacy and the use of health data",
+      "url": "https://www.bundestag.de/resource/blob/1017448/055_01-03-2023_INTERNET.pdf",
+      "linkLabel": "Hearing transcript"
+    },
+    {
+      "year": 2020,
+      "title": "Patient Data Protection Act (PDSG)",
+      "url": "https://www.bundestag.de/webarchiv/Ausschuesse/ausschuesse19/a14/anhoerungen/795866-795866",
+      "linkLabel": "Hearing record"
+    },
+    {
+      "year": 2019,
+      "title": "Digital Healthcare Act (DVG)",
+      "url": "https://www.bundestag.de/webarchiv/textarchiv/2019/kw42-pa-gesundheit-dvg-660398",
+      "linkLabel": "Hearing record"
+    }
+  ]
+}

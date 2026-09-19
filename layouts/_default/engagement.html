@@ -1,0 +1,11 @@
+{{ define "main" }}{{ partial "page-heading.html" . }}
+<div class="toc-layout">
+  <nav class="toc" aria-label="On this page"><p class="eyebrow">On this page</p><a href="#hearings">Expert hearings</a><a href="#talks">Selected talks</a><a href="{{ "/contact/" | relURL }}">Enquiries ↗</a></nav>
+  <div>
+    <section class="page-section" id="hearings"><h2>Parliamentary expert contributions</h2><div class="prose"><p>I have contributed independent expertise on privacy and the protection of health data to hearings of the German Bundestag’s Health Committee.</p></div>
+      <ul class="timeline">{{ range site.Data.editorial.hearings }}<li><span class="timeline-date">{{ .year }}</span><div><strong>{{ .title }}</strong><p>German Bundestag · Health Committee</p><a class="text-link" href="{{ .url }}">{{ .linkLabel }} ↗</a></div></li>{{ end }}</ul>
+    </section>
+    <section class="page-section" id="talks"><h2>Selected talks & appearances</h2><ul class="timeline">{{ range sort site.Data.en.talks.talks.items "year" "desc" }}<li><span class="timeline-date">{{ .year }}</span><div><strong>{{ .title }}</strong><p>{{ .location }}</p></div></li>{{ end }}</ul></section>
+    <section class="page-section"><h2>Working together</h2><div class="prose"><p>I welcome enquiries about research collaborations, talks, and technical questions arising in practice.</p><a class="text-link" href="{{ "/contact/" | relURL }}">Get in touch ↗</a></div></section>
+  </div>
+</div>{{ end }}

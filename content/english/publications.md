@@ -1,7 +1,7 @@
----
-title: "Publications"
-layout: publications
-bg_image: "images/slider-bg.jpg"
-description: "Overview over my publications"
-draft : false
----
+{
+  "title": "Publications",
+  "description": "Research papers in cryptography, privacy, and secure systems.",
+  "layout": "publications"
+}
+
+

@@ -1,149 +1,110 @@
 PhDStudents:
-  enable : true
+  enable: true
   title: PhD Students
-  list :
-    - name : Davide Li Calsi
-      finished: false
-      start: 2025
-      graduated : 
-      topic:  Distributed Systems
-      pic: 
-      url : https://pets.wien/people/davidelicalsi/
-      thesis: 
-      nextPos : 
-      currentPos:
-    - name : Ruben Baecker
-      finished: false
-      start: 2023
-      graduated : 
-      topic:  Privacy-Preserving Access Control
-      pic: Ruben.jpg
-      url : https://www.chaac.tf.fau.de/
-      thesis: 
-      nextPos : 
-      currentPos:
-    - name : Julian Thomas
-      finished: false
-      start: 2023
-      graduated : 
-      topic: Formalizations of privacy-enhancing cryptographic primitives 
-      pic: Julian.jpg
-      url : https://www.chaac.tf.fau.de/
-      thesis: 
-      nextPos : 
-      currentPos:
-    - name : Paul Gerhart
-      finished: false
-      start: 2022
-      graduated : 
-      topic: Fair exchange, optimized Blockchain protocols and privacy
-      pic: paul.jpg
-      url : https://www.chaac.tf.fau.de/person/paul-gerhart/
-      thesis: 
-      nextPos : 
-      currentPos:
-    - name : Hien Chu
-      finished: false
-      start: 2021
-      graduated : 
-      topic: Privacy-preserving techniques, threshold cryptography
-      pic: hien.jpg
-      url : https://www.chaac.tf.fau.eu/person/hien-chu/
-      thesis: 
-      nextPos : 
-      currentPos:
-# Finished 
-    - name : Victoria Ronge
-      finished: true
-      start: 2018
-      graduated : 2023
-      topic: Security and Privacy of Cryptocurrency Signatures
-      pic: vicky.jpg
-      url : https://www.chaac.tf.fau.de/person/paul-gerhart/
-      thesis: Security and Privacy of Cryptocurrency Signatures
-      nextPos : Industry 
-      currentPos: Industry
-    - name : Dominic Deuber
-      finished: true
-      start: 2017
-      graduated : 2023
-      topic: Legal aspects of cryptocurrencies and their technical realization 
-      pic: dominic.jpg
-      url : https://www.chaac.tf.fau.eu/person/dominic-deuber/
-      thesis: "Cryptocurrencies Within The Conflicting Tension Between Law and IT Security"
-      nextPos : "Postdoc at FAU"
-      currentPos: "Industry"
-
-    - name : Russel W. F. Lai
-      finished: true 
-      start: 2017
-      graduated : 2022
-      pic: russell.jpg
-      url: http://russell-lai.hk
-      thesis: "Succinct Arguments: Constructions and Applications"
-      nextPos : "Assistant Professor at Aalto University"
-      currentPos: Assistant Professor at Aalto University
-      comments: 
-      
-    - name : Christoph Egger
-      finished: true 
-      pic: christoph.jpg
-      url: https://christoph-egger.org
-      start: 2016
-      graduated : 2022
-      thesis: On Abstraction and Modularization in Protocol Analysis
-      nextPos :  "Researcher at Institut de Recherche en Inf. Fondamentale"
-      currentPos: "Assistant Professor at Chalmers University of Technology"
-      comments: 
-
-    - name : Sri Aravinda Krishnan Thyagarajan
-      finished: true 
-      pic: aravinda.jpg
-      url: https://sites.google.com/view/sak-thyagarajan
-      start: 2016
-      graduated : 2021
-      thesis: Cryptographic Locks for Scriptless Cryptocurrency Payments
-      nextPos : "Postdoc at Carnegie Mellon University"
-      currentPos: Assistant Professor at the University of Sydney 
-      comments: 
-
-    - name : Guilio Malavolta
-      url : https://sites.google.com/view/giuliomalavolta/
-      pic: giulio.jpg
-      finished: true 
-      start: 2013
-      graduated : 2019
-      thesis: Cryptographic Clocks and Applications
-      nextPos : "UC Berkeley and Carnegie Mellon University"
-      currentPos: "Assistant Professor Bocconi University"
-      comments: 
-    - name : Oliver Willers
-      finished: true 
-      start: 2015
-      graduated : 2019
-      thesis: "MEMS Sensors As Physical Unclonable Functions"
-      nextPos : Bosch
-      currentPos: Bosch
-      pic: oliver.jpg
-      comments: 
-    - name : Tim Ruffing 
-      finished: true 
-      start: 2014
-      graduated : 2019
-      thesis: Cryptography for Bitcoin and Friends
-      nextPos : "Blockstream"
-      currentPos: "Blockstream"
-      url: https://twitter.com/real_or_random
-      pic: tim.jpg
-      comments: 
-
-    - name : Nils Fleischhacker 
-      finished: true 
-      start: 2012
-      graduated : 2016
-      thesis: Minimal Assumptions in Cryptography
-      url : http://nilsfleischhacker.de
-      pic : nils.jpg
-      nextPos :  "Postdoc at Carnegie Mellon University and  Johns Hopkins University"
-      currentPos: "Assistant Professor at Ruhr University Bochum"
-   
+  list:
+  - name: Davide Li Calsi
+    finished: false
+    start: 2025
+    topic: Distributed Systems
+    url: https://pets.wien/people/davidelicalsi/
+  - name: Ruben Baecker
+    finished: false
+    start: 2023
+    topic: Privacy-Preserving Access Control
+    pic: Ruben.jpg
+    url: https://www.chaac.tf.fau.de/
+  - name: Julian Thomas
+    finished: false
+    start: 2023
+    topic: Formalizations of privacy-enhancing cryptographic primitives
+    pic: Julian.jpg
+    url: https://www.chaac.tf.fau.de/
+  - name: Paul Gerhart
+    finished: false
+    start: 2022
+    topic: Fair exchange, optimized Blockchain protocols and privacy
+    pic: paul.jpg
+    url: https://www.chaac.tf.fau.de/person/paul-gerhart/
+  - name: Hien Chu
+    finished: false
+    start: 2021
+    topic: Privacy-preserving techniques, threshold cryptography
+    pic: hien.jpg
+    url: https://www.chaac.tf.fau.eu/person/hien-chu/
+  - name: Victoria Ronge
+    finished: true
+    start: 2018
+    graduated: 2023
+    pic: vicky.jpg
+    url: https://www.chaac.tf.fau.de/person/paul-gerhart/
+    thesis: Security and Privacy of Cryptocurrency Signatures
+    currentPos: Industry
+  - name: Dominic Deuber
+    finished: true
+    start: 2017
+    graduated: 2023
+    topic: Legal aspects of cryptocurrencies and their technical realization
+    pic: dominic.jpg
+    url: https://www.chaac.tf.fau.eu/person/dominic-deuber/
+    thesis: Cryptocurrencies Within The Conflicting Tension Between Law and IT Security
+    nextPos: Postdoc at FAU
+    currentPos: Industry
+  - name: Russel W. F. Lai
+    finished: true
+    start: 2017
+    graduated: 2022
+    pic: russell.jpg
+    url: http://russell-lai.hk
+    thesis: 'Succinct Arguments: Constructions and Applications'
+    currentPos: Assistant Professor at Aalto University
+  - name: Christoph Egger
+    finished: true
+    pic: christoph.jpg
+    url: https://christoph-egger.org
+    start: 2016
+    graduated: 2022
+    thesis: On Abstraction and Modularization in Protocol Analysis
+    nextPos: Researcher at Institut de Recherche en Inf. Fondamentale
+    currentPos: Assistant Professor at Chalmers University of Technology
+  - name: Sri Aravinda Krishnan Thyagarajan
+    finished: true
+    pic: aravinda.jpg
+    url: https://sites.google.com/view/sak-thyagarajan
+    start: 2016
+    graduated: 2021
+    thesis: Cryptographic Locks for Scriptless Cryptocurrency Payments
+    nextPos: Postdoc at Carnegie Mellon University
+    currentPos: Assistant Professor at the University of Sydney
+  - name: Guilio Malavolta
+    url: https://sites.google.com/view/giuliomalavolta/
+    pic: giulio.jpg
+    finished: true
+    start: 2013
+    graduated: 2019
+    thesis: Cryptographic Clocks and Applications
+    nextPos: UC Berkeley and Carnegie Mellon University
+    currentPos: Assistant Professor Bocconi University
+  - name: Oliver Willers
+    finished: true
+    start: 2015
+    graduated: 2019
+    thesis: MEMS Sensors As Physical Unclonable Functions
+    currentPos: Bosch
+    pic: oliver.jpg
+  - name: Tim Ruffing
+    finished: true
+    start: 2014
+    graduated: 2019
+    thesis: Cryptography for Bitcoin and Friends
+    currentPos: Blockstream
+    url: https://twitter.com/real_or_random
+    pic: tim.jpg
+  - name: Nils Fleischhacker
+    finished: true
+    start: 2012
+    graduated: 2016
+    thesis: Minimal Assumptions in Cryptography
+    url: http://nilsfleischhacker.de
+    pic: nils.jpg
+    nextPos: Postdoc at Carnegie Mellon University and  Johns Hopkins University
+    currentPos: Assistant Professor at Ruhr University Bochum

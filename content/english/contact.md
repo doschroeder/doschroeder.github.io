@@ -1,7 +1,7 @@
----
-title: "Drop Me A Note"
-description: ""
-bg_image: "images/feature-bg.jpg"
-layout: "contact"
-draft: false
----
+{
+  "title": "Contact",
+  "description": "Research collaborations, speaking invitations, and technical enquiries.",
+  "layout": "contact"
+}
+
+

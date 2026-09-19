@@ -1,0 +1,8 @@
+#!/bin/sh
+set -eu
+CV_ROOT=$(git rev-parse --show-toplevel)
+if [ ! -x "$CV_ROOT/.venv-cv/bin/python" ]; then
+  echo 'CV environment missing. Run ./setup-cv.command before committing.' >&2
+  exit 1
+fi
+exec "$CV_ROOT/.venv-cv/bin/python" "$CV_ROOT/scripts/refresh_cv_for_commit.py"

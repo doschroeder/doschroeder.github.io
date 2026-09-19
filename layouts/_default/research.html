@@ -1,0 +1,4 @@
+{{ define "main" }}{{ partial "page-heading.html" . }}
+<div class="research-details">{{ range site.Data.editorial.research }}<section class="research-detail" id="{{ .id }}"><h2>{{ .title }}</h2><p>{{ .detail }}</p></section>{{ end }}
+<div class="link-group"><a class="text-link" href="https://pets.wien/">Research group at TU Wien <span aria-hidden="true">↗</span></a><a class="text-link" href="{{ "/publications/" | relURL }}">Explore publications ↗</a><a class="text-link" href="{{ "/students/" | relURL }}">Students & researchers ↗</a><a class="text-link" href="{{ "/contact/" | relURL }}">Discuss a research question ↗</a></div></div>
+{{ end }}

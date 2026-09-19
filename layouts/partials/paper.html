@@ -1,0 +1,10 @@
+{{ $paper := .paper }}{{ $url := partial "paper-link.html" $paper }}
+<article class="paper{{ if .compact }} paper-compact{{ end }}"{{ if not .compact }} data-paper data-search="{{ printf "%s %s %v %v" $paper.title $paper.authors $paper.published .year | plainify | lower }}" id="paper-{{ .year }}-{{ .index }}-{{ $paper.title | urlize }}"{{ end }}>
+  <div class="paper-copy">
+    <h3>{{ $paper.title }}</h3>
+    {{ if not .compact }}<p class="authors">{{ $paper.authors }}</p>{{ end }}
+    {{ if and (not .compact) $paper.abstract }}<details class="abstract"><summary>Abstract</summary><div class="prose">{{ $paper.abstract | markdownify }}</div></details>{{ end }}
+  </div>
+  <p class="paper-venue">{{ $paper.published }} <span>{{ .year }}</span></p>
+  {{ with $url }}<a class="text-link paper-download" href="{{ . }}" aria-label="Read {{ $paper.title }}">Paper <span aria-hidden="true">↗</span></a>{{ end }}
+</article>

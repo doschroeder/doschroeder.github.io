@@ -1,0 +1,8 @@
+{{ define "main" }}{{ partial "page-heading.html" . }}
+{{ $students := site.Data.en.PhDStudents.PhDStudents.list }}
+{{ range slice false true }}{{ $finished := . }}
+<section class="page-section"><h2>{{ if $finished }}Graduated doctoral students{{ else }}Doctoral students{{ end }}</h2><div class="students-grid">
+{{ range $students }}{{ if eq .finished $finished }}<article class="student"><p class="meta">{{ .start }}{{ if $finished }} – {{ .graduated }}{{ else }} – present{{ end }}</p><h3>{{ with .url }}<a href="{{ . }}">{{ end }}{{ .name }}{{ if .url }}</a>{{ end }}</h3><p>{{ if $finished }}{{ .thesis }}{{ else }}{{ .topic }}{{ end }}</p>{{ with .nextPos }}<p>Next position: {{ . }}</p>{{ end }}{{ with .currentPos }}<p>Current position: {{ . }}</p>{{ end }}</article>{{ end }}{{ end }}
+</div></section>{{ end }}
+<section class="page-section"><h2>Postdoctoral researchers</h2><div class="students-grid">{{ range site.Data.en.Postdocs.postdocs.list }}<article class="student"><p class="meta">{{ .start }}{{ if .finished }}{{ with .end }} – {{ . }}{{ end }}{{ else }} – present{{ end }}</p><h3>{{ with .url }}<a href="{{ . }}">{{ end }}{{ .name }}{{ if .url }}</a>{{ end }}</h3>{{ with .nextpos }}<p>Next position: {{ . }}</p>{{ end }}</article>{{ end }}</div></section>
+{{ end }}

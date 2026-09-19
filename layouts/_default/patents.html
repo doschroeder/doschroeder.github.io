@@ -1,0 +1,1 @@
+{{ define "main" }}{{ partial "page-heading.html" . }}{{ range site.Data.en.patents.patents.years }}<section class="page-section"><h2>{{ .year }}</h2>{{ range .papers }}<article class="prose"><h3>{{ .title }}</h3><p>{{ .authors }}</p><p>{{ .office }} {{ .number }} · Application {{ .applicationID }}</p><p>{{ .abstract }}</p></article>{{ end }}</section>{{ end }}{{ end }}

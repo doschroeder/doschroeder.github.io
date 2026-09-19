@@ -1,125 +1,107 @@
 phdcomm:
-  title : Phd Committees
-  description: 
-  items :
-    - year: 2024
-      candidate:
-      - name : Jenny Ottmann
-        role : 3rd reviewer 
-        institution: Friedrich-Alexander Universität Erlangen-Nürnberg 
-        shortinstitution: FAU
-
-      - name : Swaroop Ready 
-        role : 2nd reviewer 
-        institution: Indian Institute of Technology, Hyderabad
-        shortinstitution: IIT Hyderabad
-        
-    - year: 2023
-      candidate:
-      - name : Victoria Ronge
-        role : advisor
-        institution: Friedrich-Alexander Universität Erlangen-Nürnberg 
-        shortinstitution: FAU
-
-      - name : Dominic Deuber
-        role : advisor
-        institution: Friedrich-Alexander Universität Erlangen-Nürnberg 
-        shortinstitution: FAU
-    - year: 2022
-      candidate:
-      - name : Franz-Josef Streit
-        role : chair of the commission
-        institution: Friedrich-Alexander Universität Erlangen-Nürnberg 
-        shortinstitution: FAU
-
-      - name : Christoph Egger
-        role : advisor 
-        institution: Friedrich-Alexander Universität Erlangen-Nürnberg 
-        shortinstitution: FAU
-
-      - name : Russell W. F. Lai
-        role : advisor 
-        institution: Friedrich-Alexander Universität Erlangen-Nürnberg 
-        shortinstitution: FAU
-    - year: 2021
-      candidate:
-      - name : Sri Aravinda Krishnan Thyagarajan
-        role : advisor 
-        institution: Friedrich-Alexander Universität Erlangen-Nürnberg 
-        shortinstitution: FAU
-
-      - name : Markus Zoppelt
-        role : 1st reviewer 
-        institution: Friedrich-Alexander Universität Erlangen-Nürnberg 
-        shortinstitution: FAU
-
-      - name : Katja Auernhammer
-        role : 3rd reviewer
-        institution: Friedrich-Alexander Universität Erlangen-Nürnberg 
-        shortinstitution: FAU
-
-      - name : Kristof Teichel 
-        role : 2nd reviewer 
-        institution: Friedrich-Alexander Universität Erlangen-Nürnberg 
-        shortinstitution: FAU
-    - year: 2020
-      candidate:
-      - name : Daniel Rausch
-        role : 2nd Reviewer
-        institution: Universität Stuttgart
-        shortinstitution:  Stuttgart University
-
-    - year: 2019
-      candidate:
-      - name : Guilio Malavolta
-        role : advisor
-        institution: Friedrich-Alexander Universität Erlangen-Nürnberg 
-        shortinstitution: FAU
-
-      - name : Oliver Willers
-        role : 1st reviewer, co-advisor 
-        institution: Saarland University 
-        shortinstitution: Saarland University 
-
-      - name : Tim Ruffing
-        role : co-advisor 
-        institution: Saarland University 
-        shortinstitution: Saarland University 
-
-    - year: 2018
-      candidate:
-        - name : Andrea Zimmermann 
-          role : external examiner
-          institution: Friedrich-Alexander Universität Erlangen-Nürnberg 
-          shortinstitution: FAU
-
-    - year: 2017
-      candidate:
-      - name : Nils Fleischhacker 
-        role : advisor
-        institution: Saarland University 
-        shortinstitution: Saarland University 
-
-      - name : Yan Zhuang
-        role :  chair of the commission
-        institution: Friedrich-Alexander Universität Erlangen-Nürnberg 
-        shortinstitution: FAU
-
-      - name : Mykolai Protsenko
-        role : chair of the commission
-        institution: Friedrich-Alexander Universität Erlangen-Nürnberg 
-        shortinstitution: FAU
-  
-    - year: 2015
-      candidate:
-      - name : Thomas P. Jakobsen
-        role : 2nd reviewer
-        institution: Aarhus University, Denmark
-        shortinstitution: Aarhus Univ.
-
-    - year: 2014
-      candidate:
-      - name : Esfandiar Mohammadi
-        role : 2nd reviewer 
-        institution: Saarland University
-        shortinstitution: Saarland University 
+  title: Phd Committees
+  items:
+  - year: 2024
+    candidate:
+    - name: Jenny Ottmann
+      role: 3rd reviewer
+      institution: Friedrich-Alexander Universität Erlangen-Nürnberg
+      shortinstitution: FAU
+    - name: Swaroop Ready
+      role: 2nd reviewer
+      institution: Indian Institute of Technology, Hyderabad
+      shortinstitution: IIT Hyderabad
+  - year: 2023
+    candidate:
+    - name: Victoria Ronge
+      role: advisor
+      institution: Friedrich-Alexander Universität Erlangen-Nürnberg
+      shortinstitution: FAU
+    - name: Dominic Deuber
+      role: advisor
+      institution: Friedrich-Alexander Universität Erlangen-Nürnberg
+      shortinstitution: FAU
+  - year: 2022
+    candidate:
+    - name: Franz-Josef Streit
+      role: chair of the commission
+      institution: Friedrich-Alexander Universität Erlangen-Nürnberg
+      shortinstitution: FAU
+    - name: Christoph Egger
+      role: advisor
+      institution: Friedrich-Alexander Universität Erlangen-Nürnberg
+      shortinstitution: FAU
+    - name: Russell W. F. Lai
+      role: advisor
+      institution: Friedrich-Alexander Universität Erlangen-Nürnberg
+      shortinstitution: FAU
+  - year: 2021
+    candidate:
+    - name: Sri Aravinda Krishnan Thyagarajan
+      role: advisor
+      institution: Friedrich-Alexander Universität Erlangen-Nürnberg
+      shortinstitution: FAU
+    - name: Markus Zoppelt
+      role: 1st reviewer
+      institution: Friedrich-Alexander Universität Erlangen-Nürnberg
+      shortinstitution: FAU
+    - name: Katja Auernhammer
+      role: 3rd reviewer
+      institution: Friedrich-Alexander Universität Erlangen-Nürnberg
+      shortinstitution: FAU
+    - name: Kristof Teichel
+      role: 2nd reviewer
+      institution: Friedrich-Alexander Universität Erlangen-Nürnberg
+      shortinstitution: FAU
+  - year: 2020
+    candidate:
+    - name: Daniel Rausch
+      role: 2nd Reviewer
+      institution: Universität Stuttgart
+      shortinstitution: Stuttgart University
+  - year: 2019
+    candidate:
+    - name: Guilio Malavolta
+      role: advisor
+      institution: Friedrich-Alexander Universität Erlangen-Nürnberg
+      shortinstitution: FAU
+    - name: Oliver Willers
+      role: 1st reviewer, co-advisor
+      institution: Saarland University
+      shortinstitution: Saarland University
+    - name: Tim Ruffing
+      role: co-advisor
+      institution: Saarland University
+      shortinstitution: Saarland University
+  - year: 2018
+    candidate:
+    - name: Andrea Zimmermann
+      role: external examiner
+      institution: Friedrich-Alexander Universität Erlangen-Nürnberg
+      shortinstitution: FAU
+  - year: 2017
+    candidate:
+    - name: Nils Fleischhacker
+      role: advisor
+      institution: Saarland University
+      shortinstitution: Saarland University
+    - name: Yan Zhuang
+      role: chair of the commission
+      institution: Friedrich-Alexander Universität Erlangen-Nürnberg
+      shortinstitution: FAU
+    - name: Mykolai Protsenko
+      role: chair of the commission
+      institution: Friedrich-Alexander Universität Erlangen-Nürnberg
+      shortinstitution: FAU
+  - year: 2015
+    candidate:
+    - name: Thomas P. Jakobsen
+      role: 2nd reviewer
+      institution: Aarhus University, Denmark
+      shortinstitution: Aarhus Univ.
+  - year: 2014
+    candidate:
+    - name: Esfandiar Mohammadi
+      role: 2nd reviewer
+      institution: Saarland University
+      shortinstitution: Saarland University

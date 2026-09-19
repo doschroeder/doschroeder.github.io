@@ -1,0 +1,5 @@
+{{ define "main" }}{{ partial "page-heading.html" . }}
+{{ $data := site.Data.en }}
+{{ range slice $data.pchairs.pchairs $data.pc.pc $data.grants.grants $data.editor.editor }}<section class="page-section"><h2>{{ .title }}</h2>{{ with .description }}<div class="prose"><p>{{ . }}</p></div>{{ end }}<ul class="timeline">{{ range .items }}<li><span class="timeline-date">{{ .date }}</span><div><strong>{{ .name }}</strong></div></li>{{ end }}</ul></section>{{ end }}
+<div class="page-section link-group"><a class="text-link" href="{{ "/admin/" | relURL }}">Administrative service ↗</a><a class="text-link" href="{{ "/cv/" | relURL }}">Curriculum vitae ↗</a></div>
+{{ end }}

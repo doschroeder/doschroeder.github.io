@@ -1,0 +1,8 @@
+{{ $source := resources.Get "images/portrait.jpg" }}
+{{ $small := $source.Fill "400x480 webp Center" }}
+{{ $medium := $source.Fill "640x768 webp Center" }}
+{{ $large := $source.Fill "960x1152 webp Center" }}
+<figure class="portrait">
+  <img src="{{ $medium.RelPermalink }}" srcset="{{ $small.RelPermalink }} 400w, {{ $medium.RelPermalink }} 640w, {{ $large.RelPermalink }} 960w" sizes="(max-width: 600px) calc(100vw - 48px), (max-width: 900px) 34vw, 360px" width="640" height="768" alt="Dominique Schröder" fetchpriority="high">
+  <figcaption>TU Wien <span aria-hidden="true">·</span> Vienna, Austria</figcaption>
+</figure>

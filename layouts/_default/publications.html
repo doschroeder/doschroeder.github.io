@@ -1,0 +1,14 @@
+{{ define "main" }}
+{{ partial "page-heading.html" . }}
+<form class="filters" data-publication-filters hidden role="search" aria-label="Search publications">
+  <div class="field field-search"><label for="paper-search">Search by title, author or venue</label><input id="paper-search" type="search" placeholder="For example: privacy, FROST, EUROCRYPT" autocomplete="off"></div>
+  <div class="field field-year"><label for="paper-year">Year</label><select id="paper-year"><option value="">All years</option>{{ range site.Data.en.publications.publications.years }}<option value="{{ .year }}">{{ .year }}</option>{{ end }}</select></div>
+  <button class="reset-button" type="reset">Clear filters</button>
+</form>
+<p class="result-count" data-result-count role="status" aria-live="polite" aria-atomic="true"></p>
+{{ range site.Data.en.publications.publications.years }}
+  <section class="publication-year" data-year="{{ .year }}" aria-labelledby="year-{{ .year }}"><h2 id="year-{{ .year }}">{{ .year }}</h2>
+  {{ $year := .year }}{{ range $index, $paper := .papers }}{{ partial "paper.html" (dict "paper" $paper "year" $year "index" $index "compact" false) }}{{ end }}</section>
+{{ end }}
+<div class="empty-state" data-empty hidden><h2>No publications found.</h2><p>Try another keyword or clear the filters.</p></div>
+{{ end }}
