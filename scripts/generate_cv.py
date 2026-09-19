@@ -117,7 +117,7 @@ def build_sections(site):
     for key,filename,title in [('chairs','pchairs','Conference leadership'),('editorial','editor','Editorial boards'),('program-committees','pc','Program committees (selected)'),('grant-reviewing','grants','Grant reviewing'),('journal-reviewing','journal','Journal reviewing'),('administration','admin','Administrative service')]:
         add(key,title,((dates(x.get('date')),x['name'],'',None) for x in d(filename,filename)))
     add('doctoral-committees','Doctoral committees',((g['year'],x['name'],joined(x.get('role'),x.get('institution')),None) for g in d('PhDCommittee','phdcomm') for x in g['candidate']))
-    add('public-service','Expert contributions and public service',((x['year'],'German Bundestag · Health Committee', 'Independent expert contribution: '+clean(x['title']), x.get('url')) for x in site.editorial['hearings']))
+    add('public-service','Expert contributions and public service',((x['year'],'Deutscher Bundestag · Health Committee', 'Independent expert contribution: '+clean(x['title']), x.get('url')) for x in site.editorial['hearings']))
     add('talks','Selected talks and appearances',((x['year'],x['title'],x.get('location'),None) for x in sorted(d('talks','talks'),key=lambda x:int(x['year']),reverse=True)))
     return sections
 
