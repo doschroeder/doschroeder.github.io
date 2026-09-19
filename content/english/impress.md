@@ -12,7 +12,7 @@ Fürther Str. 246C<BR>
 <br>
 
 <P>Telefon: 0911530296650 <br>
-E-Mail: dominique.schroeder@fau.de<br></P>
+E-Mail: dominique.schroeder@tuwien.ac.at<br></P>
 <br>
 <b>Umsatzsteuer-ID: </b><br>
   <P>Umsatzsteuer-Identifikationsnummer nach §27a Umsatzsteuergesetz: <br>

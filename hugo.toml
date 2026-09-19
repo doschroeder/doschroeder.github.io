@@ -7,7 +7,7 @@ disableKinds = ['taxonomy', 'term', 'RSS']
 
 [params]
 description = 'Dominique Schröder, Professor of Privacy-Enhancing Technologies at TU Wien. Research in cryptography, privacy, and secure systems.'
-email = 'schroeder@me.com'
+email = 'dominique.schroeder@tuwien.ac.at'
 localPreview = false
 
 [markup.goldmark.renderer]
