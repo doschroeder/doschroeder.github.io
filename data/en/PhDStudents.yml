@@ -39,6 +39,7 @@ PhDStudents:
     url: https://www.chaac.tf.fau.de/person/paul-gerhart/
     thesis: Security and Privacy of Cryptocurrency Signatures
     currentPos: Industry
+    nextPos: Industry
   - name: Dominic Deuber
     finished: true
     start: 2017
@@ -57,6 +58,7 @@ PhDStudents:
     url: http://russell-lai.hk
     thesis: 'Succinct Arguments: Constructions and Applications'
     currentPos: Assistant Professor at Aalto University
+    nextPos: Assistant Professor at Aalto University
   - name: Christoph Egger
     finished: true
     pic: christoph.jpg
@@ -91,6 +93,7 @@ PhDStudents:
     thesis: MEMS Sensors As Physical Unclonable Functions
     currentPos: Bosch
     pic: oliver.jpg
+    nextPos: Bosch
   - name: Tim Ruffing
     finished: true
     start: 2014
@@ -99,6 +102,7 @@ PhDStudents:
     currentPos: Blockstream
     url: https://twitter.com/real_or_random
     pic: tim.jpg
+    nextPos: Blockstream
   - name: Nils Fleischhacker
     finished: true
     start: 2012

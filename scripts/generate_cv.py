@@ -75,6 +75,17 @@ class Website:
         if not isinstance(value, list): raise ValueError(f'{filename}.{key}.{member} must be a list')
         return value
 
+def doctoral_detail(student):
+    lines=[clean(student.get('thesis') or student.get('topic'))]
+    if student.get('finished'):
+        if student.get('nextPos'):
+            lines.append('First position after PhD: '+clean(student['nextPos']))
+        if student.get('currentPos'):
+            lines.append('Current position: '+clean(student['currentPos']))
+    else:
+        lines.append('Ongoing')
+    return '\n'.join(line for line in lines if line)
+
 def build_sections(site):
     """Return title and (date, title, detail, optional URL) entries per section."""
     sections = {}
@@ -95,7 +106,7 @@ def build_sections(site):
             papers.append((group['year'], x['title'], joined(x.get('authors'),x.get('published'),x.get('pages')),url))
     add('publications','Publications',papers)
     add('patents','Patents', ((g['year'],x['title'],joined(x.get('authors'),joined(x.get('office'),x.get('number'))),x.get('url')) for g in d('patents','patents','years') for x in g['papers']))
-    add('doctoral-students','Doctoral supervision', ((joined(x.get('start'))+' - '+(clean(x.get('graduated')) if x.get('finished') else 'present'),x['name'],joined(x.get('thesis') or x.get('topic'), 'Completed' if x.get('finished') else 'Ongoing'),None) for x in d('PhDStudents','PhDStudents','list')))
+    add('doctoral-students','Doctoral supervision', ((joined(x.get('start'))+' - '+(clean(x.get('graduated')) if x.get('finished') else 'present'),x['name'],doctoral_detail(x),None) for x in d('PhDStudents','PhDStudents','list')))
     add('postdocs','Postdoctoral mentoring', ((joined(x.get('start'))+' - '+(clean(x.get('end')) if x.get('finished') else 'present'),x['name'],('Subsequent position: '+clean(x.get('nextpos'))) if x.get('nextpos') else '',None) for x in d('Postdocs','postdocs','list')))
     courses={}
     for group in d('lectures','lectures'):
@@ -154,7 +165,9 @@ class Renderer:
                 body=[table]
             else:
                 body=[self.p(title_markup)]
-            if clean(detail): body.append(self.p(escape(detail),'detail'))
+            if clean(detail):
+                for line in str(detail).split('\n'):
+                    body.append(self.p(escape(line),'detail'))
             body.append(Spacer(1,7))
             self.story.append(KeepTogether(body))
 

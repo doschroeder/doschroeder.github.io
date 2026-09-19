@@ -17,6 +17,17 @@ class CVTests(unittest.TestCase):
         self.assertEqual(cv.dates('2024 - '), '2024-present')
         self.assertEqual(cv.dates('10/2006 -- 11/2010'), '10/2006-11/2010')
 
+    def test_both_doctoral_career_stages_are_retained(self):
+        student={'finished':True,'thesis':'Thesis','nextPos':'University A','currentPos':'University A'}
+        detail=cv.doctoral_detail(student)
+        self.assertIn('First position after PhD: University A',detail)
+        self.assertIn('Current position: University A',detail)
+        site=cv.Website(cv.ROOT)
+        for student in site.data('PhDStudents','PhDStudents','list'):
+            if student['finished']:
+                self.assertTrue(student.get('nextPos'),student['name'])
+                self.assertTrue(student.get('currentPos'),student['name'])
+
     def test_all_publications_and_students_are_mapped(self):
         site=cv.Website(cv.ROOT); sections=cv.build_sections(site)
         papers=[p for g in site.data('publications','publications','years') for p in g['papers']]
