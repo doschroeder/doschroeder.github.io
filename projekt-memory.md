@@ -50,3 +50,17 @@ Dominique Schröder, NDSS 2027, https://eprint.iacr.org/2025/1575.pdf) als
 neuer 2027-Block vor dem 2026-Block in `publications.yml` eingefügt
 (Abstract am selben Tag von der ePrint-Seite geholt, `has_info: true`). Erster Eintrag mit
 Jahr 2027. Die Änderungen vom 24.08. und 01.09. waren laut git log bereits committet (Commit "AC paper").
+
+## Änderungen vom 2026-11-25 (noch nicht committet)
+
+Dominique hat die PC-Mitgliedschaft bei ACM CCS 2027 angenommen. In
+`data/en/pc.yml` den CCS-Eintrag von "2019, 2023, 2024 - 2026" auf
+"2019, 2023, 2024 - 2027" gesetzt. Das PDF-CV entsteht aus denselben Daten
+(Hook beim Commit auf dem Mac, dazu GitHub Actions beim Deploy), deshalb
+`static/cv/Dominique-Schroeder-CV.pdf` nicht von Hand angefasst. Testlauf des
+Generators in der Sandbox (Ausgabe nach /tmp) zeigt "2019, 2023, 2024-2027".
+Offen: Commit und Push vom Mac (`git add data/en/pc.yml`, dann commit, push).
+In `data/en/` liegen zwei fremde, ungetrackte PDFs (`2026-Bewirtung-Beldex .pdf`,
+`2026-Frauenholz-Sacher.pdf`), nicht mitcommitten, in ihre JD-Slots verschieben.
+Die alten LaTeX-CVs in `git/private/cv/` und `6000 CV/` (Stand 2022/2023) sind
+nicht mehr die Quelle und wurden nicht geändert.
